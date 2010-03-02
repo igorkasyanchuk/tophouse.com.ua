@@ -1,0 +1,18 @@
+- title(t('o_show', :o => @o.name))
+- description(t('o_show_description', :o => @o.name))
+- keywords(t('o_show_keywords', :o => @o.name))
+
+- content_for :breadcrumbs do
+  %ul
+    %li= link_to t('all_o'), root_path
+    %li &raquo;
+    %li= @o.name
+
+- render :partial => '/shared/left_content'
+- google_map
+
+%h1= t('o_show', :o => @o.name)
+%ul.items_list
+  - @o.rs.each do |r|
+    %li
+      = link_to r.name, [@o, r]

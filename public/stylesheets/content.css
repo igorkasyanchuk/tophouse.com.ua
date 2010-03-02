@@ -1,0 +1,106 @@
+body{
+  font-family: Georgia;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+
+a{
+  outline: none;
+  color: #24b9f1;
+  text-decoration: underline;
+}
+h1{
+  margin: 0 0 15px 0;
+  font-size: 30px;
+  line-height: 30px;
+  color: #222222;
+}
+h1.reduced{
+  margin-bottom: 15px;
+}
+h2{
+  margin: 0 0 15px 0;
+  font-size: 20px;
+  color: #e47285;
+}
+h3{
+  margin: 0 0 15px 0;
+  font-size: 17px;
+  line-height: 20x;
+  color: #000;
+}
+h4{
+  margin: 0 0 5px 0;
+  font-size: 17px;
+  line-height: 20x;
+  color: #000;
+}
+h5{
+  margin: 0 0 5px 0;
+  font-size: 17px;
+  line-height: 20x;
+  color: #000;
+}
+h2 span, span.data{
+  color: #6f6d69;
+}
+p{
+  margin: 0 0 15px 0;
+}
+p.small{
+  font-size: 14px;
+  line-height: 20px;
+}
+br{
+  line-height: 13px;
+}
+.contentWrap .authorLogo{
+  float: right;
+}
+.contentWrap .isdestination{
+  padding-left: 20px;
+  background: transparent url(/images/icons/distance_label_grey.gif) 0px 2px no-repeat;
+  color: #6f6d69;
+  font-style: italic;
+}
+.lighter{
+  color: #6f6d69;
+}
+.offset{
+  padding: 0 0 0 45px;
+}
+.contentItem p{
+  margin-bottom: 0px;
+  line-height: 18px;
+}
+
+/*Lists styles*/
+
+ol, ul{
+  margin: 0 0 0 20px;
+  padding: 15px 0 5px;
+  color: #6f6d69;
+}
+
+ol li{
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+h3 {
+  margin-bottom: 0px;
+  text-decoration: underline;
+  color: #6f6d69;
+}
+ul{
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+ul li {
+  margin: 1px;
+  padding: 1px;
+  list-style-type: none;
+  background: none;
+  font-size: 13px;
+  line-height: 15px;
+}

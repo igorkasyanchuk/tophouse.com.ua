@@ -1,0 +1,2 @@
+PopularUkCity.create(:name_ru => 'Севастополь', :name_uk => 'Севастополь', :name_en => 'Sevastopol')
+PopularUkCity.create(:name_ru => 'Симферополь', :name_uk => 'Сімферополь', :name_en => 'Simferopol')

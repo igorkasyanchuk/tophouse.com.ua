@@ -1,0 +1,12 @@
+- title(t('o_index'))
+- description(t('o_index_description'))
+- keywords(t('o_index_keywords'))
+
+- render :partial => '/shared/left_content'
+- google_map
+
+%h1= t('o_index')
+%ul.items_list
+  - @os.each do |o|
+    %li
+      = link_to o.name, o

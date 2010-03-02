@@ -1,0 +1,20 @@
+- title(t('r_show', :o => @r.o.name, :r => @r.name))
+- description(t('r_show_description', :o => @r.o.name, :r => @r.name))
+- keywords(t('r_show_keywords', :o => @r.o.name, :r => @r.name))
+
+- render :partial => '/shared/left_content'
+- google_map
+
+- content_for :breadcrumbs do
+  %ul
+    %li= link_to t('all_o'), root_path
+    %li &raquo;
+    %li= link_to @r.o.name, @r.o
+    %li &raquo;
+    %li= @r.name
+
+%h1= t('r_show', :o => @r.o.name, :r => @r.name)
+%ul.list
+  - @r.ms.each do |o|
+    %li= link_to o.name, [@r.o, @r, o]
+%div.clear

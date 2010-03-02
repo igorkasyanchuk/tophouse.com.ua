@@ -1,0 +1,76 @@
+xml.instruct!
+ 
+xml.urlset "xmlns" => "http://www.google.com/schemas/sitemap/0.84" do
+  
+  xml.url do
+    xml.loc         "http://kartaonline.com/"
+    xml.lastmod     w3c_date(Time.now)
+    xml.changefreq  "always"
+  end
+
+  PopularUkCity.all.each do |m|
+    xml.url do
+      xml.loc         url_for(popular_uk_city_url(m, :host => 'kartaonline.com', :protocol => 'http', :locale => 'uk'))
+      xml.changefreq  "weekly"
+      xml.priority    1
+    end
+  end
+  
+  PopularByCity.all.each do |m|
+    xml.url do
+      xml.loc         url_for(popular_by_city_url(m, :host => 'kartaonline.com', :protocol => 'http', :locale => 'ru'))
+      xml.changefreq  "weekly"
+      xml.priority    0.9
+    end
+  end
+  
+  PopularRuCity.all.each do |m|
+    xml.url do
+      xml.loc         url_for(popular_ru_city_url(m, :host => 'kartaonline.com', :protocol => 'http', :locale => 'ru'))
+      xml.changefreq  "weekly"
+      xml.priority    0.9
+    end
+  end
+  
+  PopularState.all.each do |m|
+    xml.url do
+      xml.loc         url_for(popular_state_url(m, :host => 'kartaonline.com', :protocol => 'http', :locale => 'en'))
+      xml.changefreq  "weekly"
+      xml.priority    0.9
+    end
+  end  
+  
+  PopularState.all.each do |m|
+    xml.url do
+      xml.loc         url_for(popular_state_url(m, :host => 'kartaonline.com', :protocol => 'http', :locale => 'uk'))
+      xml.changefreq  "weekly"
+      xml.priority    0.9
+    end
+  end  
+  
+  PopularState.all.each do |m|
+    xml.url do
+      xml.loc         url_for(popular_state_url(m, :host => 'kartaonline.com', :protocol => 'http', :locale => 'ru'))
+      xml.changefreq  "weekly"
+      xml.priority    0.9
+    end
+  end
+  
+  O.all.each do |m|
+    xml.url do
+      xml.loc         url_for(o_url(m, :host => 'kartaonline.com', :protocol => 'http', :locale => 'uk'))
+      xml.changefreq  "weekly"
+      xml.priority    0.9
+    end
+  end
+  
+  O.all.each do |m|
+    xml.url do
+      xml.loc         url_for(cities_o_url(m, :host => 'kartaonline.com', :protocol => 'http', :locale => 'uk'))
+      xml.changefreq  "weekly"
+      xml.priority    0.9
+    end
+  end
+ 
+end
+ 

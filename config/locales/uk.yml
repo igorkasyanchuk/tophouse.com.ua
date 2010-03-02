@@ -1,0 +1,189 @@
+uk:
+  activerecord:
+    models:
+      user: Користувач
+      contact: "Зв'язок з нами"
+    attributes:
+      user:
+        login: 'Логін'
+        email: 'Емейл'
+        password: 'Пароль'
+        password_confirmation: 'Підтвердження паролю'
+        first_name: "Ім'я"
+        last_name: Прізвище
+        age: Вік
+        gender: Стать
+        avatar: Фото 
+      contact:
+        name: "Ім'я"
+        body: Повідомлення
+        email: Емейл
+  layouts:
+    application:
+      test: тест
+  users:
+    forgot:
+      forgot_instructions: 'Ви забули свій пароль? Не хвилюйтесь, просто введіть свою електронну адресу нижче і ми вишлемо вам інструкції по відновленню паролю.'
+      forgoting_message: 'Відновлення паролю'
+    new:
+      new_user_registation: 'Реєстрація нового користувача'
+    reset:
+      reseting_message: 'Відновити пароль'
+      enter_new_password: 'Введіть новий пароль:'
+      reset_password_button: Відновити
+  dashboard_nav_link: 'Мій Кабінет'
+  logout_nav_link: Вихід
+  signup_nav_link: Реєтрація
+  login_nav_link: Вхід
+  main_logo_link: Головна
+  register_button: Реєстрація
+  last_comments: 'Останні коментарі'
+  contact_us: "Зв'язок з нами"
+  post_message: 'Додати повідомлення'
+  forgot_password_question: 'Забули пароль?'
+  remember_me_question: "Запам'ятати мене"
+  site_map: Мапа сайту
+  contact_us_link: "Зв'язок з нами"
+  reset_password_button: Відновити
+  email_should_look_as_email: "повинен бути в правильному форматі"
+  comment_is_added: "Повідомлення успішно надіслано. Дякуємо."
+  comment_not_added: "Повідомлення не додано. Переконайтесь що ви заповнили усі необхідні поля."
+  flash_login_successfull: "Ви успішно увійшли на сайт."
+  flash_logot_successfull: "Ви вийшли із сайту."
+  flash_login_unsuccessfull: "Неможливо ввійти на сайт як: '{{email}}'. Введіть емейл і пароль які ви використовували при реєстрації."
+  flash_user_register_successfull: "Дякуємо за реєстрацію на сайті {{sitename}}."
+  flash_user_register_unsuccessfull: "Реєстрація неможлива. Спробуйте знову або зв'яжіться з адміністрацією сайту."
+  flash_user_forgot_successfull: "Інструкції по відновленню паролю вислані на: {{email}}."
+  flash_user_forgot_unsuccessfull: "{{email}} не присутній в системі."
+  flash_user_reset_successfull: "Пароль успішно оновленно для {{email}}."
+  update: оновити
+  save: зберегти
+  cancel: відмінити
+  open: відкрити
+  users_list: "Список користувачів"
+  add_user: "+ Додати користувача"
+  registered: Зареєстрований
+  actions: Дії
+  state: Стан
+  show: показати
+  archive: архівувати
+  activate: активація
+  suspend: призупинити
+  restore_access: "відновити доступ"
+  edit: редагувати
+  roles: ролі
+  delete: видалити
+  are_you_sure: "Ви впевненні?"
+  all_users: "Користувачі ({{users_count}})"
+  all_contacts: "Зв'язок з нами ({{contacts_count}})"
+  profile: Профіль
+  edit_user: "Редагувати користувача"
+  back: назад
+  new_user: "Новий користувач"
+  user_profile: "Профіль користувача"
+  user_roles: "Ролі користувача: {{user}}"
+  add: 'додати'
+  roles_field: Ролі
+  table_created_on: Додано о
+  pending_messages: "непрочитані повідомлення ({{count}})"
+  management: Управління
+  archile_menu_link: "архів ({{count}})"
+
+  prev_page: Попередня
+  next_page: Наступна
+  first_page: '&laquo; Перша'
+  last_page: "Остання &raquo;"
+  karta_home_title: Головна
+  uk_flag: укр
+  ru_flag: рус
+  en_flag: eng
+  o_index: Області України карта
+  o_index_description: Області України карта, дорога, автомобільні маршрути
+  o_index_keywords: Області України, карта, дорога, маршрути, райони, автомобільні
+  r_show: "{{o}}, {{r}}, населені пункти, карта"
+  r_show_description: "{{o}}, {{r}}, населені пункти, карта, дорога, автомобільні, маршрути"
+  r_show_keywords: "{{o}}, {{r}}, населені пункти, карта, дорога, автомобільні, маршрути"
+  o_show: "{{o}}, населені пункти, карта"
+  o_show_description: "{{o}}, населені пункти, карта, дорога, автомобільні, маршрути"
+  o_show_keywords: "{{o}}, населені пункти, карта, дорога, автомобільні, маршрути"  
+  popular_uk: "Україна, {{str}} карта"
+  popular_ru: "Росія, {{str}} карта"
+  popular_bl: "Білорусь, {{str}} карта"
+  popular_map: "{{str}} карта"
+  popular_state: "Штат {{str}} карта"
+  popular_ukraine: "Україна, {{str}} карта"
+  m_title: "{{str}} карта, супутникова, вулиці {{str}}, дорога, топографічна"
+  route_title: "{{str}} дорога, маршрут {{str}}, автомобільна дорога"
+  q_title: "Пошук карти: {{str}}"
+  from_to_title: "Пошук маршруту: {{str}}"
+  general_title: 'Карта Онлайн - карта міст, карта маршрутів та карта автомобільних доріг'
+  description_process: "{{str}}, {{str}} будинки, {{str}} супутникова карта, знімок, мапа, пошук по карті, топографічна, адреса"
+  bel_cities: "Карта міст Білорусі, сторінка {{page}}"
+  rus_cities: "Карта міст Росії, сторінка {{page}}"  
+  countries_cities: "Карта країн світу, країни на карті"
+  states_cities: "Карта штатів США, штати на карті"
+  map_routes_from: "Маршрути, дороги: {{str}}"
+  o_routes: "Маршрути, дороги України"
+  o_cities: "{{str}} маршрути, дороги" 
+  quick_search_tab: Швидкий пошук
+  lay_route_tab: Прокласти маршрут
+  results_tab: Результати
+  box_uk_map: Карта міст України
+  box_routes: Карта доріг та маршрутів
+  box_rus_map: Карта міст Росії
+  box_bel_map: Карта міст Білорусі
+  box_world_map: Карта країн світу
+  box_reg_map: Карта областей України
+  box_states_map: Карта штатів США
+  box_uk_map_all: "усі міста України &rarr;"
+  box_routes_all: 'усі маршрути &rarr;'
+  box_rus_map_all: 'усі міста Росії &rarr;'
+  box_bel_map_all: 'усі міста Білорусі &rarr;'
+  box_world_map_all: 'карти усіх країн &rarr;'
+  box_states_map_all: 'карти усіх штатів USA &rarr;'
+  directions_legend: "Пошук маршруту, дороги по карті"
+  directions_from_title: 'від: країна, місто, вулиця'
+  directions_to_title: 'до: країна, місто, вулиця'
+  directions_help: "Для пошуку вказуйте якнайповнішу адресу: країна, місто, вулиця."
+  directions_for_example: "наприклад:"
+  city1: Київ
+  city2: Івано-Франківськ
+  city3: Львів, Україна
+  city4: Одеса
+  city5: Харьків
+  city6: Донецьк
+  city7: Чоп, Україна
+  city8: Сімферополь
+  search_button: Пошук
+  route_full_title: "Дорога <span>{{from}}</span> - <span>{{to}}</span>."
+  suggestion_text: "Примітка:"
+  suggestion_full_text: використовуйте значок {{str}} для зміни маршруту.
+  search_results_map_label: Карта  
+  search_form_q_title: 'введіть назву міста: країна, місто, вулиця'
+  address1: "Київ, вул. Хрещатик"
+  address2: "Івано-Франківськ"
+  address3: "Москва, Росія"
+  address4: "New York"
+  address5: "Tokyo"  
+  ukraine_title: Україна
+  russia_title: Росія
+  belorusia_title: Білорусь
+  js:
+    address: Адреса
+    country: Країна
+    region: Область
+    subregion: Район
+    no_found: "За вашим запитом нічого не знайдено. Спробуйте додатково вказати країну, область район."
+    total_length: "Загальна довжина маршруту: "      
+  
+    
+  m_show: "{{o}}, {{r}}, {{m}} карта, вулиці, адреса"
+  m_show_quick: "{{o}} карта, вулиці, адреса"
+  
+  your_searches: Ваші останні запити
+  searches_list_is_empty: список ваших останніх запитів пустий.
+  marshrut: дорога
+  whats_new: нове
+  clear_hist: Очистити історію
+  
+  logo_main_title: Карта

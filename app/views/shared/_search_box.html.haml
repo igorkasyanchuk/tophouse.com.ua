@@ -1,0 +1,15 @@
+.address_finder
+  - form_tag search_path, :method => :get, :id => 'search_form' do
+    %div
+      = text_field_tag 'q', h(@q), :class => 'input-w qinput gsinput', :title => t('search_form_q_title')
+      = submit_tag t('search_button')
+    %div.for_example_block
+      %span.for_example= t('directions_for_example')
+      %span.qs= t('address1')
+      %span.qs= t('address2')
+      %span.qs= t('address3')
+      %span.qs= t('address4')
+      %span.qs= t('address5')
+      = image_tag 'question.png', :class => 'question_mark'   
+      %span.help_mark_info.none
+        = t('directions_help')    

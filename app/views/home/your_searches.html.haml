@@ -1,0 +1,22 @@
+- title(t('your_searches'))
+- description(t('your_searches'))
+- keywords(t('your_searches'))
+
+%h1= t('your_searches')
+
+- render :partial => '/shared/left_content'
+- google_map
+
+- unless @history.blank?
+  %div
+    = link_to t('clear_hist'), clear_history_path, :rel => 'nofollow'
+  %ul
+    - @history.each do |hist|
+      - hist = hist.split(PopularsController::SYMBOL_SPLIT_HISTORY)
+      %li
+        %span.history= (I18n.l Time.parse(hist[2]), :format => :long) if hist[2] rescue ''
+        = link_to hist[0], hist[1]
+- else
+  %div
+    %strong= t('searches_list_is_empty')
+    

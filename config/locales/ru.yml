@@ -1,0 +1,158 @@
+ru:
+  date:
+    formats:
+      # Use the strftime parameters for formats.
+      # When no format has been given, it uses default.
+      # You can provide other formats here if you like!
+      default: "%d.%m.%Y"
+      short: "%d %b"
+      long: "%d %B %Y"  
+  activerecord:
+    models:
+      user: Пользователь
+    attributes:
+      user:
+        login: 'Логин'
+        email: 'Емейл'
+        password: 'Пароль'
+        password_confirmation: 'Подтверждение пароля'
+        first_name: "Імя"
+        last_name: Фамилия
+        age: Возраст
+        gender: Пол
+        avatar: Фото
+  layouts:
+    application:
+  dashboard_nav_link: Мой Кабинет
+  logout_nav_link: Выход
+  signup_nav_link: Регистрация
+  login_nav_link: Вход
+  main_logo_link: Главная
+  register_button: Регистрация
+  all_o: Все Области
+  post_codes: Почтовые индексы
+  post_code: Почтовый индекс
+  city_post_index_seo: "{{code}} индекс, почтовый индекс {{code}} Украина, индекс {{index}}"
+  city_post_index: "Почтовый индекс: {{code}}"
+  city_old_post_index: "Старый почтовый индекс: {{code}}"
+  home_link: Главная
+  contact_link: "Контакты"
+  home_title: Почтовые индексы Украины
+  about_site_zip_codes: Почтовых индексов Украины.
+  about_site: Самая полная база
+  search_button: Поиск
+  seo_title: Почтовые индексы Украины, почтовые коды городов Украины, почтовый код
+  seo_description: Почтовые индексы Украины, почтовые городов коды Украины, почтовый код
+  seo_keywords: Почтовые индексы Украины, почтовые коды городов Украины, почтовый код
+  seo_footer: почтовий индекс
+  search_results: 'Результаты поиска:'
+  search_results_nr: Поиск ничего не вернул.
+  post_contact_message: Написать нам
+  code_from_image_not_valid: Введенный код не совпадает.
+  contact_us: Написать нам  
+  add_to_favorites: Добавить в Закладки  
+  
+  citycode_link: Телефонные коды
+  
+  are_you_intereseted_in: "Возможно вас еще заинтересует:"
+  city_phone_code_link: "Телефонный код: {{city}}"
+  
+  
+  prev_page: Следущая
+  next_page: Преведущая
+  first_page: '&laquo; Первая'
+  last_page: "Последняя &raquo;"
+  karta_home_title: Главная
+  uk_flag: укр
+  ru_flag: рус
+  en_flag: eng
+  o_index: Области Украины карта
+  o_index_description: Области Украины карта, дорога, автомобильные маршруты
+  o_index_keywords: Области Украины, карта, дорога, маршруты, районы, автомобильные
+  r_show: "{{o}}, {{r}}, населённые пункты, карта"
+  r_show_description: "{{o}}, {{r}}, населённые пункты, карта, дорога, автомобильные, маршруты"
+  r_show_keywords: "{{o}}, {{r}}, населённые пункты, карта, дорога, автомобильные, маршруты"
+  o_show: "{{o}}, населённые пункты, карта"
+  o_show_description: "{{o}}, населённые пункты, карта, дорога, автомобильные, маршруты"
+  o_show_keywords: "{{o}}, населённые пункты, карта, дорога, автомобильные, маршруты"  
+  popular_uk: "Украина, {{str}} карта"
+  popular_ru: "Россия, {{str}} карта"
+  popular_bl: "Беларусь, {{str}} карта"
+  popular_map: "{{str}} карта"
+  popular_state: "Штат {{str}} карта"
+  popular_ukraine: "Украина, {{str}} карта"
+  m_title: "{{str}} карта, спутниковая, улицы {{str}}, дорога, топографическая"
+  route_title: "{{str}} дорога, маршрут {{str}}, автомобильная дорога"
+  q_title: "Поиск карты: {{str}}"
+  from_to_title: "Пошук маршруту: {{str}}"
+  general_title: 'Карта Онлайн - карта городов, карта маршрутов и карта автомобильных дорог'
+  description_process: "{{str}}, {{str}} улицы, {{str}} спутниковая карта, дома, снимок, карта, поиск по карте, топографическая, адресса"
+  bel_cities: "Карта городов Беларуссии, страница {{page}}"
+  rus_cities: "Карта городов России, страница {{page}}"  
+  countries_cities: "Карта стран мира, страны мира на карте"
+  states_cities: "Карта штатов США, штаты на карте"
+  map_routes_from: "Маршруты, дороги: {{str}}"
+  o_routes: "Маршруты, дороги Украины"
+  o_cities: "{{str}} маршруты, дороги" 
+  quick_search_tab: Быстрый поиск
+  lay_route_tab: Проложить маршрут
+  results_tab: Результаты
+  box_uk_map: Карта городов Украины
+  box_routes: Карта дорог та маршрутов
+  box_rus_map: Карта городов России
+  box_bel_map: Карта городов Беларуссии
+  box_world_map: Карта стран мира
+  box_reg_map: Карта областей Украины
+  box_states_map: Карта штатов США
+  box_uk_map_all: "все города Украины &rarr;"
+  box_routes_all: 'все маршрути &rarr;'
+  box_rus_map_all: 'все города России &rarr;'
+  box_bel_map_all: 'все города Беларуссии &rarr;'
+  box_world_map_all: 'карты всех стран &rarr;'
+  box_states_map_all: 'карты всех штатов USA &rarr;'
+  directions_legend: "Поиск маршрутов, дорог по карте"
+  directions_from_title: 'от: страна, город, улица'
+  directions_to_title: 'до: страна, город, улица'
+  directions_help: "Для поиска указывайте наиболее полный адрес: страна, город, улица."
+  directions_for_example: "например:"
+  city1: Киев
+  city2: Луцк
+  city3: Чоп, Украина
+  city4: Одесса
+  city5: Харьков
+  city6: Донецк
+  city7: Львов
+  city8: Симферополь
+  search_button: Поиск
+  route_full_title: "Дорога <span>{{from}}</span> - <span>{{to}}</span>."
+  suggestion_text: "Подсказка:"
+  suggestion_full_text: используйте значок {{str}} для изменения маршрута.
+  search_results_map_label: Карта  
+  search_form_q_title: 'введите название города: страна, город, улица'
+  address1: "Киев, ул. Крещатик"
+  address2: "Івано-Франковск"
+  address3: "Москва, Россия"
+  address4: "New York"
+  address5: "Токио"
+  
+  ukraine_title: Украина
+  russia_title: Россия
+  belorusia_title: Беларусь
+  
+  js:
+    address: Адрес
+    country: Страна
+    region: Область
+    subregion: Район
+    no_found: "По вашему запросу ничего не найдено. Попробуйте дополнительно указать страну, область, район."
+    total_length: "Общая протяженность маршрута: "
+    
+  m_show: "{{o}}, {{r}}, {{m}} карта, улицы, адреса"
+  m_show_quick: "{{o}} карта, улицы, адреса"
+  
+  your_searches: Ваши последние запросы
+  searches_list_is_empty: список ваших последних запросов пустой.
+  marshrut: дорога  
+  whats_new: новое
+  
+  logo_main_title: Карта

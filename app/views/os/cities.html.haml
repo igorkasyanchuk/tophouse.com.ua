@@ -1,0 +1,12 @@
+- title(t('o_cities', :str => @o.name))
+- description(t('o_cities', :str => @o.name))
+- keywords(t('o_cities', :str => @o.name))
+
+- render :partial => '/shared/left_content'
+- google_map
+
+%h1= t('o_cities', :str => @o.name)
+%ul.items_list
+  - @cities.each do |o|
+    %li
+      = link_to o.name, routes_m_path(o)

@@ -1,0 +1,24 @@
+- title(seo_process)
+- description(description_process)
+- keywords(description_process)
+
+- content_for :breadcrumbs do
+  %ul
+    %li= link_to t('all_o'), root_path
+    %li &raquo;
+    %li= link_to @m.o.name.capitalize, @m.o
+    %li &raquo;
+    %li= link_to @m.r.name.capitalize, [@m.o, @m.r]
+    %li &raquo;
+    %li= @m.name.capitalize
+
+- content_for :right_content_spacer do
+  %h2
+    %strong= t('m_show', :o => @m.o.name, :r => @m.r.name, :m => @m.name)
+#map_canvas
+
+- google_map
+- content_for :on_ready do
+  initialize();
+  init_resize_map();
+- render :partial => '/shared/left_content'  

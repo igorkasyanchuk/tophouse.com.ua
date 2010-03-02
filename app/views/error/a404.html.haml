@@ -1,0 +1,12 @@
+- title "Page you are looking doesn't exists"
+
+.contentWrap
+  %div#search_by_category
+    %h3 Page you are looking doesn't exists. 
+    %div Please open <a href='/'>Home</a> page.
+    %div Thank you.      
+    
+- content_for :on_ready do
+  $('#right_content_spacer').hide();
+  $('.contentWrap').css('width', '350px').css('margin', '0');
+  

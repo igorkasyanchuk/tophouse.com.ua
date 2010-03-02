@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  from: MyString
+  to: MyString
+  from_full: MyString
+  to_full: MyString
+
+two:
+  from: MyString
+  to: MyString
+  from_full: MyString
+  to_full: MyString

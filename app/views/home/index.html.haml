@@ -1,0 +1,14 @@
+- title(seo_process)
+- description(description_process)
+- keywords(description_process)
+
+- if search_page?
+  - content_for :right_content_spacer do
+    %h2
+      %strong= t('m_show_quick', :o => @q)
+#map_canvas
+- google_map
+- content_for :on_ready do
+  initialize();
+  init_resize_map();
+- render :partial => '/shared/left_content'

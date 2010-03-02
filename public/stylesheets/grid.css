@@ -1,0 +1,78 @@
+* { margin: 0;}
+html, body { height: 100%; }
+#allWrap { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -96px; width: 960px; }
+.footer, .push { height: 96px; }
+.footer{
+background: #e1ded9;
+clear: both;
+}
+.clearer{
+  height: 45px;
+  display: block;
+  clear: both;
+}
+.clear{
+  height: 1px;
+  line-height: 1px;
+  font-size: 1px;
+  display: block;
+  clear: both;
+}
+.ruler{
+  min-height: 1px;
+  height: auto!important;
+  height: 1px;
+  line-height: 1px;
+  font-size: 1px;
+  display: block;
+  clear: both;
+  border-bottom: 1px solid #dfdcd7;
+}
+
+
+.clearerTop{
+  height: 15px;
+  display: block;
+  clear: both;
+}
+
+.two-cols .l-col{
+  float: left;
+  width: 368px;
+}
+.two-cols .r-col{
+  float: right;
+  width: 450px;
+}
+.two-cols .l-col-eq{
+  padding-right: 40px;
+  float: left;
+  width: 380px;
+}
+.two-cols .r-col-eq{
+  padding: 0 0 0 30px;
+  border-left: 1px solid #dfdcd7;
+  float: left;
+  width: 380px;
+}
+.five-cols{
+  padding: 0 30px;
+}
+
+.five-cols .col-item{
+  margin: 0 0 0 20px;
+  width: 140px;
+  float: left;
+}
+
+.three-cols{
+  padding: 0 30px;
+}
+
+.three-cols .col-item{
+  margin: 0 0 0 20px;
+  width: 230px;
+  float: left;
+}
+
+

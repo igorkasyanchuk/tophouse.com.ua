@@ -1,0 +1,454 @@
+!color1= #FFE500
+!color1= #FFF0B1
+!color2= #F7F760
+!color3= #26A8BD
+!color4= #0B5AA3
+!color5= #002F4B
+
+!left_column= 350px
+!logo_text_color= !color5
+!links_color= !color3
+!map_border= "3px solid #ddd"
+!search_box_color= !color1
+!tabs_color= !color2
+!base_font= "Lucida, Helvetica Cyrillic, Helvetica"
+// 6688CC
+
+!input_border_color= #D7D4CE
+
+!h1_color= !color5
+!h2_color= !color4
+!h3_color= !color4
+!a_color= !color3
+
+body
+  :font-family= !base_font
+  :font-size 85%
+  
+.logo
+  :width= !left_column  
+  :font-family Georgia
+  :position relative
+  :text-shadow 0px 1px #aaa
+  .logo_title
+    :color= !color5
+    :font-size 72px
+    :line-height 78px
+    :margin-bottom 0
+    a
+      :color= !color5
+      :text-decoration none
+      &:visited
+        :color= !color5
+      &:hover
+        :color= !color5
+  .logo_slogan
+    :position absolute
+    :right 0
+    :top 75px
+    :color= !color4
+    :font-size 16px
+    :line-height 18px
+    :padding-right 120px
+    :text-align right
+    a
+      :color= !color4
+      :text-decoration none
+      &:visited
+        :color= !color4
+      &:hover
+        :color= !color4
+ 
+div.content
+  :display block
+  
+div.left_content
+  :float left
+  :margin-left -100%
+  :width= !left_column
+  :padding-left 10px
+
+div.right_content
+  :margin-left= !left_column + 20px + 10px
+  //:padding-right 10px
+
+.clear
+  :clear both
+  
+.contentwrapper
+  :float left
+  :width 100%
+  
+.header
+  :float left
+  :width 100%
+  :height 120px
+
+button, input[type='submit']
+  :padding 4px 6px
+  :font-size 17px
+  :font-family= !base_font
+  :line-height 32px
+    
+input, textarea
+  :padding 4px 0 0 6px
+  :font-size 17px
+  :font-family= !base_font
+  :line-height 32px
+  
+.input_border_color
+  :border-color= "#{!input_border_color}"
+  
+.input-w
+  :padding 2px 6px
+  :width 400px
+  :height 25px
+  :border= "1px solid #{!input_border_color}"
+  :background transparent url(/images/input-bg.gif) 0px 0px repeat-x
+  :font-size 18px
+  :line-height 25px
+
+.input-s
+  :padding 4px 6px
+  :width 250px
+  :height 22px
+  :border= "1px solid #{!input_border_color}"
+  :background transparent url(/images/input-bg.gif) 0px 0px repeat-x
+  :font-size 14px
+  :line-height 22px
+  
+.logo
+  :float left
+  :padding 10px 0 0 10px
+  
+h1
+  :color= !h1_color
+h2
+  :color= !h2_color
+h3
+  :color= !h3_color
+a
+  :color= !a_color
+  &:hover
+    :color= !a_color + #333
+  &:visited
+    :color= !a_color - #333
+  
+.address_finder
+  :float left
+  :margin-left 17px
+  :-moz-border-radius 10px
+  :-webkit-border-radius 10px
+  :background-color= !search_box_color
+  :overflow auto
+  :margin-bottom 10px
+  :padding 10px
+  :margin-top 23px
+  
+#directions
+  :padding-right 25px !important
+  table tr td, table tr th
+    :font-size 12px
+    :line-height 15px
+    :vertical-align middle
+        
+#map_canvas    
+  //:border-top= !map_border
+  //:border-left= !map_border
+  :border= !map_border
+  :height 450px
+  
+#right_content_spacer
+  :height 30px
+  h1, h2, h3, h4
+    :font-size 14px
+    :margin-right 190px
+    :margin-bottom 0
+    :text-decoration none
+  h3, h4
+    :margin-right 190
+  
+.langs
+  :position absolute
+  :right 0
+  :top 0px
+  :padding-right 10px
+  :padding-top 0px
+  :color #999
+  a
+    :padding 0 4px
+    :text-shadow 1px 1px 1px #ddd
+    
+.favorites
+  :padding-right 15px
+  :float left
+  :vertical-align top
+  :height 20px
+  a
+    :margin-top 5px
+    :color #0B5AA3
+    :text-shadow 1px 1px 1px #ddd
+    :padding 0
+  span
+    :vertical-align top
+    :font-size 10px
+    :color red
+    :display inline-block
+    :margin-top -4px
+    :margin-left -2px
+    
+.tabs
+  :width 100%
+  :float left
+  :height 29px
+  .tab
+    :float left
+    :width auto
+    :padding 2px 6px
+    :text-decoration none
+    :cursor pointer
+    :-moz-border-radius-topleft 8px
+    :-moz-border-radius-topright 8px
+    :-webkit-border-radius-topleft 8px
+    :-webkit-border-radius-topright 8px
+    :text-shadow 1px 1px #FFFFFF
+    span
+      :border-bottom= "1px dashed #{!color5}"
+      :font-size 14px
+      :color= !color5
+  .selected
+    :background= !tabs_color
+    span
+      :border-bottom none
+    
+.boxes
+  :float left
+  :width 100%
+  :border-left= "4px solid #{!tabs_color}"
+  :border-right= "4px solid #{!tabs_color}"
+  :border= "4px solid #{!tabs_color}"
+  //:background= !search_box_color + #333
+  :background white
+  :overflow-x hidden
+  :overflow-y auto
+  .box
+    :width 100%
+    :display none
+    :padding 5px 15px
+  .selected
+    :display block
+    
+#quick_search 
+  :margin 0 auto
+  :width= !left_column - 20px
+  :padding 5px 15px
+  h2
+    :text-decoration none
+    :border-bottom= "1px dashed #{!color4}"
+    :display inline-block
+    :cursor pointer
+    :color= !color4
+    :padding-bottom 0
+    :margin-bottom 8px
+    :font-size 18px
+  ul
+    :margin-bottom 0
+  ul li
+    :float left
+    :width 160px
+    a
+      :font-size 12px
+  ul
+    :float left
+    
+.greyed
+  :color #aaa    
+  
+.right_block
+  :text-align right
+
+.left_block
+  :text-align left
+  
+.directions_form
+  :width 320px
+  :padding-right 20px
+  fieldset
+    :padding 0
+  legend
+    :color= !color5
+    :margin-left 6px 
+  input.greyed
+    :font-weight normal
+  input
+    :font-weight bold
+    :width 275px
+    :margin 3px 5px
+    :font-size 16px
+    :line-height 24px
+  input[type='submit']
+    :font-weight normal
+    :width auto
+    :font-size 12px
+    :padding 2px 5px
+    :margin 0
+    :margin-right 25px
+    :line-height 25px
+  .map_type
+    :padding-left 8px
+  label
+    :height 16px
+    :font-size 12px
+    :vertical-align middle
+    input[type='radio']
+      :display inline
+      :line-height 16px
+      :width auto
+      :height 16px
+      :padding 0
+      :margin 0
+      :vertical-align middle
+
+#search_results
+  //:font-size 85%
+  ol
+    :padding-top 0
+    :margin-left 0
+  ol li
+    :cursor pointer
+    :padding 2px 6px
+    :margin-right 31px
+    :-moz-border-radius 8px
+    :-webkit-border-radius 8px
+  h1
+    :margin 0
+    :margin-left 0px
+    :padding 4px
+    :font-style italic
+    :font-size 20px
+    :line-height 20px
+    :width 90%
+    address
+      :display inline
+      :font-style italic
+      :line-height 20px
+      :font-size 20px
+      :padding 4px
+  h3.m_info
+    :display block
+    :font-size 14px
+    :text-decoration none
+    :padding-left 8px
+  h3
+    :display inline
+  .place_description
+    :padding-left 18px
+    :line-height 18px
+  .place_name
+    :cursor pointer   
+  
+.for_example_block
+  :color= !color4
+  span.for_example
+    :font-weight bold
+    :color= !color4
+    :text-decoration none
+    :border none
+    :cursor default 
+    :padding 1px 0px
+    :margin 0
+  span
+    :cursor pointer
+    :padding 1px 1px
+    :margin 0 2px
+    :font-size 11px
+    :color= !color3
+    :text-decoration none
+    :border-bottom= "1px dashed #{!color3}"
+    :text-shadow 1px 1px #fff
+
+#directions_form
+  .for_example_block
+    :padding-left 6px
+    :line-height 15px
+    :padding-bottom 8px
+    
+.margin_padding_none
+  :margin 0
+  :padding 0    
+  
+#search_form
+  input
+    :display inline
+    :font-weight bold
+  input.greyed
+    :font-weight normal
+  input[type='submit']
+    :display inline
+    :font-weight normal
+    :line-height 25px
+
+.total_distance    
+  :padding-top 12px
+  :padding-left 8px
+  strong
+    span
+      :border-bottom= "1px dotted #{!color5}"
+    
+.total_distance_value    
+  :color= !color4
+  
+.help_notice
+  :padding-left 8px
+  i, strong
+    :line-height 14px
+    :font-size 12px
+    
+div.show_all    
+  :padding-right 25px
+  :text-align right
+
+ul.items_list
+  :padding-left 0  
+ul.items_list li
+  :line-height 16px  
+  
+.question_mark
+  :cursor help  
+  :vertical-align middle
+
+html .help_mark_info
+  :-moz-border-radius 10px
+  :-webkit-border-radius 10px
+  :z-index 9999
+  :width 220px
+  :text-align center
+  :font-style italic
+  :height 28px
+  :line-height 14px
+  :text-decoration none
+  :border= "1px solid #{!color5}"
+  :background white
+  :position absolute
+  :right 0
+  :bottom 0
+  :color= !color5
+  :padding 2px 3px  
+  :font-size 12px 
+  :vertical-align middle
+    
+.addthis
+  :position absolute
+  :right 5px
+  :top 125px
+  :vertical-align middle
+  a, img
+    :line-height 12px
+    :font-size 12px
+    :padding 0
+    :margin 0
+    :vertical-align middle
+  
+span.history
+  :width 155px
+  :display inline-block

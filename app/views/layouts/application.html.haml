@@ -1,0 +1,77 @@
+!!!
+%html{ "xml:lang" => "en", :lang => "en", :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    == <title>#{(yield :title) || SEO[:title]}</title>
+    == <meta content="#{(yield :seo_description) || SEO[:description]}" name="description" />
+    == <meta content="#{(yield :seo_keywords) || SEO[:keywords]}" name="keywords" />
+    %meta{ 'http-equiv' => 'imagetoolbar', :content => 'no' }
+    %meta{ :name => 'distribution', :content => 'global' }
+    %meta{ :name => 'robots', :content => 'all' }
+    %meta{ :name => 'resource-type', :content => 'document' }
+    %meta{ :name => 'MSSmartTagsPreventParsing', :content => 'true' }
+    <meta content="en-US" http-equiv="Content-Language" />
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+    <meta name="google-site-verification" content="W-zSEruFNgP_WUzVHx6IMc7OJpBmbfbc-iGmEWau7RI" />
+    <meta name='yandex-verification' content='4ec4957012f693fb' />
+    <meta name="audience" content="all" />
+    <meta name="revisit-after" content="5 days" />
+    <meta content="Igor Kasyanchuk" name="author" />
+    <meta content="Group" name="classification"/>
+    <link type="image/x-icon" rel="shortcut icon" href="http://kartaonline.com/favicon.ico" />
+    <link rel="icon" href="http://kartaonline.com/favicon.ico" />
+    <link rel="address bar icon" href="http://kartaonline.com/favicon.ico" />
+    = stylesheet_link_tag 'reset', 'grid', 'content', 'style', 'custom', 'compiled/tophouse', :cache => 'public_bundle' 
+    =# javascript_include_tag 'jquery-1.4.2.min', 'jquery.form', 'jquery.colorbox-min', 'application', 'jquery.qtip-1.0.0-rc3.min', 'jquery.cookie', :cache => 'public_bundle'
+    = javascript_include_tag 'jquery-1.4.2.min', 'application', 'jquery.cookie', :cache => 'public_bundle'
+    /[if lt IE 7]
+      <script type="text/javascript" src="/javascripts/DD_belatedPNG_0.0.7a-min.js"></script>
+      <script type="text/javascript">
+      DD_belatedPNG.fix('.png_bg');
+      </script>
+    = yield :css
+    %style{:type => 'text/css'}
+      /* inline styles */
+      = yield :inline_css
+    = yield :map
+    = yield :js
+    %script{ :type => 'text/javascript', :charset => 'utf-8' }
+      = "window._token = '#{form_authenticity_token}';"
+      = "window._auth_token_name = '#{request_forgery_protection_token}';"
+      = "window._auth_token = '#{form_authenticity_token}';"
+      = "var CURRENT_LOCALE = '#{I18n.locale.to_s}';"
+      = "var TRANSLATIONS = #{t('js').to_json};"
+      jQuery(document).ready(function() {
+      init_resize_blocks();
+      = yield :on_ready
+      });
+      = yield :inline_script 
+  %body
+    %div.header
+      .logo
+        %h2.logo_title= link_to t('logo_main_title'), root_path
+        %h2.logo_slogan= link_to 'kartaonline.com', root_path
+      .search-box
+        = render :partial => '/shared/search_box'
+      .langs
+        .favorites
+          = link_to t('your_searches'), your_searches_path
+          %span= t('whats_new')
+        = flag_link('uk', t('uk_flag'))
+        |
+        = flag_link('ru', t('ru_flag'))
+        |
+        = flag_link('en', t('en_flag'))
+        .clear
+    %div.content
+      .contentwrapper
+        .right_content
+          #right_content_spacer
+            = yield :right_content_spacer
+            .addthis= render :partial => '/shared/addthis'
+            .clear
+          = yield
+      %div.left_content
+        = yield :left_content
+      %div.clear
+    - if RAILS_ENV == 'production'
+      = render :partial => '/shared/ga'

@@ -24,6 +24,7 @@ Rails::Initializer.run do |config|
   config.gem 'smurf', :source => 'http://gemcutter.org' 
   config.gem 'hoptoad_notifier'
   config.gem 'formtastic'
+  config.gem 'clearance'
   config.gem 'russian', :source => 'http://gemcutter.org'
   
   # Only load the plugins named here, in the order given (default is alphabetical).
@@ -32,7 +33,7 @@ Rails::Initializer.run do |config|
 
   # Skip frameworks you're not going to use. To use Rails without a database,
   # you must remove the Active Record framework.
-  config.frameworks -= [ :action_mailer, :active_resource ]
+  # config.frameworks -= [ :action_mailer, :active_resource ]
 
   # Run "rake -D time" for a list of tasks for finding time zone names.
   config.time_zone = 'Kyev' 

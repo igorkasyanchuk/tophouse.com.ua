@@ -2,6 +2,7 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
+  include Clearance::Authentication 
   include SimpleCaptcha::ControllerHelpers
   self.allow_forgery_protection = true
   helper :all # include all helpers, all the time

@@ -27,3 +27,10 @@ GOOGLE_MAP_ = {
   :production_key => 'ABQIAAAA-fvnmbkR8BJ_xVoxel7PfhQJNECjuwjfzet2L5vcPXfkSLg1xRQCRCRugtpuQ5TthUzhyyFTJ-fS3Q',
   :development_key => 'ABQIAAAA-fvnmbkR8BJ_xVoxel7PfhQJNECjuwjfzet2L5vcPXfkSLg1xRQCRCRugtpuQ5TthUzhyyFTJ-fS3Q'
 }
+
+ADMIN_USER_ROLE = 'admin'
+AGENT_USER_ROLE = 'agent'
+AGENCY_USER_ROLE = 'agency'
+REGISTERED_USER = 'agent'
+
+ROLES_ARRAY = [ ADMIN_USER_ROLE, AGENCY_USER_ROLE, AGENT_USER_ROLE, REGISTERED_USER ]

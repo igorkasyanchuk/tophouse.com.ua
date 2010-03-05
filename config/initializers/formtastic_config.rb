@@ -34,7 +34,7 @@ Formtastic::SemanticFormBuilder.collection_label_methods = ["title_and_author", 
 # errors messages. Sometimes you want the hints to be rendered first than
 # the input, in the following order: hints, input and errors. You can
 # customize it doing just as below:
-Formtastic::SemanticFormBuilder.inline_order = [:hints, :input]
+Formtastic::SemanticFormBuilder.inline_order = [:input, :errors, :hints]
 
 # Set the default "priority countries" to suit your user base when using :as => :country
-Formtastic::SemanticFormBuilder.priority_countries = ["USA"]
+Formtastic::SemanticFormBuilder.priority_countries = ["Ukraine"]

@@ -20,7 +20,7 @@
     <link type="image/x-icon" rel="shortcut icon" href="http://kartaonline.com/favicon.ico" />
     <link rel="icon" href="http://kartaonline.com/favicon.ico" />
     <link rel="address bar icon" href="http://kartaonline.com/favicon.ico" />
-    = stylesheet_link_tag 'reset', 'grid', 'content', 'style', 'custom', 'compiled/tophouse', :cache => 'public_bundle' 
+    = stylesheet_link_tag 'reset', 'grid', 'content', 'style', 'custom', 'formtastic', 'compiled/tophouse', :cache => 'public_bundle' 
     =# javascript_include_tag 'jquery-1.4.2.min', 'jquery.form', 'jquery.colorbox-min', 'application', 'jquery.qtip-1.0.0-rc3.min', 'jquery.cookie', :cache => 'public_bundle'
     = javascript_include_tag 'jquery-1.4.2.min', 'application', 'jquery.cookie', :cache => 'public_bundle'
     /[if lt IE 7]
@@ -41,37 +41,60 @@
       = "var CURRENT_LOCALE = '#{I18n.locale.to_s}';"
       = "var TRANSLATIONS = #{t('js').to_json};"
       jQuery(document).ready(function() {
-      init_resize_blocks();
       = yield :on_ready
       });
       = yield :inline_script 
   %body
-    %div.header
-      .logo
-        %h2.logo_title= link_to t('logo_main_title'), root_path
-        %h2.logo_slogan= link_to 'kartaonline.com', root_path
-      .search-box
-        = render :partial => '/shared/search_box'
-      .langs
-        .favorites
-          = link_to t('your_searches'), your_searches_path
-          %span= t('whats_new')
-        = flag_link('uk', t('uk_flag'))
-        |
-        = flag_link('ru', t('ru_flag'))
-        |
-        = flag_link('en', t('en_flag'))
-        .clear
-    %div.content
-      .contentwrapper
-        .right_content
-          #right_content_spacer
-            = yield :right_content_spacer
-            .addthis= render :partial => '/shared/addthis'
+    #root
+      %div.header_container
+        %div.header
+          .logo
+            %h2.logo_title= link_to t('logo_main_title'), root_path
+            %h2.logo_slogan= link_to 'нерухомість України', root_path
+          .langs
+            = flag_link('uk', t('uk_flag'))
+            ='/'
+            = flag_link('ru', t('ru_flag'))
             .clear
-          = yield
-      %div.left_content
-        = yield :left_content
-      %div.clear
-    - if RAILS_ENV == 'production'
-      = render :partial => '/shared/ga'
+          %ul.menu
+            %li.selected= link_to 'Головна', '#'
+            %li= link_to 'Додати нерухомість', '#'
+            %li= link_to 'Ріелтори', '#'
+            %li= link_to 'Агенства нерухомості', '#'
+            %li= link_to 'Агентам', '#'
+          %ul.submenu
+            - if logged_in?
+              %li= link_to 'Мій кабінет', general_dashboard_path
+              %li.spacer= '|'
+              %li= link_to 'Вихід', sign_out_path
+            - else
+              %li= link_to 'Вхід', sign_in_path
+              %li.spacer= '|'
+              %li= link_to 'Реєстрація', sign_up_path
+        %div.line
+        .line_after
+      %div.content
+        .center_block
+          = flash_messages
+        = yield
+      #root_footer
+    #footer
+      .line_before
+      #footer_content
+        .footer_block
+          = link_to 'Головна', root_path
+          = link_to 'Додати нерухомість', root_path
+          = link_to 'Агенства нерухомості', root_path
+          = link_to 'Агентам', root_path
+        .footer_block
+          = link_to 'Головна', root_path
+          = link_to 'Додати нерухомість', root_path
+          = link_to 'Агенства нерухомості', root_path
+          = link_to 'Агентам', root_path
+        .footer_block
+          = link_to 'Головна', root_path
+          = link_to 'Додати нерухомість', root_path
+          = link_to 'Агенства нерухомості', root_path
+          = link_to 'Агентам', root_path
+      - if RAILS_ENV == 'production'
+        = render :partial => '/shared/ga'

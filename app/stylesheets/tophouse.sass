@@ -1,3 +1,5 @@
+@import formtastic.sass
+
 !color1= #FFE500
 !color1= #FFF0B1
 !color2= #F7F760
@@ -5,13 +7,16 @@
 !color4= #0B5AA3
 !color5= #002F4B
 
-!left_column= 350px
+!left_column= 250px
 !logo_text_color= !color5
 !links_color= !color3
 !map_border= "3px solid #ddd"
 !search_box_color= !color1
 !tabs_color= !color2
 !base_font= "Lucida, Helvetica Cyrillic, Helvetica"
+
+!margin_left= 10px
+
 // 6688CC
 
 !input_border_color= #D7D4CE
@@ -21,36 +26,35 @@
 !h3_color= !color4
 !a_color= !color3
 
+=round(!p)
+  :-moz-border-radius= !p
+  :-webkit-border-radius= !p
+  
+=round_top(!p)  
+  :-moz-border-radius-topleft= !p
+  :-moz-border-radius-topright= !p
+  
+=round_bottom(!p)  
+  :-moz-border-radius-bottomleft= !p
+  :-moz-border-radius-bottomright= !p
+  
 body
   :font-family= !base_font
   :font-size 85%
   
 .logo
-  :width= !left_column  
+  :min-width= !left_column  
+  :width auto
   :font-family Georgia
   :position relative
-  :text-shadow 0px 1px #aaa
+  :text-shadow 0px 1px #eee
+  :float left
+  :padding= 5px 0 0 !margin_left
   .logo_title
-    :color= !color5
-    :font-size 72px
-    :line-height 78px
-    :margin-bottom 0
-    a
-      :color= !color5
-      :text-decoration none
-      &:visited
-        :color= !color5
-      &:hover
-        :color= !color5
-  .logo_slogan
-    :position absolute
-    :right 0
-    :top 75px
     :color= !color4
-    :font-size 16px
-    :line-height 18px
-    :padding-right 120px
-    :text-align right
+    :font-size 36px
+    :line-height 42px
+    :margin-bottom 0
     a
       :color= !color4
       :text-decoration none
@@ -58,9 +62,28 @@ body
         :color= !color4
       &:hover
         :color= !color4
+    span.r
+      :color= !color4
+  .logo_slogan
+    :position absolute
+    :right 0
+    :top 40px
+    :color= !color4
+    :font-size 16px
+    :line-height 18px
+    :padding-right 0px
+    :text-align right
+    a
+      :color= !color5
+      :text-decoration none
+      &:visited
+        :color= !color5
+      &:hover
+        :color= !color5
  
 div.content
   :display block
+  :padding-left= !margin_left
   
 div.left_content
   :float left
@@ -78,48 +101,125 @@ div.right_content
 .contentwrapper
   :float left
   :width 100%
+
+div.line_after
+  :margin 0 auto
+  :background-color= white
+  :width 100%
+  :height 1px
+  :border-bottom= "1px solid #{!color3 + #111}"
   
-.header
-  :float left
+div.line_before
+  :margin 0 auto
+  :background-color= white
+  :width 100%
+  :height 1px
+  :border-top= "1px solid #{!color3 + #111}"
+  
+.header_container
   :width 100%
   :height 120px
+  div.line
+    :background-color= !color3
+    :width 100%
+    :height 10px
+    :margin 0 auto
+  div.line_top
+    :background-color= !color3
+    :width 100%
+    :height 10px
+  .header
+    :position relative
+  ul.menu
+    :padding 0
+    :margin 0
+    :position absolute
+    :left 320px
+    :bottom 0
+    li 
+      :margin 0
+      :margin-right 1px 
+      :float left
+      :padding 4px 8px
+      :padding-bottom 6px
+      a
+        :text-decoration none
+        :border-bottom= "1px dashed #{!color4}"
+        :color= !color4
+      &:hover
+        +round_top(10px)
+        :background-color= !color3
+        a
+          :color white
+          :border-bottom= "1px dashed white"
+    li.selected
+      +round_top(10px)
+      :background-color= !color3
+      a
+        :border-bottom none
+        :color white
+        :text-shadow none
+        :font-weight bold
+  ul.submenu
+    +round_top(10px)
+    :padding 0
+    :margin 0
+    :position absolute
+    :right 20px
+    :bottom 0
+    :background-color= !color3
+    li.spacer
+      :padding 4px 0px
+    li 
+      :margin 0
+      :float left
+      :padding 4px 8px
+      :padding-bottom 2px
+      :color white
+      :font-size 12px
+      a
+        :color white
+        &:hover
+          :text-decoration none
+  
+.header
+  :height 80px
 
-button, input[type='submit']
-  :padding 4px 6px
-  :font-size 17px
+#root button, #root input[type='submit']
+  :padding 2px 6px
+  :font-size 14px
   :font-family= !base_font
-  :line-height 32px
+  :line-height 21px
     
-input, textarea
-  :padding 4px 0 0 6px
-  :font-size 17px
+#root input, #root textarea
+  :padding 1px 0 0 6px
+  :padding-top 4px
+  :font-size 14px
   :font-family= !base_font
-  :line-height 32px
+  :line-height 21px
   
 .input_border_color
   :border-color= "#{!input_border_color}"
   
 .input-w
-  :padding 2px 6px
+  :padding 1px 6px
+  :padding-top 4px
   :width 400px
   :height 25px
   :border= "1px solid #{!input_border_color}"
   :background transparent url(/images/input-bg.gif) 0px 0px repeat-x
-  :font-size 18px
-  :line-height 25px
+  :font-size 14px
+  :line-height 21px
 
-.input-s
-  :padding 4px 6px
+#root .input-s
+  :padding 1px 6px
+  :padding-top 4px
   :width 250px
-  :height 22px
+  :height 21px
   :border= "1px solid #{!input_border_color}"
   :background transparent url(/images/input-bg.gif) 0px 0px repeat-x
   :font-size 14px
-  :line-height 22px
-  
-.logo
-  :float left
-  :padding 10px 0 0 10px
+  :line-height 21px
   
 h1
   :color= !h1_color
@@ -169,12 +269,11 @@ a
     :margin-right 190
   
 .langs
-  :position absolute
-  :right 0
-  :top 0px
+  :float right
   :padding-right 10px
   :padding-top 0px
   :color #999
+  :font-size 12px
   a
     :padding 0 4px
     :text-shadow 1px 1px 1px #ddd
@@ -186,7 +285,6 @@ a
   :height 20px
   a
     :margin-top 5px
-    :color #0B5AA3
     :text-shadow 1px 1px 1px #ddd
     :padding 0
   span
@@ -452,3 +550,96 @@ html .help_mark_info
 span.history
   :width 155px
   :display inline-block
+  
+  
+=attach_footer( !footer_height )
+  :height 100%
+  body
+    :margin 0
+    :padding 0
+    :width 100%
+    :height 100%
+    :color #333
+    :text-align center
+  #root
+    :text-align left
+    :min-height 100%
+    :margin-bottom  = -!footer_height
+    #root_footer
+      :clear both
+      :height = !footer_height
+  #footer
+    :text-align left
+    :clear            both
+    :position         relative
+    :height         = !footer_height
+      
+html
+  +attach_footer(90px)
+  
+#footer
+  :background-color= !color3
+  #footer_content    
+    :color white
+    :margin 0 auto
+    :padding 4px 6px
+    :width 980px
+    .footer_block
+      :padding-left 10%
+      :float left
+      a
+        :font-size 11px
+        :line-height 16px
+        :padding 2px 0
+        :display block
+        :color white
+        :text-decoration underline
+        &:hover
+          :text-decoration none
+          
+.center_block
+  :width 700px
+  :margin 0 auto
+  
+form.formtastic .errorExplanation, .errorExplanation
+  :margin-bottom 12px
+  h2
+    :display none
+  ul
+    :display none
+    :padding-left 16px
+  ul, ul li 
+    :list-style-type disc
+    
+.flash
+  +round(10px)
+  :padding 4px 6px
+  :margin-bottom 12px
+    
+.failure.flash, .failure.flash
+  :color #8a1f11
+  :background #FFF6BF
+  :border-color #FFD324
+    
+.flash.notice, .flash.info
+  :color #514721
+  :background #FFF6BF
+  :border-color #FFD324  
+
+#root .no_margin_and_padding
+  :margin 0
+  :padding 0
+
+.admin_left
+  :float left
+  :margin-left -100%
+  :width= !left_column
+
+.admin_right
+  :margin-left= !left_column + 20px + 10px
+  
+ul.admin_menu
+  +round(15px)
+  :padding 10px 10px
+  :background-color= !color1
+  :min-height 200px

@@ -1,3 +1,10 @@
 - inside_layout 'application' do
-  .contentWrap
-    = yield
+  %h1 Мій кабінет
+  .contentwrapper
+    .admin_right
+      AA
+      = yield
+  .admin_left
+    %ul.admin_menu
+      %li= link_to 'Користувачі', admin_users_path
+  .clear

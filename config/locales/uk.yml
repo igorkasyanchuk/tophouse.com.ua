@@ -97,93 +97,17 @@ uk:
   uk_flag: укр
   ru_flag: рус
   en_flag: eng
-  o_index: Області України карта
-  o_index_description: Області України карта, дорога, автомобільні маршрути
-  o_index_keywords: Області України, карта, дорога, маршрути, райони, автомобільні
-  r_show: "{{o}}, {{r}}, населені пункти, карта"
-  r_show_description: "{{o}}, {{r}}, населені пункти, карта, дорога, автомобільні, маршрути"
-  r_show_keywords: "{{o}}, {{r}}, населені пункти, карта, дорога, автомобільні, маршрути"
-  o_show: "{{o}}, населені пункти, карта"
-  o_show_description: "{{o}}, населені пункти, карта, дорога, автомобільні, маршрути"
-  o_show_keywords: "{{o}}, населені пункти, карта, дорога, автомобільні, маршрути"  
-  popular_uk: "Україна, {{str}} карта"
-  popular_ru: "Росія, {{str}} карта"
-  popular_bl: "Білорусь, {{str}} карта"
-  popular_map: "{{str}} карта"
-  popular_state: "Штат {{str}} карта"
-  popular_ukraine: "Україна, {{str}} карта"
-  m_title: "{{str}} карта, супутникова, вулиці {{str}}, дорога, топографічна"
-  route_title: "{{str}} дорога, маршрут {{str}}, автомобільна дорога"
-  q_title: "Пошук карти: {{str}}"
-  from_to_title: "Пошук маршруту: {{str}}"
-  general_title: 'Карта Онлайн - карта міст, карта маршрутів та карта автомобільних доріг'
-  description_process: "{{str}}, {{str}} будинки, {{str}} супутникова карта, знімок, мапа, пошук по карті, топографічна, адреса"
-  bel_cities: "Карта міст Білорусі, сторінка {{page}}"
-  rus_cities: "Карта міст Росії, сторінка {{page}}"  
-  countries_cities: "Карта країн світу, країни на карті"
-  states_cities: "Карта штатів США, штати на карті"
-  map_routes_from: "Маршрути, дороги: {{str}}"
-  o_routes: "Маршрути, дороги України"
-  o_cities: "{{str}} маршрути, дороги" 
-  quick_search_tab: Швидкий пошук
-  lay_route_tab: Прокласти маршрут
-  results_tab: Результати
-  box_uk_map: Карта міст України
-  box_routes: Карта доріг та маршрутів
-  box_rus_map: Карта міст Росії
-  box_bel_map: Карта міст Білорусі
-  box_world_map: Карта країн світу
-  box_reg_map: Карта областей України
-  box_states_map: Карта штатів США
-  box_uk_map_all: "усі міста України &rarr;"
-  box_routes_all: 'усі маршрути &rarr;'
-  box_rus_map_all: 'усі міста Росії &rarr;'
-  box_bel_map_all: 'усі міста Білорусі &rarr;'
-  box_world_map_all: 'карти усіх країн &rarr;'
-  box_states_map_all: 'карти усіх штатів USA &rarr;'
-  directions_legend: "Пошук маршруту, дороги по карті"
-  directions_from_title: 'від: країна, місто, вулиця'
-  directions_to_title: 'до: країна, місто, вулиця'
-  directions_help: "Для пошуку вказуйте якнайповнішу адресу: країна, місто, вулиця."
-  directions_for_example: "наприклад:"
-  city1: Київ
-  city2: Івано-Франківськ
-  city3: Львів, Україна
-  city4: Одеса
-  city5: Харьків
-  city6: Донецьк
-  city7: Чоп, Україна
-  city8: Сімферополь
-  search_button: Пошук
-  route_full_title: "Дорога <span>{{from}}</span> - <span>{{to}}</span>."
-  suggestion_text: "Примітка:"
-  suggestion_full_text: використовуйте значок {{str}} для зміни маршруту.
-  search_results_map_label: Карта  
-  search_form_q_title: 'введіть назву міста: країна, місто, вулиця'
-  address1: "Київ, вул. Хрещатик"
-  address2: "Івано-Франківськ"
-  address3: "Москва, Росія"
-  address4: "New York"
-  address5: "Tokyo"  
-  ukraine_title: Україна
-  russia_title: Росія
-  belorusia_title: Білорусь
+  general_title: 'TopHouse.com - нерухомість Івано-Франківська, України: квартири, новобудови, особняки, гаражі.'
   js:
     address: Адреса
     country: Країна
     region: Область
     subregion: Район
-    no_found: "За вашим запитом нічого не знайдено. Спробуйте додатково вказати країну, область район."
-    total_length: "Загальна довжина маршруту: "      
-  
     
-  m_show: "{{o}}, {{r}}, {{m}} карта, вулиці, адреса"
-  m_show_quick: "{{o}} карта, вулиці, адреса"
-  
   your_searches: Ваші останні запити
   searches_list_is_empty: список ваших останніх запитів пустий.
   marshrut: дорога
   whats_new: нове
   clear_hist: Очистити історію
   
-  logo_main_title: Карта
+  logo_main_title: "<span class='r'>Top</span>House.com.ua"

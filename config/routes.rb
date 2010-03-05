@@ -1,5 +1,19 @@
 ActionController::Routing::Routes.draw do |map|
   map.filter 'locale'
+  
+  map.namespace :general do |general_map|
+    general_map.dashboard 'dashboard', :controller => 'dashboard', :action => 'index'
+    general_map.resources :users, :only => [:update, :edit] do |user_map|
+      user_map.resources :photos, :only => [:destroy]
+    end
+  end
+
+  map.namespace :admin do |admin_map|
+    admin_map.dashboard 'dashboard', :controller => 'dashboard', :action => 'index'
+    admin_map.resources :users, :except => [:new, :create]
+  	admin_map.resources :user_logs
+  end
+  
   map.resources :os, :as => 'obls', :only => [:index, :show], :collection => { :routes => :any }, :member => { :cities => :any } do |mm|
     mm.resources :rs, :as => 'regs', :only => [:index, :show] do |rm|
       rm.resources :ms, :as => 'city', :only => [:index, :show]
@@ -32,6 +46,10 @@ ActionController::Routing::Routes.draw do |map|
   
   map.your_searches '/your_searches', :controller => 'home', :action => 'your_searches'
   map.clear_history '/clear_history', :controller => 'home', :action => 'clear_history'
+  
+  Clearance::Routes.draw(map)
+  map.sign_in  'sign-in', :controller => 'clearance/sessions', :action => 'new'
+  map.sign_out 'sign-out',:controller => 'clearance/sessions', :action => 'destroy', :method => :delete   
   
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format' 

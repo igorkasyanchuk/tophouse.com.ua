@@ -2,7 +2,7 @@ module ApplicationHelper
 
   def flash_messages
     messages = []
-    %w(notice warning error).each do |msg|
+    %w(notice warning error failure info).each do |msg|
       messages << "<div class='#{msg} flash'>#{html_escape(flash[msg.to_sym])}</div>" unless flash[msg.to_sym].blank?
     end
     flash.clear

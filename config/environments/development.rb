@@ -17,3 +17,18 @@ config.action_controller.perform_caching             = false
 config.action_mailer.raise_delivery_errors = false
 
 ActionController::Base.cache_store = :file_store, "#{Rails.root}/tmp/cache" 
+
+HOST = "devlist.if.ua:3000"
+CONTACT_EMAIL = 'contact@devlist.test'
+
+config.action_mailer.delivery_method = :smtp
+
+config.after_initialize do
+  Bullet.enable = false 
+  Bullet.alert = false
+  Bullet.bullet_logger = true  
+  Bullet.console = true
+  Bullet.growl = false
+  Bullet.rails_logger = true
+  Bullet.disable_browser_cache = true
+end 

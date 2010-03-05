@@ -28,3 +28,8 @@ ActionController::Base.cache_store = :file_store, "#{Rails.root}/tmp/cache"
 
 # Enable threaded mode
 # config.threadsafe!
+
+HOST = "devlist.if.ua:3000"
+CONTACT_EMAIL = 'contact@devlist.test'
+
+config.action_mailer.delivery_method = :smtp

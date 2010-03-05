@@ -1,10 +1,15 @@
-- title "Admin - #{'Edit User: %s' % @user.user_name}"
+- title "Адмінка - #{'Редагувати користувача: %s' % @user.user_name}"
+
+%p
+  = link_to '&larr; назад', admin_dashboard_path
 
 %h1.heading
-  = "Editing User: %s" % @user.user_name
-  
-- simple_form_for([:admin, @user], :html => { :class => 'signForm wideForm', :id => 'sing_up_form', :multipart => true }) do |form|
+  = "Редагувати користувача: %s" % @user.user_name
+
+- semantic_form_for([:admin, @user], :html => { :class => 'signForm wideForm', :id => 'sing_up_form', :multipart => true }) do |form|
   = render 'form', :form => form
-  %p.row-submit.offset
-    = form.submit 'Update'
-    = link_to 'Cancel', collection_path
+  - form.inputs do
+    = form.input :roles, :as => :radio, :label_method => :name
+  - form.buttons do
+    = form.submit t('update_action')
+    = link_to t('cancel_action'), collection_path

@@ -1,10 +1,12 @@
 - inside_layout 'application' do
-  %h1 Мій кабінет
+  %h1= t('dashboard')
   .contentwrapper
     .admin_right
-      AA
+      Текст тут
       = yield
   .admin_left
     %ul.admin_menu
-      %li= link_to 'Користувачі', admin_users_path
+      - if current_user.admin?
+        %li= link_to t('admin_link'), admin_users_path
+      %li= link_to t('my_profile_link'), admin_users_path
   .clear

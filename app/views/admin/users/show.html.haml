@@ -1,19 +1,17 @@
-- title "Admin - #{'User: %s' % @user.user_name}"
+- title "Адмінка - #{'користувач: %s' % @user.user_name}"
 
 %h1.heading
-  = "User: %s" % @user.user_name
+  = "Користувач: %s" % @user.user_name
   
 - content_tag_for(:dl, @user) do
-  %dt Company Name:
+  %dt Назва компанії:
   %dd= h @user.company_name
-  %dt Plan:
-  %dd= h @user.selected_plan
-  %dt Role:
-  %dd= h @user.user_role
-  %dt Registered on:
+  %dt Ролі:
+  %dd= h @user.roles_short
+  %dt Зареєстрований:
   %dd= l @user.created_at, :format => :long
   
 %p.actions
-  = link_to 'Edit', edit_resource_path(@user)
+  = link_to t('edit_action'), edit_resource_path(@user)
   |
-  = link_to 'Back to Users List', collection_path
+  = link_to 'назад до списку користувачів', collection_path

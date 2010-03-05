@@ -111,3 +111,15 @@ uk:
   clear_hist: Очистити історію
   
   logo_main_title: "<span class='r'>Top</span>House.com.ua"
+  
+  show_action: показати
+  edit_action: редагувати
+  delete_action: видалити
+  are_you_sure: Ви впевнені?
+  confirm_action: підтвердити
+  update_action: оновити
+  cancel_action: відміна
+  dashboard: Мій кабінет
+  
+  admin_link: Адмінка
+  my_profile_link: Мій профіль

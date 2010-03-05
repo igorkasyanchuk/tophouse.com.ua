@@ -1,16 +1,16 @@
-- title "Admin - Users"
+- title "Адмінка - Користувачі"
 
 %p
-  = link_to '&larr; back', admin_dashboard_path
+  = link_to '&larr; назад', admin_dashboard_path
   
 %p
-  %h1.heading== Users (total: #{User.count})
+  %h1== Користувачів (усього: #{User.count})
 
 %p
-  %h2 Search
+  %h2 Фільтр
   - form_tag admin_users_path, :method => :get do
-    = text_field_tag 'q', params["q"], :size => 30
-    = submit_tag 'Search'
+    = text_field_tag 'q', params["q"], :size => 30, :class => 'input-s'
+    = submit_tag 'Фільтр'
 %br
 
 - unless @users.empty?
@@ -18,15 +18,14 @@
     %thead
       %tr
         %th id
-        %th Company Name
-        %th User Name
-        %th Plan
-        %th Reg.
-        %th Actions
+        %th Назва Компанії
+        %th Ім'я користувача
+        %th Зареєстрований
+        %th Дії
     %tbody
       - @users.each do |user|
         = render 'item', :user => user
-  = will_paginate @users, :previous_label => "&laquo; Back", :next_label => "Next &raquo;" 
+  = will_paginate @users
 - else
   %div
     %strong List is empty.

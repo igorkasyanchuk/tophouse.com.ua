@@ -104,26 +104,18 @@ module RoleRequirementSystem
   end
   
   module RoleSecurityInstanceMethods
-    def self.included(klass)
-      raise "Because role_requirement extends acts_as_authenticated, You must include AuthenticatedSystem first before including RoleRequirementSystem!" unless klass.included_modules.include?(AuthenticatedSystem)
-    end
-    
+
     def render_optional_error_file(status)
       render :text => "You don't have access here.", :status => status
     end
     
     def access_denied
-      if logged_in?
-        render_optional_error_file(401)
-        return false
-      else
-        super
-      end
+      render_optional_error_file(401)
+      return false
     end
     
     def check_roles       
       return access_denied unless self.class.user_authorized_for?(current_user, params, binding)
-      
       true
     end
     

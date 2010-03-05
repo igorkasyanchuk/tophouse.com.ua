@@ -1,30 +1,45 @@
 @import formtastic.sass
 
-!color1= #FFE500
-!color1= #FFF0B1
-!color2= #F7F760
-!color3= #26A8BD
-!color4= #0B5AA3
-!color5= #002F4B
+!color1= #471045
+!color2= #BD2056
+!color3= #FF7000
+!color4= #FFD300
+!color5= #648C02
+
+!color1= #2BACF5
+!color2= #CED9BC
+!color3= #587D87
+!color4= #A6D43C
+!color5= #476930
+
+!color1= #50781C
+!color2= #9CAD1C
+!color3= #EAF7E6
+!color4= #40A5DE
+!color5= #0B5191
+
+!color1= #fff
+!color2= #83D8F8
+!color3= #00AFF0
+!color4= #4B465A
+!color5= #87C80A
+!color6= #F4F3FB
 
 !left_column= 250px
-!logo_text_color= !color5
-!links_color= !color3
-!map_border= "3px solid #ddd"
+!logo_text_color= !color4
+!logo_slogan_text_color= !color3
 !search_box_color= !color1
 !tabs_color= !color2
-!base_font= "Lucida, Helvetica Cyrillic, Helvetica"
-
+!base_font= "Arial,Helvetica,Tahoma,Verdana,sans-serif"
 !margin_left= 10px
-
-// 6688CC
-
 !input_border_color= #D7D4CE
-
-!h1_color= !color5
-!h2_color= !color4
-!h3_color= !color4
+!h1_color= !color3
+!h2_color= !color2
+!h3_color= !color2
 !a_color= !color3
+!footer_bg_color= !color2
+!menu_bg_color= !color5
+!footer_link_color= !color4
 
 =round(!p)
   :-moz-border-radius= !p
@@ -40,50 +55,52 @@
   
 body
   :font-family= !base_font
-  :font-size 85%
+  :font-size 14px
   
 .logo
   :min-width= !left_column  
   :width auto
   :font-family Georgia
   :position relative
-  :text-shadow 0px 1px #eee
   :float left
   :padding= 5px 0 0 !margin_left
   .logo_title
-    :color= !color4
+    :color= !logo_text_color
     :font-size 36px
     :line-height 42px
     :margin-bottom 0
     a
-      :color= !color4
+      :color= !logo_text_color
       :text-decoration none
       &:visited
-        :color= !color4
+        :color= !logo_text_color
       &:hover
-        :color= !color4
+        :color= !logo_text_color
     span.r
-      :color= !color4
+      :color= !logo_text_color
   .logo_slogan
     :position absolute
     :right 0
     :top 40px
-    :color= !color4
+    :color= !logo_slogan_text_color
     :font-size 16px
     :line-height 18px
     :padding-right 0px
     :text-align right
+    strong
+      :font-weight normal
     a
-      :color= !color5
+      :color= !logo_slogan_text_color
       :text-decoration none
       &:visited
-        :color= !color5
+        :color= !logo_slogan_text_color
       &:hover
-        :color= !color5
+        :color= !logo_slogan_text_color
  
 div.content
   :display block
   :padding-left= !margin_left
+  :padding-right= !margin_left
   
 div.left_content
   :float left
@@ -93,7 +110,6 @@ div.left_content
 
 div.right_content
   :margin-left= !left_column + 20px + 10px
-  //:padding-right 10px
 
 .clear
   :clear both
@@ -107,25 +123,25 @@ div.line_after
   :background-color= white
   :width 100%
   :height 1px
-  :border-bottom= "1px solid #{!color3 + #111}"
+  :border-bottom= "1px solid #{!menu_bg_color + #111}"
   
 div.line_before
   :margin 0 auto
   :background-color= white
   :width 100%
   :height 1px
-  :border-top= "1px solid #{!color3 + #111}"
+  :border-top= "1px solid #{!footer_bg_color + #111}"
   
 .header_container
   :width 100%
   :height 120px
   div.line
-    :background-color= !color3
+    :background-color= !menu_bg_color
     :width 100%
     :height 10px
     :margin 0 auto
   div.line_top
-    :background-color= !color3
+    :background-color= !menu_bg_color
     :width 100%
     :height 10px
   .header
@@ -144,32 +160,29 @@ div.line_before
       :padding-bottom 6px
       a
         :text-decoration none
-        :border-bottom= "1px dashed #{!color4}"
+        :border-bottom= "1px dashed #{!menu_bg_color}"
         :color= !color4
       &:hover
         +round_top(10px)
-        :background-color= !color3
+        :background-color= !menu_bg_color
         a
           :color white
           :border-bottom= "1px dashed white"
     li.selected
       +round_top(10px)
-      :background-color= !color3
+      :background-color= !menu_bg_color
       a
         :border-bottom none
         :color white
         :text-shadow none
         :font-weight bold
   ul.submenu
-    +round_top(10px)
+    +round_bottom(10px)
     :padding 0
     :margin 0
     :position absolute
     :right 20px
-    :bottom 0
-    :background-color= !color3
-    li.spacer
-      :padding 4px 0px
+    :top 0
     li 
       :margin 0
       :float left
@@ -178,7 +191,7 @@ div.line_before
       :color white
       :font-size 12px
       a
-        :color white
+        
         &:hover
           :text-decoration none
   
@@ -252,12 +265,6 @@ a
     :line-height 15px
     :vertical-align middle
         
-#map_canvas    
-  //:border-top= !map_border
-  //:border-left= !map_border
-  :border= !map_border
-  :height 450px
-  
 #right_content_spacer
   :height 30px
   h1, h2, h3, h4
@@ -268,16 +275,6 @@ a
   h3, h4
     :margin-right 190
   
-.langs
-  :float right
-  :padding-right 10px
-  :padding-top 0px
-  :color #999
-  :font-size 12px
-  a
-    :padding 0 4px
-    :text-shadow 1px 1px 1px #ddd
-    
 .favorites
   :padding-right 15px
   :float left
@@ -578,7 +575,7 @@ html
   +attach_footer(90px)
   
 #footer
-  :background-color= !color3
+  :background-color= !footer_bg_color
   #footer_content    
     :color white
     :margin 0 auto
@@ -592,7 +589,7 @@ html
         :line-height 16px
         :padding 2px 0
         :display block
-        :color white
+        :color= !footer_link_color
         :text-decoration underline
         &:hover
           :text-decoration none
@@ -615,8 +612,9 @@ form.formtastic .errorExplanation, .errorExplanation
   +round(10px)
   :padding 4px 6px
   :margin-bottom 12px
+  :display inline-block
     
-.failure.flash, .failure.flash
+.failure.flash, .error.flash
   :color #8a1f11
   :background #FFF6BF
   :border-color #FFD324
@@ -642,4 +640,11 @@ ul.admin_menu
   +round(15px)
   :padding 10px 10px
   :background-color= !color1
-  :min-height 200px
+  :min-height 300px
+  li
+    a
+      :font-size 16px
+      :line-height 24px
+      :padding 6px 8px
+      :color= !color4
+      :font-weight bold

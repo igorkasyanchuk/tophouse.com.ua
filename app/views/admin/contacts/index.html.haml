@@ -1,0 +1,21 @@
+%p
+  = link_to '&larr; back', admin_dashboard_path
+  
+%h1.heading Feedbacks
+
+- unless @contacts.empty?
+  %table
+    %thead.header
+      %tr
+        %th Name
+        %th Email
+        %th Message
+        %th Added on
+        %th Actions
+    %tbody.items
+      - @contacts.each do |contact|
+        = render 'item', :contact => contact
+  = will_paginate @contacts, :prev_label => "&laquo; Back", :next_label => "Next &raquo;" 
+- else
+  %div
+    %strong List is empty.

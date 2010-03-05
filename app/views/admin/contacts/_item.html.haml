@@ -1,0 +1,9 @@
+- content_tag_for(:tr, contact, :class => cycle(:odd, :even)) do
+  %td= h contact.name
+  %td= h contact.email
+  %td= h contact.body
+  %td= l contact.created_at, :format => :short
+  %td.actions
+    = link_to 'Show', resource_path(contact)
+    |
+    = link_to 'Delete', resource_path(contact), :confirm => 'Are you sure?', :method => :delete

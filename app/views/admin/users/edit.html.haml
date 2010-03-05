@@ -1,0 +1,10 @@
+- title "Admin - #{'Edit User: %s' % @user.user_name}"
+
+%h1.heading
+  = "Editing User: %s" % @user.user_name
+  
+- simple_form_for([:admin, @user], :html => { :class => 'signForm wideForm', :id => 'sing_up_form', :multipart => true }) do |form|
+  = render 'form', :form => form
+  %p.row-submit.offset
+    = form.submit 'Update'
+    = link_to 'Cancel', collection_path

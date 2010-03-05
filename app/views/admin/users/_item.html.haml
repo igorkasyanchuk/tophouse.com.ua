@@ -1,0 +1,18 @@
+- content_tag_for(:tr, user, :class => cycle(:odd, :even)) do
+  %td= user.id
+  %td
+    = link_to h(user.company_name), user
+  %td
+    = h user.user_name
+    %br
+    = mail_to h(user.email)
+  %td= l user.created_at.to_date, :format => :long
+  %td.actions
+    = link_to 'Show', resource_path(user)
+    |
+    = link_to 'Edit', edit_resource_path(user)
+    |
+    = link_to 'Del', resource_path(user), :confirm => 'Are you sure?', :method => :delete
+    - if !user.email_confirmed? && user.subscribed_to_any_plan?
+      |
+      = link_to 'Confirm', confirm_admin_user_path(user), :confirm => 'Are you sure? User have to be subscribed.'    

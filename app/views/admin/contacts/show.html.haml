@@ -1,0 +1,15 @@
+%h1.heading
+  = "Feedback from %s" % @contact.name
+  
+- content_tag_for(:dl, @contact) do
+  %dt Name:
+  %dd= h @contact.name
+  %dt Email:
+  %dd= h @contact.email
+  %dt Message:
+  %dd= h @contact.body
+  %dt Added on:
+  %dd= l @contact.created_at, :format => :long
+  
+%p.actions
+  = link_to 'Back to Feedbacks List', collection_path

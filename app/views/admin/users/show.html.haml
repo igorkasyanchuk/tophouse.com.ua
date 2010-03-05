@@ -1,0 +1,19 @@
+- title "Admin - #{'User: %s' % @user.user_name}"
+
+%h1.heading
+  = "User: %s" % @user.user_name
+  
+- content_tag_for(:dl, @user) do
+  %dt Company Name:
+  %dd= h @user.company_name
+  %dt Plan:
+  %dd= h @user.selected_plan
+  %dt Role:
+  %dd= h @user.user_role
+  %dt Registered on:
+  %dd= l @user.created_at, :format => :long
+  
+%p.actions
+  = link_to 'Edit', edit_resource_path(@user)
+  |
+  = link_to 'Back to Users List', collection_path

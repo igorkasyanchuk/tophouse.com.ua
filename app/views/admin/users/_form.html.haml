@@ -1,0 +1,5 @@
+%fieldset.inputSet.dashboard
+  %p.row
+    = form.input :company_name, :label => 'Company Name', :required => false, :input_html => { :class => 'input-w' }
+  %p.row
+    = form.input :admin, :label => 'Admin?', :required => false, :input_html => { :class => 'cb-bttn' }, :as => :radio

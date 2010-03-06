@@ -1,12 +1,16 @@
 - inside_layout 'application' do
-  %h1= t('dashboard')
   .contentwrapper
     .admin_right
-      Текст тут
       = yield
   .admin_left
+    %h1
+      = t('dashboard')
+      = link_to t('exit_link'), sign_out_path, :class => 'small_link'
     %ul.admin_menu
       - if current_user.admin?
-        %li= link_to t('admin_link'), admin_users_path
-      %li= link_to t('my_profile_link'), admin_users_path
+        %li
+          = link_to t('admin_link'), admin_users_path
+          %ul
+            %li= link_to "Управління користувачами", admin_users_path
+      %li= link_to t('my_profile_link'), edit_general_user_path(current_user)
   .clear

@@ -1,1 +1,13 @@
-- title "Editing User: %s" % @user.user_name
+- title "Редагувати профіль: %s" % @user.user_name
+
+%h2.heading
+  = "Редагувати профіль: %s" % @user.user_name
+
+- semantic_form_for([:general, @user], :html => { :class => 'signForm wideForm', :id => 'sing_up_form', :multipart => true }) do |form|
+  - form.inputs do
+    = form.input :email, :input_html => { :class => 'input-s' }
+    = form.input :password, :input_html => { :class => 'input-s' }
+    = form.input :password_confirmation, :input_html => { :class => 'input-s' }
+  - form.buttons do
+    = form.submit t('update_action')
+    = link_to t('cancel_action'), general_dashboard_path

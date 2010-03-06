@@ -1,0 +1,14 @@
+basic:
+  title: Hello
+  i_am_type: 1
+  o_id: 1
+  m_id: 1
+  address: Hello
+  square: 1.5
+  adv_text: Lorem ipsum dolor sit amet...
+  price: 1
+  currency_id: 1
+  price_cached: 1
+  contact_phone: Hello
+  contact_email: Hello
+  user_id: 1

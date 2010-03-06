@@ -11,8 +11,6 @@ class CreateUsers < ActiveRecord::Migration
       t.boolean  "email_confirmed",                   :default => false, :null => false
       t.datetime "created_at"
       t.datetime "updated_at"
-      t.integer  "customer_id"
-      t.integer  "subscription_id"
     end
 
     add_index "users", ["email"], :name => "index_users_on_email"

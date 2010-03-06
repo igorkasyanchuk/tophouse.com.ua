@@ -9,7 +9,7 @@
 - semantic_form_for([:admin, @user], :html => { :class => 'signForm wideForm', :id => 'sing_up_form', :multipart => true }) do |form|
   = render 'form', :form => form
   - form.inputs do
-    = form.input :roles, :as => :radio, :label_method => :name
+    = form.input :role, :as => :radio, :collection => ROLES_ARRAY
   - form.buttons do
     = form.submit t('update_action')
     = link_to t('cancel_action'), collection_path

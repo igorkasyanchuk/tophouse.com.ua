@@ -4,8 +4,7 @@
 class ApplicationController < ActionController::Base
   include Clearance::Authentication 
   include SimpleCaptcha::ControllerHelpers
-  include RoleRequirementSystem
-  
+
   self.allow_forgery_protection = true
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
@@ -40,6 +39,11 @@ class ApplicationController < ActionController::Base
   end
   
   private
+    def require_admin
+      return false unless signed_in?
+      current_user.admin?
+    end
+    
     def render_optional_error_file(status_code)
       if status_code == :not_found
         render_404

@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :garages
+
   map.filter 'locale'
   
   map.namespace :general do |general_map|

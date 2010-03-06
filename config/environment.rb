@@ -81,3 +81,9 @@ class ActiveSupport::Multibyte::Chars
     self.split(/(\s)/).collect { |e| e.mb_chars.capitalize.to_s }.join($1)
   end
 end
+
+if defined? IRB
+  log_to STDOUT
+  require 'hirb'
+  Hirb.enable
+end 

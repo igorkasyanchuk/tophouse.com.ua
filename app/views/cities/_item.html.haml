@@ -1,0 +1,9 @@
+- content_tag_for(:tr, city, :class => cycle(:odd, :even)) do
+  %td.name= h city.try(:name)
+  %td.region_id= h city.try(:region_id)
+  %td.actions
+    = link_to 'Show', resource_path(city)
+    |
+    = link_to 'Edit', edit_resource_path(city)
+    |
+    = link_to 'Destroy', resource, :confirm => 'Are you sure?', :method => :delete

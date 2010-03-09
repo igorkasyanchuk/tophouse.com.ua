@@ -1,0 +1,11 @@
+%h1.heading
+  = "Region %s" % @region.id
+  
+- content_tag_for(:dl, @region) do
+  %dt.label= 'Name'
+  %dd.name= h @region.try(:name)
+  
+%p.actions
+  = link_to 'Edit', edit_resource_path(@region)
+  |
+  = link_to 'Index', collection_path

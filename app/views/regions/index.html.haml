@@ -1,0 +1,29 @@
+%h1.heading
+  = "Regions"
+
+.actions-bar
+  %div{:class => "left search"}
+    - form_for @search do |f|
+      = f.label "Find:"
+      = f.text_field :name
+      = f.submit("Search")
+  .right
+    = will_paginate @collection, :prev_label => "&laquo; Back", :next_label => "Next &raquo;"
+  .clear                                                                                     
+  
+ 
+  
+%p.actions
+  = link_to 'New Region', new_resource_path
+  
+%table
+  %thead.header
+    %tr
+      %th.name= 'Name'
+      %th.actions= 'Actions'
+  %tbody.items.regions
+    - @regions.each do |region|
+      = render 'item', :region => region
+
+= will_paginate @collection, :prev_label => "&laquo; Back", :next_label => "Next &raquo;"
+ 

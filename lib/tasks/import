@@ -1,0 +1,5903 @@
+--- 
+- 
+  ? !ruby/symbol name_en
+  : Izyaslav
+  ? !ruby/symbol name_ru
+  : Ізяслав
+  ? !ruby/symbol name_uk
+  : Ізяслав
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Avdiyivka
+  ? !ruby/symbol name_ru
+  : Авдеевка
+  ? !ruby/symbol name_uk
+  : Авдіївка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Alexandria
+  ? !ruby/symbol name_ru
+  : Александрия
+  ? !ruby/symbol name_uk
+  : Олександрія
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Aleksandrovsk
+  ? !ruby/symbol name_ru
+  : Александровская
+  ? !ruby/symbol name_uk
+  : Олександрівськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Diamond
+  ? !ruby/symbol name_ru
+  : Алмазные
+  ? !ruby/symbol name_uk
+  : Алмазна
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Alupka
+  ? !ruby/symbol name_ru
+  : Алупка
+  ? !ruby/symbol name_uk
+  : Алупка
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Alushta
+  ? !ruby/symbol name_ru
+  : Алушта
+  ? !ruby/symbol name_uk
+  : Алушта
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Alchevsk
+  ? !ruby/symbol name_ru
+  : Алчевск
+  ? !ruby/symbol name_uk
+  : Алчевськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Amvrosiyivka
+  ? !ruby/symbol name_ru
+  : Амвросіївка
+  ? !ruby/symbol name_uk
+  : Амвросіївка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Ananiev
+  ? !ruby/symbol name_ru
+  : Ананьїв
+  ? !ruby/symbol name_uk
+  : Ананьїв
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Andrushivka
+  ? !ruby/symbol name_ru
+  : Андрушівка
+  ? !ruby/symbol name_uk
+  : Андрушівка
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Anthracite
+  ? !ruby/symbol name_ru
+  : Антрацит
+  ? !ruby/symbol name_uk
+  : Антрацит
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Apostolovo
+  ? !ruby/symbol name_ru
+  : Апостолово
+  ? !ruby/symbol name_uk
+  : Апостолове
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Armyans'k
+  ? !ruby/symbol name_ru
+  : Армянск
+  ? !ruby/symbol name_uk
+  : Армянськ
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Artemova
+  ? !ruby/symbol name_ru
+  : Артемова
+  ? !ruby/symbol name_uk
+  : Артемове
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Artemivs'k
+  ? !ruby/symbol name_ru
+  : Артемовск
+  ? !ruby/symbol name_uk
+  : Артемівськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Artemivs'k
+  ? !ruby/symbol name_ru
+  : Артемовск
+  ? !ruby/symbol name_uk
+  : Артемівськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Artsyz
+  ? !ruby/symbol name_ru
+  : Арциз
+  ? !ruby/symbol name_uk
+  : Арциз
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bilytske
+  ? !ruby/symbol name_ru
+  : Білицьке
+  ? !ruby/symbol name_uk
+  : Білицьке
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Bilogirs'k
+  ? !ruby/symbol name_ru
+  : Білогірськ
+  ? !ruby/symbol name_uk
+  : Білогірськ
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Belopole
+  ? !ruby/symbol name_ru
+  : Білопілля
+  ? !ruby/symbol name_uk
+  : Білопілля
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Balakliya
+  ? !ruby/symbol name_ru
+  : Балаклея
+  ? !ruby/symbol name_uk
+  : Балаклія
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Baltic
+  ? !ruby/symbol name_ru
+  : Балта
+  ? !ruby/symbol name_uk
+  : Балта
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bar
+  ? !ruby/symbol name_ru
+  : Бар
+  ? !ruby/symbol name_uk
+  : Бар
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Baranivka
+  ? !ruby/symbol name_ru
+  : Барановка
+  ? !ruby/symbol name_uk
+  : Баранівка
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Barvinkove
+  ? !ruby/symbol name_ru
+  : Барвінкове
+  ? !ruby/symbol name_uk
+  : Барвінкове
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Discover
+  ? !ruby/symbol name_ru
+  : Батурин
+  ? !ruby/symbol name_uk
+  : Батурин
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bahmach
+  ? !ruby/symbol name_ru
+  : Бахмач
+  ? !ruby/symbol name_uk
+  : Бахмач
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bahchisaray
+  ? !ruby/symbol name_ru
+  : Бахчисарай
+  ? !ruby/symbol name_uk
+  : Бахчисарай
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Bashtanka
+  ? !ruby/symbol name_ru
+  : Баштанка
+  ? !ruby/symbol name_uk
+  : Баштанка
+  ? !ruby/symbol obl_en
+  : "Mykolaiv Region"
+  ? !ruby/symbol obl_ru
+  : "Николаевская Область"
+  ? !ruby/symbol obl_uk
+  : "Миколаївська Область"
+- 
+  ? !ruby/symbol name_en
+  : "White Church"
+  ? !ruby/symbol name_ru
+  : "Белая Церковь"
+  ? !ruby/symbol name_uk
+  : "Біла Церква"
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Belgorod-dnistrovs'kij
+  ? !ruby/symbol name_ru
+  : Белгород-днестровский
+  ? !ruby/symbol name_uk
+  : Білгород-дністровський
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Belz
+  ? !ruby/symbol name_ru
+  : Белз
+  ? !ruby/symbol name_uk
+  : Белз
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bilozerske
+  ? !ruby/symbol name_ru
+  : Белозерский
+  ? !ruby/symbol name_uk
+  : Білозерське
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Biliaivka
+  ? !ruby/symbol name_ru
+  : Беляевка
+  ? !ruby/symbol name_uk
+  : Біляївка
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Berdichiv
+  ? !ruby/symbol name_ru
+  : Бердичев
+  ? !ruby/symbol name_uk
+  : Бердичів
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Berdyansk
+  ? !ruby/symbol name_ru
+  : Бердянск
+  ? !ruby/symbol name_uk
+  : Бердянськ
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Beregove
+  ? !ruby/symbol name_ru
+  : Берегово
+  ? !ruby/symbol name_uk
+  : Берегове
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Berezhani
+  ? !ruby/symbol name_ru
+  : Бережани
+  ? !ruby/symbol name_uk
+  : Бережани
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Berezan
+  ? !ruby/symbol name_ru
+  : Березань
+  ? !ruby/symbol name_uk
+  : Березань
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : May
+  ? !ruby/symbol name_ru
+  : Березне
+  ? !ruby/symbol name_uk
+  : Березне
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Berezovka
+  ? !ruby/symbol name_ru
+  : Березовка
+  ? !ruby/symbol name_uk
+  : Березівка
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Berestechko
+  ? !ruby/symbol name_ru
+  : Берестечко
+  ? !ruby/symbol name_uk
+  : Берестечко
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Berislav
+  ? !ruby/symbol name_ru
+  : Берислав
+  ? !ruby/symbol name_uk
+  : Берислав
+  ? !ruby/symbol obl_en
+  : "Kherson Region"
+  ? !ruby/symbol obl_ru
+  : "Херсонская Область"
+  ? !ruby/symbol obl_uk
+  : "Херсонська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bershad
+  ? !ruby/symbol name_ru
+  : Бершадь
+  ? !ruby/symbol name_uk
+  : Бершадь
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Bibrka
+  ? !ruby/symbol name_ru
+  : Бибрка
+  ? !ruby/symbol name_uk
+  : Бібрка
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bobrinec
+  ? !ruby/symbol name_ru
+  : Бобринець
+  ? !ruby/symbol name_uk
+  : Бобринець
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bobrovytsya
+  ? !ruby/symbol name_ru
+  : Бобровиця
+  ? !ruby/symbol name_uk
+  : Бобровиця
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bogodukhiv
+  ? !ruby/symbol name_ru
+  : Богодухов
+  ? !ruby/symbol name_uk
+  : Богодухів
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Boguslav
+  ? !ruby/symbol name_ru
+  : Богуслав
+  ? !ruby/symbol name_uk
+  : Богуслав
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bolgrad
+  ? !ruby/symbol name_ru
+  : Болград
+  ? !ruby/symbol name_uk
+  : Болград
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bolehiv
+  ? !ruby/symbol name_ru
+  : "Болехов (горсовет)"
+  ? !ruby/symbol name_uk
+  : Болехів
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Borzna
+  ? !ruby/symbol name_ru
+  : Борзна
+  ? !ruby/symbol name_uk
+  : Борзна
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Borislav
+  ? !ruby/symbol name_ru
+  : Борислав
+  ? !ruby/symbol name_uk
+  : Борислав
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Airlines
+  ? !ruby/symbol name_ru
+  : Борисполь
+  ? !ruby/symbol name_uk
+  : Бориспіль
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Borschiv
+  ? !ruby/symbol name_ru
+  : Борщев
+  ? !ruby/symbol name_uk
+  : Борщів
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Boyarka
+  ? !ruby/symbol name_ru
+  : Боярка
+  ? !ruby/symbol name_uk
+  : Боярка
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Brovari
+  ? !ruby/symbol name_ru
+  : Бровары
+  ? !ruby/symbol name_uk
+  : Бровари
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Brody
+  ? !ruby/symbol name_ru
+  : Броды
+  ? !ruby/symbol name_uk
+  : Броди
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bryanka
+  ? !ruby/symbol name_ru
+  : Брянка
+  ? !ruby/symbol name_uk
+  : Брянка
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Burin
+  ? !ruby/symbol name_ru
+  : Буринь
+  ? !ruby/symbol name_uk
+  : Буринь
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Burshtin
+  ? !ruby/symbol name_ru
+  : Бурштин
+  ? !ruby/symbol name_uk
+  : Бурштин
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Buske
+  ? !ruby/symbol name_ru
+  : Буськ
+  ? !ruby/symbol name_uk
+  : Буськ
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Bucha
+  ? !ruby/symbol name_ru
+  : Буча
+  ? !ruby/symbol name_uk
+  : Буча
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Buchach
+  ? !ruby/symbol name_ru
+  : Бучач
+  ? !ruby/symbol name_uk
+  : Бучач
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Вільнянськ
+  ? !ruby/symbol name_ru
+  : Вільнянськ
+  ? !ruby/symbol name_uk
+  : Вільнянськ
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Valkom
+  ? !ruby/symbol name_ru
+  : Валки
+  ? !ruby/symbol name_uk
+  : Валки
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Vasilivka
+  ? !ruby/symbol name_ru
+  : Василівка
+  ? !ruby/symbol name_uk
+  : Василівка
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Vasil'kiv
+  ? !ruby/symbol name_ru
+  : Васильков
+  ? !ruby/symbol name_uk
+  : Васильків
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Vatutine
+  ? !ruby/symbol name_ru
+  : "Ватутино (горсовет)"
+  ? !ruby/symbol name_uk
+  : Ватутіне
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Vakhrusheve
+  ? !ruby/symbol name_ru
+  : Вахрушева
+  ? !ruby/symbol name_uk
+  : Вахрушеве
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Vashkivtsah
+  ? !ruby/symbol name_ru
+  : Вашковцы
+  ? !ruby/symbol name_uk
+  : Вашківці
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Verhn'odniprovs'k
+  ? !ruby/symbol name_ru
+  : Верхнеднепровск
+  ? !ruby/symbol name_uk
+  : Верхньодніпровськ
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Verkhivtseve
+  ? !ruby/symbol name_ru
+  : Верховцево
+  ? !ruby/symbol name_uk
+  : Верхівцеве
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Vizhnicya
+  ? !ruby/symbol name_ru
+  : Вижница
+  ? !ruby/symbol name_uk
+  : Вижниця
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Vylkove
+  ? !ruby/symbol name_ru
+  : Вилкова
+  ? !ruby/symbol name_uk
+  : Вилкове
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Vinnik
+  ? !ruby/symbol name_ru
+  : Винники
+  ? !ruby/symbol name_uk
+  : Винники
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Winery
+  ? !ruby/symbol name_ru
+  : Винница
+  ? !ruby/symbol name_uk
+  : Вінниця
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Grape
+  ? !ruby/symbol name_ru
+  : Виноградов
+  ? !ruby/symbol name_uk
+  : Виноградів
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Vishgorod
+  ? !ruby/symbol name_ru
+  : Вишгород
+  ? !ruby/symbol name_uk
+  : Вишгород
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Cherry
+  ? !ruby/symbol name_ru
+  : Вишневе
+  ? !ruby/symbol name_uk
+  : Вишневе
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Vladimir-volyn
+  ? !ruby/symbol name_ru
+  : Владимир-волынский
+  ? !ruby/symbol name_uk
+  : Володимир-волинський
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Vovchans'k
+  ? !ruby/symbol name_ru
+  : Вовчанськ
+  ? !ruby/symbol name_uk
+  : Вовчанськ
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Voznesensk
+  ? !ruby/symbol name_ru
+  : Вознесенськ
+  ? !ruby/symbol name_uk
+  : Вознесенськ
+  ? !ruby/symbol obl_en
+  : "Mykolaiv Region"
+  ? !ruby/symbol obl_ru
+  : "Николаевская Область"
+  ? !ruby/symbol obl_uk
+  : "Миколаївська Область"
+- 
+  ? !ruby/symbol name_en
+  : Volnovaha
+  ? !ruby/symbol name_ru
+  : Волноваха
+  ? !ruby/symbol name_uk
+  : Волноваха
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Volochisk
+  ? !ruby/symbol name_ru
+  : Волочиськ
+  ? !ruby/symbol name_uk
+  : Волочиськ
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Vilnogirsk
+  ? !ruby/symbol name_ru
+  : Вольногорск
+  ? !ruby/symbol name_uk
+  : Вільногірськ
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Divination
+  ? !ruby/symbol name_ru
+  : Ворожба
+  ? !ruby/symbol name_uk
+  : Ворожба
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : "Ever Yar"
+  ? !ruby/symbol name_ru
+  : "Времен Яр"
+  ? !ruby/symbol name_uk
+  : "Часів Яр"
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Ugledar
+  ? !ruby/symbol name_ru
+  : Вугледар
+  ? !ruby/symbol name_uk
+  : Вугледар
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Gadyach
+  ? !ruby/symbol name_ru
+  : Гадяч
+  ? !ruby/symbol name_uk
+  : Гадяч
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Gayvoron
+  ? !ruby/symbol name_ru
+  : Гайворон
+  ? !ruby/symbol name_uk
+  : Гайворон
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Gaysin
+  ? !ruby/symbol name_ru
+  : Гайсин
+  ? !ruby/symbol name_uk
+  : Гайсин
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Galic
+  ? !ruby/symbol name_ru
+  : Галич
+  ? !ruby/symbol name_uk
+  : Галич
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Geniches'k
+  ? !ruby/symbol name_ru
+  : Геническ
+  ? !ruby/symbol name_uk
+  : Генічеськ
+  ? !ruby/symbol obl_en
+  : "Kherson Region"
+  ? !ruby/symbol obl_ru
+  : "Херсонская Область"
+  ? !ruby/symbol obl_uk
+  : "Херсонська Область"
+- 
+  ? !ruby/symbol name_en
+  : Hertz
+  ? !ruby/symbol name_ru
+  : Герца
+  ? !ruby/symbol name_uk
+  : Герца
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Miner
+  ? !ruby/symbol name_ru
+  : Гирнык
+  ? !ruby/symbol name_uk
+  : Гірник
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Clay
+  ? !ruby/symbol name_ru
+  : Глиняная
+  ? !ruby/symbol name_uk
+  : Глиняни
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Globino
+  ? !ruby/symbol name_ru
+  : Глобино
+  ? !ruby/symbol name_uk
+  : Глобине
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Deaf
+  ? !ruby/symbol name_ru
+  : Глухов
+  ? !ruby/symbol name_uk
+  : Глухів
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Gnivan
+  ? !ruby/symbol name_ru
+  : Гнивань
+  ? !ruby/symbol name_uk
+  : Гнівань
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : "Gola Wharf"
+  ? !ruby/symbol name_ru
+  : "Гола Пристань"
+  ? !ruby/symbol name_uk
+  : "Гола Пристань"
+  ? !ruby/symbol obl_en
+  : "Kherson Region"
+  ? !ruby/symbol obl_ru
+  : "Херсонская Область"
+  ? !ruby/symbol obl_uk
+  : "Херсонська Область"
+- 
+  ? !ruby/symbol name_en
+  : Gorlivka
+  ? !ruby/symbol name_ru
+  : Горловка
+  ? !ruby/symbol name_uk
+  : Горлівка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Mountain
+  ? !ruby/symbol name_ru
+  : Горные
+  ? !ruby/symbol name_uk
+  : Гірське
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Gorodenka
+  ? !ruby/symbol name_ru
+  : Городенка
+  ? !ruby/symbol name_uk
+  : Городенка
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Gorodische
+  ? !ruby/symbol name_ru
+  : Городище
+  ? !ruby/symbol name_uk
+  : Городище
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Garden
+  ? !ruby/symbol name_ru
+  : Городня
+  ? !ruby/symbol name_uk
+  : Городня
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Township
+  ? !ruby/symbol name_ru
+  : Городок
+  ? !ruby/symbol name_uk
+  : Городок
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Township
+  ? !ruby/symbol name_ru
+  : Городок
+  ? !ruby/symbol name_uk
+  : Городок
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Pea
+  ? !ruby/symbol name_ru
+  : Горохов
+  ? !ruby/symbol name_uk
+  : Горохів
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Comb
+  ? !ruby/symbol name_ru
+  : Гребенка
+  ? !ruby/symbol name_uk
+  : Гребінка
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Gulyaypole
+  ? !ruby/symbol name_ru
+  : Гуляйполе
+  ? !ruby/symbol name_uk
+  : Гуляйполе
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Debaltsevo
+  ? !ruby/symbol name_ru
+  : Дебальцево
+  ? !ruby/symbol name_uk
+  : Дебальцеве
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Derazhnya
+  ? !ruby/symbol name_ru
+  : Деражня
+  ? !ruby/symbol name_uk
+  : Деражня
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Dergachi
+  ? !ruby/symbol name_ru
+  : Дергачі
+  ? !ruby/symbol name_uk
+  : Дергачі
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Dzhankoj
+  ? !ruby/symbol name_ru
+  : Джанкой
+  ? !ruby/symbol name_uk
+  : Джанкой
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Dzerzhinsk
+  ? !ruby/symbol name_ru
+  : Дзержинськ
+  ? !ruby/symbol name_uk
+  : Дзержинськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Dimitrov
+  ? !ruby/symbol name_ru
+  : Димитров
+  ? !ruby/symbol name_uk
+  : Димитров
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Dneprorudnoe
+  ? !ruby/symbol name_ru
+  : Дніпрорудне
+  ? !ruby/symbol name_uk
+  : Дніпрорудне
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Dniprodzerzhins'k
+  ? !ruby/symbol name_ru
+  : Днепродзержинск
+  ? !ruby/symbol name_uk
+  : Дніпродзержинськ
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Dnepropetrovsk
+  ? !ruby/symbol name_ru
+  : Днепропетровск
+  ? !ruby/symbol name_uk
+  : Дніпропетровськ
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Dobromyl
+  ? !ruby/symbol name_ru
+  : Добромиль
+  ? !ruby/symbol name_uk
+  : Добромиль
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Dobropillya
+  ? !ruby/symbol name_ru
+  : "Доброполье (горсовет)"
+  ? !ruby/symbol name_uk
+  : Добропілля
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Dokuchaievsk
+  ? !ruby/symbol name_ru
+  : Докучаєвськ
+  ? !ruby/symbol name_uk
+  : Докучаєвськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Valley
+  ? !ruby/symbol name_ru
+  : Долина
+  ? !ruby/symbol name_uk
+  : Долина
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : "-dolinskaya"
+  ? !ruby/symbol name_ru
+  : Долинская
+  ? !ruby/symbol name_uk
+  : Долинська
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Donetsk
+  ? !ruby/symbol name_ru
+  : Донецк
+  ? !ruby/symbol name_uk
+  : Донецьк
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Kiev
+  ? !ruby/symbol name_ru
+  : Дрогобыч
+  ? !ruby/symbol name_uk
+  : Дрогобич
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Friendship
+  ? !ruby/symbol name_ru
+  : Дружба
+  ? !ruby/symbol name_uk
+  : Дружба
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Druzhkivka
+  ? !ruby/symbol name_ru
+  : Дружковка
+  ? !ruby/symbol name_uk
+  : Дружківка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Dubliany
+  ? !ruby/symbol name_ru
+  : Дубляны
+  ? !ruby/symbol name_uk
+  : Дубляни
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Dubno
+  ? !ruby/symbol name_ru
+  : Дубно
+  ? !ruby/symbol name_uk
+  : Дубно
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Dubrovicya
+  ? !ruby/symbol name_ru
+  : Дубровиця
+  ? !ruby/symbol name_uk
+  : Дубровиця
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Дунаївці
+  ? !ruby/symbol name_ru
+  : Дунаевцы
+  ? !ruby/symbol name_uk
+  : Дунаївці
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Yevpatoriya
+  ? !ruby/symbol name_ru
+  : Евпатория
+  ? !ruby/symbol name_uk
+  : Євпаторія
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Yenakiyeve
+  ? !ruby/symbol name_ru
+  : Енакиево
+  ? !ruby/symbol name_uk
+  : Єнакієве
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Zhashkiv
+  ? !ruby/symbol name_ru
+  : Жашків
+  ? !ruby/symbol name_uk
+  : Жашків
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zhdanivka
+  ? !ruby/symbol name_ru
+  : "Ждановка (горсовет)"
+  ? !ruby/symbol name_uk
+  : Жданівка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : "Yellow Water"
+  ? !ruby/symbol name_ru
+  : "Желтые Воды"
+  ? !ruby/symbol name_uk
+  : "Жовті Води"
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Жидачів
+  ? !ruby/symbol name_ru
+  : Жидачев
+  ? !ruby/symbol name_uk
+  : Жидачів
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zhitomir
+  ? !ruby/symbol name_ru
+  : Житомир
+  ? !ruby/symbol name_uk
+  : Житомир
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zhmerinka
+  ? !ruby/symbol name_ru
+  : Жмеринка
+  ? !ruby/symbol name_uk
+  : Жмеринка
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Zhovkva
+  ? !ruby/symbol name_ru
+  : Жовква
+  ? !ruby/symbol name_uk
+  : Жовква
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zalishchyky
+  ? !ruby/symbol name_ru
+  : Залещики
+  ? !ruby/symbol name_uk
+  : Заліщики
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zaporozhye
+  ? !ruby/symbol name_ru
+  : Запорожье
+  ? !ruby/symbol name_uk
+  : Запоріжжя
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Mortgage
+  ? !ruby/symbol name_ru
+  : Заставна
+  ? !ruby/symbol name_uk
+  : Заставна
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Zbarazh
+  ? !ruby/symbol name_ru
+  : Збараж
+  ? !ruby/symbol name_uk
+  : Збараж
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zvenigorodka
+  ? !ruby/symbol name_ru
+  : Звенигородка
+  ? !ruby/symbol name_uk
+  : Звенигородка
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zdolbuniv
+  ? !ruby/symbol name_ru
+  : Здолбунов
+  ? !ruby/symbol name_uk
+  : Здолбунів
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zelenodolsk
+  ? !ruby/symbol name_ru
+  : Зеленодольск
+  ? !ruby/symbol name_uk
+  : Зеленодольськ
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zin'kiv
+  ? !ruby/symbol name_ru
+  : Зеньков
+  ? !ruby/symbol name_uk
+  : Зіньків
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zymohiria
+  ? !ruby/symbol name_ru
+  : Зимогорье
+  ? !ruby/symbol name_uk
+  : Зимогір'я
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Snakes
+  ? !ruby/symbol name_ru
+  : Змиев
+  ? !ruby/symbol name_uk
+  : Зміїв
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Znam'yanka
+  ? !ruby/symbol name_ru
+  : Знам'янка
+  ? !ruby/symbol name_uk
+  : Знам'янка
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Golden
+  ? !ruby/symbol name_ru
+  : Золотое
+  ? !ruby/symbol name_uk
+  : Золоте
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zolotonosha
+  ? !ruby/symbol name_ru
+  : Золотоноша
+  ? !ruby/symbol name_uk
+  : Золотоноша
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zoloche
+  ? !ruby/symbol name_ru
+  : Золочев
+  ? !ruby/symbol name_uk
+  : Золочів
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zorynsk
+  ? !ruby/symbol name_ru
+  : Зоринске
+  ? !ruby/symbol name_uk
+  : Зоринськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Zugres
+  ? !ruby/symbol name_ru
+  : Зугрес
+  ? !ruby/symbol name_uk
+  : Зугрес
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Ivano-frankovsk
+  ? !ruby/symbol name_ru
+  : Ивано-франковск
+  ? !ruby/symbol name_uk
+  : Івано-франківськ
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ismail
+  ? !ruby/symbol name_ru
+  : Измаил
+  ? !ruby/symbol name_uk
+  : Ізмаїл
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Izyum
+  ? !ruby/symbol name_ru
+  : Изюм
+  ? !ruby/symbol name_uk
+  : Ізюм
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ilovaisk
+  ? !ruby/symbol name_ru
+  : Иловайск
+  ? !ruby/symbol name_uk
+  : Іловайськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Illintsi
+  ? !ruby/symbol name_ru
+  : Ильинцы
+  ? !ruby/symbol name_uk
+  : Іллінці
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Ilyichevsk
+  ? !ruby/symbol name_ru
+  : Ильичевск
+  ? !ruby/symbol name_uk
+  : Іллічівськ
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Inkerman
+  ? !ruby/symbol name_ru
+  : Инкерман
+  ? !ruby/symbol name_uk
+  : Інкерман
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Irpin
+  ? !ruby/symbol name_ru
+  : Ирпень
+  ? !ruby/symbol name_uk
+  : Ірпінь
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Irshava
+  ? !ruby/symbol name_ru
+  : Иршава
+  ? !ruby/symbol name_uk
+  : Іршава
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ichnya
+  ? !ruby/symbol name_ru
+  : Ичня
+  ? !ruby/symbol name_uk
+  : Ічня
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Кілія
+  ? !ruby/symbol name_ru
+  : Кілія
+  ? !ruby/symbol name_uk
+  : Кілія
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kagarlik
+  ? !ruby/symbol name_ru
+  : Кагарлик
+  ? !ruby/symbol name_uk
+  : Кагарлик
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kozyatyn
+  ? !ruby/symbol name_ru
+  : Казатин
+  ? !ruby/symbol name_uk
+  : Козятин
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Kalinovka
+  ? !ruby/symbol name_ru
+  : Калиновка
+  ? !ruby/symbol name_uk
+  : Калинівка
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Kalush
+  ? !ruby/symbol name_ru
+  : Калуш
+  ? !ruby/symbol name_uk
+  : Калуш
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kam'yanka
+  ? !ruby/symbol name_ru
+  : Кам'янка
+  ? !ruby/symbol name_uk
+  : Кам'янка
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kam'yanka-buzke
+  ? !ruby/symbol name_ru
+  : Кам'янка-бузька
+  ? !ruby/symbol name_uk
+  : Кам'янка-бузька
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kam'yanka-dniprovska
+  ? !ruby/symbol name_ru
+  : Кам'янка-днепровская
+  ? !ruby/symbol name_uk
+  : Кам'янка-дніпровська
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Kamenets
+  ? !ruby/symbol name_ru
+  : Каменец-подольский
+  ? !ruby/symbol name_uk
+  : Кам'янець-подільський
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Stone-kashirskiy
+  ? !ruby/symbol name_ru
+  : Камень-каширский
+  ? !ruby/symbol name_uk
+  : Камінь-каширський
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Канів
+  ? !ruby/symbol name_ru
+  : Канев
+  ? !ruby/symbol name_uk
+  : Канів
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Karlivka
+  ? !ruby/symbol name_ru
+  : Карловка
+  ? !ruby/symbol name_uk
+  : Карлівка
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kahovka
+  ? !ruby/symbol name_ru
+  : Каховка
+  ? !ruby/symbol name_uk
+  : Каховка
+  ? !ruby/symbol obl_en
+  : "Kherson Region"
+  ? !ruby/symbol obl_ru
+  : "Херсонская Область"
+  ? !ruby/symbol obl_uk
+  : "Херсонська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kerch
+  ? !ruby/symbol name_ru
+  : Керчь
+  ? !ruby/symbol name_uk
+  : Керч
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Kivertsi
+  ? !ruby/symbol name_ru
+  : Киверцы
+  ? !ruby/symbol name_uk
+  : Ківерці
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kiev
+  ? !ruby/symbol name_ru
+  : Киев
+  ? !ruby/symbol name_uk
+  : Київ
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kirovograd
+  ? !ruby/symbol name_ru
+  : Кировоград
+  ? !ruby/symbol name_uk
+  : Кіровоград
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kirov
+  ? !ruby/symbol name_ru
+  : "Кировск (горсовет)"
+  ? !ruby/symbol name_uk
+  : Кіровськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kirov
+  ? !ruby/symbol name_ru
+  : Кировское
+  ? !ruby/symbol name_uk
+  : Кіровське
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Kitsmane
+  ? !ruby/symbol name_ru
+  : Кицмань
+  ? !ruby/symbol name_uk
+  : Кіцмань
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Kobelyaki
+  ? !ruby/symbol name_ru
+  : Кобеляки
+  ? !ruby/symbol name_uk
+  : Кобеляки
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kovel
+  ? !ruby/symbol name_ru
+  : Ковель
+  ? !ruby/symbol name_uk
+  : Ковель
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kodima
+  ? !ruby/symbol name_ru
+  : Кодима
+  ? !ruby/symbol name_uk
+  : Кодима
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Coloma
+  ? !ruby/symbol name_ru
+  : Коломия
+  ? !ruby/symbol name_uk
+  : Коломия
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Komarno
+  ? !ruby/symbol name_ru
+  : Комарно
+  ? !ruby/symbol name_uk
+  : Комарно
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Komsomolsk
+  ? !ruby/symbol name_ru
+  : Комсомольск
+  ? !ruby/symbol name_uk
+  : Комсомольськ
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Komsomolsk
+  ? !ruby/symbol name_ru
+  : Комсомольское
+  ? !ruby/symbol name_uk
+  : Комсомольське
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Konotop
+  ? !ruby/symbol name_ru
+  : Конотоп
+  ? !ruby/symbol name_uk
+  : Конотоп
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kostyantinivka
+  ? !ruby/symbol name_ru
+  : Константиновка
+  ? !ruby/symbol name_uk
+  : Костянтинівка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Kopychyntsi
+  ? !ruby/symbol name_ru
+  : Копычинцы
+  ? !ruby/symbol name_uk
+  : Копичинці
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Korec
+  ? !ruby/symbol name_ru
+  : Корець
+  ? !ruby/symbol name_uk
+  : Корець
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Korosten
+  ? !ruby/symbol name_ru
+  : Коростень
+  ? !ruby/symbol name_uk
+  : Коростень
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Korostishiv
+  ? !ruby/symbol name_ru
+  : Коростышев
+  ? !ruby/symbol name_uk
+  : Коростишів
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Korsun'-shevchenkivs'kij
+  ? !ruby/symbol name_ru
+  : Корсунь-шевченковский
+  ? !ruby/symbol name_uk
+  : Корсунь-шевченківський
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Koryukovka
+  ? !ruby/symbol name_ru
+  : Корюковка
+  ? !ruby/symbol name_uk
+  : Корюківка
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Cbs
+  ? !ruby/symbol name_ru
+  : Косив
+  ? !ruby/symbol name_uk
+  : Косів
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kostopil
+  ? !ruby/symbol name_ru
+  : Костопіль
+  ? !ruby/symbol name_uk
+  : Костопіль
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kotovs'k
+  ? !ruby/symbol name_ru
+  : Котовск
+  ? !ruby/symbol name_uk
+  : Котовськ
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kramators'k
+  ? !ruby/symbol name_ru
+  : Краматорск
+  ? !ruby/symbol name_uk
+  : Краматорськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Krasyliv
+  ? !ruby/symbol name_ru
+  : Красилів
+  ? !ruby/symbol name_uk
+  : Красилів
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Krasnoarmijs'k
+  ? !ruby/symbol name_ru
+  : Красноармейск
+  ? !ruby/symbol name_uk
+  : Красноармійськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Krasnohorivka
+  ? !ruby/symbol name_ru
+  : Красногорівка
+  ? !ruby/symbol name_uk
+  : Красногорівка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Krasnograd
+  ? !ruby/symbol name_ru
+  : Красноград
+  ? !ruby/symbol name_uk
+  : Красноград
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Krasnodon
+  ? !ruby/symbol name_ru
+  : Краснодон
+  ? !ruby/symbol name_uk
+  : Краснодон
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Krasnoperekops'k
+  ? !ruby/symbol name_ru
+  : Красноперекопск
+  ? !ruby/symbol name_uk
+  : Красноперекопськ
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : "Krasny Liman"
+  ? !ruby/symbol name_ru
+  : "Красный Лиман"
+  ? !ruby/symbol name_uk
+  : "Красний Лиман"
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : "Krasnij Luc"
+  ? !ruby/symbol name_ru
+  : "Красный Луч"
+  ? !ruby/symbol name_uk
+  : "Красний Луч"
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kreminna
+  ? !ruby/symbol name_ru
+  : Кремінна
+  ? !ruby/symbol name_uk
+  : Кремінна
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kremenets
+  ? !ruby/symbol name_ru
+  : Кременець
+  ? !ruby/symbol name_uk
+  : Кременець
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kremenchug
+  ? !ruby/symbol name_ru
+  : Кременчуг
+  ? !ruby/symbol name_uk
+  : Кременчук
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : "Krivoy Rog"
+  ? !ruby/symbol name_ru
+  : "Кривой Рог"
+  ? !ruby/symbol name_uk
+  : "Кривий Ріг"
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Krolevets
+  ? !ruby/symbol name_ru
+  : Кролевець
+  ? !ruby/symbol name_uk
+  : Кролевець
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : "Great Bridge"
+  ? !ruby/symbol name_ru
+  : "Крупные Мосты"
+  ? !ruby/symbol name_uk
+  : "Великі Мости"
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kuznetsovsk
+  ? !ruby/symbol name_ru
+  : Кузнецовск
+  ? !ruby/symbol name_uk
+  : Кузнецовськ
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kup'jans'k
+  ? !ruby/symbol name_ru
+  : Куп'янськ
+  ? !ruby/symbol name_uk
+  : Куп'янськ
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kurakhove
+  ? !ruby/symbol name_ru
+  : Курахово
+  ? !ruby/symbol name_uk
+  : Курахове
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Ladyzhin
+  ? !ruby/symbol name_ru
+  : Ладижин
+  ? !ruby/symbol name_uk
+  : Ладижин
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Lanivtsi
+  ? !ruby/symbol name_ru
+  : Ланівці
+  ? !ruby/symbol name_uk
+  : Ланівці
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Swan
+  ? !ruby/symbol name_ru
+  : Лебедин
+  ? !ruby/symbol name_uk
+  : Лебедин
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Lipovec
+  ? !ruby/symbol name_ru
+  : Липовец
+  ? !ruby/symbol name_uk
+  : Липовець
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Lisichansk
+  ? !ruby/symbol name_ru
+  : Лисичанск
+  ? !ruby/symbol name_uk
+  : Лисичанськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Lozova
+  ? !ruby/symbol name_ru
+  : Лозова
+  ? !ruby/symbol name_uk
+  : Лозова
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Lokhvytsya
+  ? !ruby/symbol name_ru
+  : Лохвиця
+  ? !ruby/symbol name_uk
+  : Лохвиця
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Lubni
+  ? !ruby/symbol name_ru
+  : Лубны
+  ? !ruby/symbol name_uk
+  : Лубни
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Lugansk
+  ? !ruby/symbol name_ru
+  : Луганск
+  ? !ruby/symbol name_uk
+  : Луганськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Lutugino
+  ? !ruby/symbol name_ru
+  : Лутугине
+  ? !ruby/symbol name_uk
+  : Лутугине
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Luck
+  ? !ruby/symbol name_ru
+  : Луцк
+  ? !ruby/symbol name_uk
+  : Луцьк
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Lions
+  ? !ruby/symbol name_ru
+  : Львов
+  ? !ruby/symbol name_uk
+  : Львів
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Lyuboml
+  ? !ruby/symbol name_ru
+  : Любомль
+  ? !ruby/symbol name_uk
+  : Любомль
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Lyubotin
+  ? !ruby/symbol name_ru
+  : Люботин
+  ? !ruby/symbol name_uk
+  : Люботин
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Makiyivka
+  ? !ruby/symbol name_ru
+  : Макеевка
+  ? !ruby/symbol name_uk
+  : Макіївка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : "Small Plummet"
+  ? !ruby/symbol name_ru
+  : "Малая Виска"
+  ? !ruby/symbol name_uk
+  : "Мала Виска"
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Raspberry
+  ? !ruby/symbol name_ru
+  : Малин
+  ? !ruby/symbol name_uk
+  : Малин
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Мар'їнка
+  ? !ruby/symbol name_ru
+  : Мар'їнка
+  ? !ruby/symbol name_uk
+  : Мар'їнка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Manganese
+  ? !ruby/symbol name_ru
+  : Марганець
+  ? !ruby/symbol name_uk
+  : Марганець
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Mariupol
+  ? !ruby/symbol name_ru
+  : Мариуполь
+  ? !ruby/symbol name_uk
+  : Маріуполь
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Melitopol
+  ? !ruby/symbol name_ru
+  : Мелитополь
+  ? !ruby/symbol name_uk
+  : Мелітополь
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Mena
+  ? !ruby/symbol name_ru
+  : Мена
+  ? !ruby/symbol name_uk
+  : Мена
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Merefa
+  ? !ruby/symbol name_ru
+  : Мерефа
+  ? !ruby/symbol name_uk
+  : Мерефа
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Nikolaevka
+  ? !ruby/symbol name_ru
+  : Миколаївка
+  ? !ruby/symbol name_uk
+  : Миколаївка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Mirgorod
+  ? !ruby/symbol name_ru
+  : Миргород
+  ? !ruby/symbol name_uk
+  : Миргород
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Mironovka
+  ? !ruby/symbol name_ru
+  : Миронівка
+  ? !ruby/symbol name_uk
+  : Миронівка
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Miusynsk
+  ? !ruby/symbol name_ru
+  : Миусинская
+  ? !ruby/symbol name_uk
+  : Міусинськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Mogilev-podolsky
+  ? !ruby/symbol name_ru
+  : Могилев-подольский
+  ? !ruby/symbol name_uk
+  : Могилів-подільський
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Molodogvardijs'ka
+  ? !ruby/symbol name_ru
+  : Молодогвардейская
+  ? !ruby/symbol name_uk
+  : Молодогвардійськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Molochansk
+  ? !ruby/symbol name_ru
+  : Молочанск
+  ? !ruby/symbol name_uk
+  : Молочанськ
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Monastiris'ka
+  ? !ruby/symbol name_ru
+  : Монастириська
+  ? !ruby/symbol name_uk
+  : Монастириська
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Monastirische
+  ? !ruby/symbol name_ru
+  : Монастирище
+  ? !ruby/symbol name_uk
+  : Монастирище
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Morshyn
+  ? !ruby/symbol name_ru
+  : Моршин
+  ? !ruby/symbol name_uk
+  : Моршин
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Mospyne
+  ? !ruby/symbol name_ru
+  : Моспино
+  ? !ruby/symbol name_uk
+  : Моспине
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Mostiska
+  ? !ruby/symbol name_ru
+  : Мостиська
+  ? !ruby/symbol name_uk
+  : Мостиська
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Mukachevo
+  ? !ruby/symbol name_ru
+  : Мукачево
+  ? !ruby/symbol name_uk
+  : Мукачеве
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Nadvirna
+  ? !ruby/symbol name_ru
+  : Надвірна
+  ? !ruby/symbol name_uk
+  : Надвірна
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Nizhin
+  ? !ruby/symbol name_ru
+  : Нежин
+  ? !ruby/symbol name_uk
+  : Ніжин
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Nemiriv
+  ? !ruby/symbol name_ru
+  : Немиров
+  ? !ruby/symbol name_uk
+  : Немирів
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Netishyn
+  ? !ruby/symbol name_ru
+  : Нетешин
+  ? !ruby/symbol name_uk
+  : Нетішин
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Nicholas
+  ? !ruby/symbol name_ru
+  : Николаев
+  ? !ruby/symbol name_uk
+  : Миколаїв
+  ? !ruby/symbol obl_en
+  : "Mykolaiv Region"
+  ? !ruby/symbol obl_ru
+  : "Николаевская Область"
+  ? !ruby/symbol obl_uk
+  : "Миколаївська Область"
+- 
+  ? !ruby/symbol name_en
+  : Nicholas
+  ? !ruby/symbol name_ru
+  : Николаев
+  ? !ruby/symbol name_uk
+  : Миколаїв
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Nikopol
+  ? !ruby/symbol name_ru
+  : Никополь
+  ? !ruby/symbol name_uk
+  : Нікополь
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : "New Kahovka"
+  ? !ruby/symbol name_ru
+  : "Новая Каховка"
+  ? !ruby/symbol name_uk
+  : "Нова Каховка"
+  ? !ruby/symbol obl_en
+  : "Kherson Region"
+  ? !ruby/symbol obl_ru
+  : "Херсонская Область"
+  ? !ruby/symbol obl_uk
+  : "Херсонська Область"
+- 
+  ? !ruby/symbol name_en
+  : "Old City"
+  ? !ruby/symbol name_ru
+  : "Новая Одесса"
+  ? !ruby/symbol name_uk
+  : "Нова Одеса"
+  ? !ruby/symbol obl_en
+  : "Mykolaiv Region"
+  ? !ruby/symbol obl_ru
+  : "Николаевская Область"
+  ? !ruby/symbol obl_uk
+  : "Миколаївська Область"
+- 
+  ? !ruby/symbol name_en
+  : Novgorod-seversky
+  ? !ruby/symbol name_ru
+  : Новгород-северский
+  ? !ruby/symbol name_uk
+  : Новгород-сіверський
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Novoazovsk
+  ? !ruby/symbol name_ru
+  : Новоазовськ
+  ? !ruby/symbol name_uk
+  : Новоазовськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Novovolins'k
+  ? !ruby/symbol name_ru
+  : Нововолынск
+  ? !ruby/symbol name_uk
+  : Нововолинськ
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Novograd-volyn
+  ? !ruby/symbol name_ru
+  : Новоград-волинський
+  ? !ruby/symbol name_uk
+  : Новоград-волинський
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Novogrodivka
+  ? !ruby/symbol name_ru
+  : Новогродовка
+  ? !ruby/symbol name_uk
+  : Новогродівка
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Novodnistrovsk
+  ? !ruby/symbol name_ru
+  : Новодністровськ
+  ? !ruby/symbol name_uk
+  : Новодністровськ
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Novodruzhesk
+  ? !ruby/symbol name_ru
+  : Новодружеская
+  ? !ruby/symbol name_uk
+  : Новодружеськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Novomyrhorod
+  ? !ruby/symbol name_ru
+  : Новомиргород
+  ? !ruby/symbol name_uk
+  : Новомиргород
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Novomoskovs'k
+  ? !ruby/symbol name_ru
+  : Новомосковск
+  ? !ruby/symbol name_uk
+  : Новомосковськ
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Novoselitsya
+  ? !ruby/symbol name_ru
+  : Новоселиця
+  ? !ruby/symbol name_uk
+  : Новоселиця
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Novoukrayinka
+  ? !ruby/symbol name_ru
+  : Новоукраїнка
+  ? !ruby/symbol name_uk
+  : Новоукраїнка
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Novoiavorivske
+  ? !ruby/symbol name_ru
+  : Новояворовское
+  ? !ruby/symbol name_uk
+  : Новояворівськ
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : "New Bug"
+  ? !ruby/symbol name_ru
+  : "Новый Буг"
+  ? !ruby/symbol name_uk
+  : "Новий Буг"
+  ? !ruby/symbol obl_en
+  : "Mykolaiv Region"
+  ? !ruby/symbol obl_ru
+  : "Николаевская Область"
+  ? !ruby/symbol obl_uk
+  : "Миколаївська Область"
+- 
+  ? !ruby/symbol name_en
+  : "New Chapter"
+  ? !ruby/symbol name_ru
+  : "Новый Раздел"
+  ? !ruby/symbol name_uk
+  : "Новий Розділ"
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Handkerchief
+  ? !ruby/symbol name_ru
+  : Носовка
+  ? !ruby/symbol name_uk
+  : Носівка
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Obuhiv
+  ? !ruby/symbol name_ru
+  : Обухов
+  ? !ruby/symbol name_uk
+  : Обухів
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ovruch
+  ? !ruby/symbol name_ru
+  : Овруч
+  ? !ruby/symbol name_uk
+  : Овруч
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Odessa
+  ? !ruby/symbol name_ru
+  : Одесса
+  ? !ruby/symbol name_uk
+  : Одеса
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Olevs'k
+  ? !ruby/symbol name_ru
+  : Олевськ
+  ? !ruby/symbol name_uk
+  : Олевськ
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ordzhonikidze
+  ? !ruby/symbol name_ru
+  : Орджоникидзе
+  ? !ruby/symbol name_uk
+  : Орджонікідзе
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Nuts
+  ? !ruby/symbol name_ru
+  : Орехов
+  ? !ruby/symbol name_uk
+  : Оріхів
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Oster
+  ? !ruby/symbol name_ru
+  : Остер
+  ? !ruby/symbol name_uk
+  : Остер
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ostrog
+  ? !ruby/symbol name_ru
+  : Острог
+  ? !ruby/symbol name_uk
+  : Острог
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ohtirka
+  ? !ruby/symbol name_ru
+  : Охтирка
+  ? !ruby/symbol name_uk
+  : Охтирка
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ochakov
+  ? !ruby/symbol name_ru
+  : Очаков
+  ? !ruby/symbol name_uk
+  : Очаків
+  ? !ruby/symbol obl_en
+  : "Mykolaiv Region"
+  ? !ruby/symbol obl_ru
+  : "Николаевская Область"
+  ? !ruby/symbol obl_uk
+  : "Миколаївська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pavlograd
+  ? !ruby/symbol name_ru
+  : Павлоград
+  ? !ruby/symbol name_uk
+  : Павлоград
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pervomaysky
+  ? !ruby/symbol name_ru
+  : Первомайский
+  ? !ruby/symbol name_uk
+  : Первомайський
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pervomajs'k
+  ? !ruby/symbol name_ru
+  : Первомайськ
+  ? !ruby/symbol name_uk
+  : Первомайськ
+  ? !ruby/symbol obl_en
+  : "Mykolaiv Region"
+  ? !ruby/symbol obl_ru
+  : "Николаевская Область"
+  ? !ruby/symbol obl_uk
+  : "Миколаївська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pervomajs'k
+  ? !ruby/symbol name_ru
+  : Первомайськ
+  ? !ruby/symbol name_uk
+  : Первомайськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Perevalsk
+  ? !ruby/symbol name_ru
+  : Перевальский
+  ? !ruby/symbol name_uk
+  : Перевальськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Peremyshlyany
+  ? !ruby/symbol name_ru
+  : Перемишляни
+  ? !ruby/symbol name_uk
+  : Перемишляни
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Perechin
+  ? !ruby/symbol name_ru
+  : Перечин
+  ? !ruby/symbol name_uk
+  : Перечин
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pereschepyne
+  ? !ruby/symbol name_ru
+  : Перещепино
+  ? !ruby/symbol name_uk
+  : Перещепине
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pereyaslav-khmelnitsky
+  ? !ruby/symbol name_ru
+  : Переяслав-хмельницкий
+  ? !ruby/symbol name_uk
+  : Переяслав-хмельницький
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pershotravensk
+  ? !ruby/symbol name_ru
+  : Першотравенськ
+  ? !ruby/symbol name_uk
+  : Першотравенськ
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Peter
+  ? !ruby/symbol name_ru
+  : Петровская
+  ? !ruby/symbol name_uk
+  : Петровське
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Piryatin
+  ? !ruby/symbol name_ru
+  : Пирятин
+  ? !ruby/symbol name_uk
+  : Пирятин
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pogrebische
+  ? !ruby/symbol name_ru
+  : Погребище
+  ? !ruby/symbol name_uk
+  : Погребище
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Pidgaitsi
+  ? !ruby/symbol name_ru
+  : Подгайцы
+  ? !ruby/symbol name_uk
+  : Підгайці
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pidhorodne
+  ? !ruby/symbol name_ru
+  : Подгородное
+  ? !ruby/symbol name_uk
+  : Підгородне
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Polonne
+  ? !ruby/symbol name_ru
+  : Полонне
+  ? !ruby/symbol name_uk
+  : Полонне
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Poltava
+  ? !ruby/symbol name_ru
+  : Полтава
+  ? !ruby/symbol name_uk
+  : Полтава
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pomichna
+  ? !ruby/symbol name_ru
+  : Помошная
+  ? !ruby/symbol name_uk
+  : Помічна
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Popasna
+  ? !ruby/symbol name_ru
+  : Попасна
+  ? !ruby/symbol name_uk
+  : Попасна
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pochaev
+  ? !ruby/symbol name_ru
+  : Почаев
+  ? !ruby/symbol name_uk
+  : Почаїв
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Freedom
+  ? !ruby/symbol name_ru
+  : Приволье
+  ? !ruby/symbol name_uk
+  : Привілля
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Priluki
+  ? !ruby/symbol name_ru
+  : Прилуки
+  ? !ruby/symbol name_uk
+  : Прилуки
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Primorsk
+  ? !ruby/symbol name_ru
+  : Приморськ
+  ? !ruby/symbol name_uk
+  : Приморськ
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Pustomyty
+  ? !ruby/symbol name_ru
+  : Пустомыты
+  ? !ruby/symbol name_uk
+  : Пустомити
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Putyvl
+  ? !ruby/symbol name_ru
+  : Путивль
+  ? !ruby/symbol name_uk
+  : Путивль
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Pyatykhatky
+  ? !ruby/symbol name_ru
+  : Пятихатки
+  ? !ruby/symbol name_uk
+  : П'ятихатки
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Rava-ruska
+  ? !ruby/symbol name_ru
+  : Рава-русская
+  ? !ruby/symbol name_uk
+  : Рава-руська
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Radekhov
+  ? !ruby/symbol name_ru
+  : Радехов
+  ? !ruby/symbol name_uk
+  : Радехів
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Radiviliv
+  ? !ruby/symbol name_ru
+  : Радивилів
+  ? !ruby/symbol name_uk
+  : Радивилів
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Radomishl
+  ? !ruby/symbol name_ru
+  : Радомишль
+  ? !ruby/symbol name_uk
+  : Радомишль
+  ? !ruby/symbol obl_en
+  : "Zhytomyr Region"
+  ? !ruby/symbol obl_ru
+  : "Житомирська Область"
+  ? !ruby/symbol obl_uk
+  : "Житомирська Область"
+- 
+  ? !ruby/symbol name_en
+  : Rachel
+  ? !ruby/symbol name_ru
+  : Рахов
+  ? !ruby/symbol name_uk
+  : Рахів
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Reni
+  ? !ruby/symbol name_ru
+  : Рені
+  ? !ruby/symbol name_uk
+  : Рені
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Rzhishchev
+  ? !ruby/symbol name_ru
+  : Ржищев
+  ? !ruby/symbol name_uk
+  : Ржищів
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Rovenky
+  ? !ruby/symbol name_ru
+  : Ровеньки
+  ? !ruby/symbol name_uk
+  : Ровеньки
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Rivne
+  ? !ruby/symbol name_ru
+  : Ровно
+  ? !ruby/symbol name_uk
+  : Рівне
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Rohatyn
+  ? !ruby/symbol name_ru
+  : Рогатин
+  ? !ruby/symbol name_uk
+  : Рогатин
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Rodynske
+  ? !ruby/symbol name_ru
+  : Родинское
+  ? !ruby/symbol name_uk
+  : Родинське
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Rodi
+  ? !ruby/symbol name_ru
+  : Роды
+  ? !ruby/symbol name_uk
+  : Пологи
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Rozhysche
+  ? !ruby/symbol name_ru
+  : Рожище
+  ? !ruby/symbol name_uk
+  : Рожище
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Division
+  ? !ruby/symbol name_ru
+  : Роздільна
+  ? !ruby/symbol name_uk
+  : Роздільна
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Romney
+  ? !ruby/symbol name_ru
+  : Ромни
+  ? !ruby/symbol name_uk
+  : Ромни
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Rubizhne
+  ? !ruby/symbol name_ru
+  : Рубежное
+  ? !ruby/symbol name_uk
+  : Рубіжне
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Rudky
+  ? !ruby/symbol name_ru
+  : Рудка
+  ? !ruby/symbol name_uk
+  : Рудки
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Saco
+  ? !ruby/symbol name_ru
+  : Саки
+  ? !ruby/symbol name_uk
+  : Саки
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Sambir
+  ? !ruby/symbol name_ru
+  : Самбор
+  ? !ruby/symbol name_uk
+  : Самбір
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Sarna
+  ? !ruby/symbol name_ru
+  : Сарни
+  ? !ruby/symbol name_uk
+  : Сарни
+  ? !ruby/symbol obl_en
+  : "Rivne Region"
+  ? !ruby/symbol obl_ru
+  : "Ровенская Область"
+  ? !ruby/symbol obl_uk
+  : "Рівненська Область"
+- 
+  ? !ruby/symbol name_en
+  : Svalyava
+  ? !ruby/symbol name_ru
+  : Свалява
+  ? !ruby/symbol name_uk
+  : Свалява
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Svatovo
+  ? !ruby/symbol name_ru
+  : Сватово
+  ? !ruby/symbol name_uk
+  : Сватове
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Sverdlovsk
+  ? !ruby/symbol name_ru
+  : Свердловск
+  ? !ruby/symbol name_uk
+  : Свердловськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Svitlovods'k
+  ? !ruby/symbol name_ru
+  : Светловодск
+  ? !ruby/symbol name_uk
+  : Світловодськ
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Sevastopol
+  ? !ruby/symbol name_ru
+  : Севастополь
+  ? !ruby/symbol name_uk
+  : Севастополь
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Syeverodonec'k
+  ? !ruby/symbol name_ru
+  : Северодонецк
+  ? !ruby/symbol name_uk
+  : Сєвєродонецьк
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Siverskiy
+  ? !ruby/symbol name_ru
+  : Северский
+  ? !ruby/symbol name_uk
+  : Сіверськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Selydove
+  ? !ruby/symbol name_ru
+  : Селидове
+  ? !ruby/symbol name_uk
+  : Селидове
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Semenivka
+  ? !ruby/symbol name_ru
+  : Семеновка
+  ? !ruby/symbol name_uk
+  : Семенівка
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Mid-buda
+  ? !ruby/symbol name_ru
+  : Середина-буда
+  ? !ruby/symbol name_uk
+  : Середина-буда
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Simferopol
+  ? !ruby/symbol name_ru
+  : Симферополь
+  ? !ruby/symbol name_uk
+  : Сімферополь
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Sinel'nikove
+  ? !ruby/symbol name_ru
+  : Синельникове
+  ? !ruby/symbol name_uk
+  : Синельникове
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Skadovs'k
+  ? !ruby/symbol name_ru
+  : Скадовск
+  ? !ruby/symbol name_uk
+  : Скадовськ
+  ? !ruby/symbol obl_en
+  : "Kherson Region"
+  ? !ruby/symbol obl_ru
+  : "Херсонская Область"
+  ? !ruby/symbol obl_uk
+  : "Херсонська Область"
+- 
+  ? !ruby/symbol name_en
+  : Skalat
+  ? !ruby/symbol name_ru
+  : Скалат
+  ? !ruby/symbol name_uk
+  : Скалат
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Skvira
+  ? !ruby/symbol name_ru
+  : Сквира
+  ? !ruby/symbol name_uk
+  : Сквира
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Skole
+  ? !ruby/symbol name_ru
+  : Сколе
+  ? !ruby/symbol name_uk
+  : Сколе
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Slavuta
+  ? !ruby/symbol name_ru
+  : Славута
+  ? !ruby/symbol name_uk
+  : Славута
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Slavutich
+  ? !ruby/symbol name_ru
+  : Славутич
+  ? !ruby/symbol name_uk
+  : Славутич
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Slov'yans'k
+  ? !ruby/symbol name_ru
+  : Славянск
+  ? !ruby/symbol name_uk
+  : Слов'янськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Bold
+  ? !ruby/symbol name_ru
+  : Смела
+  ? !ruby/symbol name_uk
+  : Сміла
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Снігурівка
+  ? !ruby/symbol name_ru
+  : Снігурівка
+  ? !ruby/symbol name_uk
+  : Снігурівка
+  ? !ruby/symbol obl_en
+  : "Mykolaiv Region"
+  ? !ruby/symbol obl_ru
+  : "Николаевская Область"
+  ? !ruby/symbol obl_uk
+  : "Миколаївська Область"
+- 
+  ? !ruby/symbol name_en
+  : Snizhne
+  ? !ruby/symbol name_ru
+  : Снежное
+  ? !ruby/symbol name_uk
+  : Сніжне
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Snyatin
+  ? !ruby/symbol name_ru
+  : Снятин
+  ? !ruby/symbol name_uk
+  : Снятин
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Meetings
+  ? !ruby/symbol name_ru
+  : Собрания
+  ? !ruby/symbol name_uk
+  : Зборів
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Sokal
+  ? !ruby/symbol name_ru
+  : Сокаль
+  ? !ruby/symbol name_uk
+  : Сокаль
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Sokiryany
+  ? !ruby/symbol name_ru
+  : Сокиряни
+  ? !ruby/symbol name_uk
+  : Сокиряни
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Soledar
+  ? !ruby/symbol name_ru
+  : Соледар
+  ? !ruby/symbol name_uk
+  : Соледар
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Sosnivka
+  ? !ruby/symbol name_ru
+  : Сосновка
+  ? !ruby/symbol name_uk
+  : Соснівка
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Starobelsk
+  ? !ruby/symbol name_ru
+  : Старобельск
+  ? !ruby/symbol name_uk
+  : Старобільськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Starokostyantyniv
+  ? !ruby/symbol name_ru
+  : Староконстантинов
+  ? !ruby/symbol name_uk
+  : Старокостянтинів
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : "Old Crimea"
+  ? !ruby/symbol name_ru
+  : "Старый Крым"
+  ? !ruby/symbol name_uk
+  : "Старий Крим"
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : "Old Sambir"
+  ? !ruby/symbol name_ru
+  : "Старый Самбор"
+  ? !ruby/symbol name_uk
+  : "Старий Самбір"
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Stahanov
+  ? !ruby/symbol name_ru
+  : Стаханов
+  ? !ruby/symbol name_uk
+  : Стаханов
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Stebnyk
+  ? !ruby/symbol name_ru
+  : Стебник
+  ? !ruby/symbol name_uk
+  : Стебник
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Storozhinets
+  ? !ruby/symbol name_ru
+  : Сторожинець
+  ? !ruby/symbol name_uk
+  : Сторожинець
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Stry
+  ? !ruby/symbol name_ru
+  : Стрий
+  ? !ruby/symbol name_uk
+  : Стрий
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Sudak
+  ? !ruby/symbol name_ru
+  : Судак
+  ? !ruby/symbol name_uk
+  : Судак
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : "Ship Cherry"
+  ? !ruby/symbol name_ru
+  : "Судебная Вишня"
+  ? !ruby/symbol name_uk
+  : "Судова Вишня"
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Msa
+  ? !ruby/symbol name_ru
+  : Сумы
+  ? !ruby/symbol name_uk
+  : Суми
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Sukhodilsk
+  ? !ruby/symbol name_ru
+  : Суходольск
+  ? !ruby/symbol name_uk
+  : Суходільськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Happiness
+  ? !ruby/symbol name_ru
+  : Счастья
+  ? !ruby/symbol name_uk
+  : Щастя
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Tavria
+  ? !ruby/symbol name_ru
+  : Таврійськ
+  ? !ruby/symbol name_uk
+  : Таврійськ
+  ? !ruby/symbol obl_en
+  : "Kherson Region"
+  ? !ruby/symbol obl_ru
+  : "Херсонская Область"
+  ? !ruby/symbol obl_uk
+  : "Херсонська Область"
+- 
+  ? !ruby/symbol name_en
+  : Tal'ne
+  ? !ruby/symbol name_ru
+  : Тальне
+  ? !ruby/symbol name_uk
+  : Тальне
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Tarashcha
+  ? !ruby/symbol name_ru
+  : Тараща
+  ? !ruby/symbol name_uk
+  : Тараща
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Tatarbunary
+  ? !ruby/symbol name_ru
+  : Татарбунари
+  ? !ruby/symbol name_uk
+  : Татарбунари
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Teplogirsk
+  ? !ruby/symbol name_ru
+  : Теплогорск
+  ? !ruby/symbol name_uk
+  : Теплогірськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Teplodar
+  ? !ruby/symbol name_ru
+  : "Теплодар (горсовет)"
+  ? !ruby/symbol name_uk
+  : Теплодар
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Terebovlya
+  ? !ruby/symbol name_ru
+  : Теребовля
+  ? !ruby/symbol name_uk
+  : Теребовля
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ternivka
+  ? !ruby/symbol name_ru
+  : Терновка
+  ? !ruby/symbol name_uk
+  : Тернівка
+  ? !ruby/symbol obl_en
+  : "Dnipropetrovsk Region"
+  ? !ruby/symbol obl_ru
+  : "Днепропетровская Область"
+  ? !ruby/symbol obl_uk
+  : "Дніпропетровська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ternopil
+  ? !ruby/symbol name_ru
+  : Тернополь
+  ? !ruby/symbol name_uk
+  : Тернопіль
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Aunt
+  ? !ruby/symbol name_ru
+  : Тетіїв
+  ? !ruby/symbol name_uk
+  : Тетіїв
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Tysmenytsia
+  ? !ruby/symbol name_ru
+  : Тисмениця
+  ? !ruby/symbol name_uk
+  : Тисмениця
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Tolmach
+  ? !ruby/symbol name_ru
+  : Тлумач
+  ? !ruby/symbol name_uk
+  : Тлумач
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Tokmakov
+  ? !ruby/symbol name_ru
+  : Токмак
+  ? !ruby/symbol name_uk
+  : Токмак
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : Torez
+  ? !ruby/symbol name_ru
+  : Торез
+  ? !ruby/symbol name_uk
+  : Торез
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Trostyanec
+  ? !ruby/symbol name_ru
+  : Тростянец
+  ? !ruby/symbol name_uk
+  : Тростянець
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Truskavets
+  ? !ruby/symbol name_ru
+  : Трускавец
+  ? !ruby/symbol name_uk
+  : Трускавець
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Tulchin
+  ? !ruby/symbol name_ru
+  : Тульчин
+  ? !ruby/symbol name_uk
+  : Тульчин
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Turks
+  ? !ruby/symbol name_ru
+  : Турка
+  ? !ruby/symbol name_uk
+  : Турка
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Tyachev
+  ? !ruby/symbol name_ru
+  : Тячев
+  ? !ruby/symbol name_uk
+  : Тячів
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Uglegorsk
+  ? !ruby/symbol name_ru
+  : Углегорск
+  ? !ruby/symbol name_uk
+  : Вуглегірськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Uhniv
+  ? !ruby/symbol name_ru
+  : Угнев
+  ? !ruby/symbol name_uk
+  : Угнів
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Uzhgorod
+  ? !ruby/symbol name_ru
+  : Ужгород
+  ? !ruby/symbol name_uk
+  : Ужгород
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Uzin
+  ? !ruby/symbol name_ru
+  : Узин
+  ? !ruby/symbol name_uk
+  : Узин
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ukrainian
+  ? !ruby/symbol name_ru
+  : Украинская
+  ? !ruby/symbol name_uk
+  : Українка
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ukrainian
+  ? !ruby/symbol name_ru
+  : Украинская
+  ? !ruby/symbol name_uk
+  : Українськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Ulianovka
+  ? !ruby/symbol name_ru
+  : Ульяновка
+  ? !ruby/symbol name_uk
+  : Ульяновка
+  ? !ruby/symbol obl_en
+  : "Kirovohrad Region"
+  ? !ruby/symbol obl_ru
+  : "Кировоградская Область"
+  ? !ruby/symbol obl_uk
+  : "Кіровоградська Область"
+- 
+  ? !ruby/symbol name_en
+  : Uman
+  ? !ruby/symbol name_ru
+  : Умань
+  ? !ruby/symbol name_uk
+  : Умань
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Ustilug
+  ? !ruby/symbol name_ru
+  : Устилуг
+  ? !ruby/symbol name_uk
+  : Устилуг
+  ? !ruby/symbol obl_en
+  : "Volyn Region"
+  ? !ruby/symbol obl_ru
+  : "Волынская Область"
+  ? !ruby/symbol obl_uk
+  : "Волинська Область"
+- 
+  ? !ruby/symbol name_en
+  : Фастів
+  ? !ruby/symbol name_ru
+  : Фастов
+  ? !ruby/symbol name_uk
+  : Фастів
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Theodosius
+  ? !ruby/symbol name_ru
+  : Феодосия
+  ? !ruby/symbol name_uk
+  : Феодосія
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Harciz'k
+  ? !ruby/symbol name_ru
+  : Харцизьк
+  ? !ruby/symbol name_uk
+  : Харцизьк
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Kharkiv
+  ? !ruby/symbol name_ru
+  : Харьков
+  ? !ruby/symbol name_uk
+  : Харків
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Kherson
+  ? !ruby/symbol name_ru
+  : Херсон
+  ? !ruby/symbol name_uk
+  : Херсон
+  ? !ruby/symbol obl_en
+  : "Kherson Region"
+  ? !ruby/symbol obl_ru
+  : "Херсонская Область"
+  ? !ruby/symbol obl_uk
+  : "Херсонська Область"
+- 
+  ? !ruby/symbol name_en
+  : Хмільник
+  ? !ruby/symbol name_ru
+  : Хмельник
+  ? !ruby/symbol name_uk
+  : Хмільник
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Khmelnitsky
+  ? !ruby/symbol name_ru
+  : Хмельницкий
+  ? !ruby/symbol name_uk
+  : Хмельницький
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Khodoriv
+  ? !ruby/symbol name_ru
+  : Ходоров
+  ? !ruby/symbol name_uk
+  : Ходорів
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Horol
+  ? !ruby/symbol name_ru
+  : Хорол
+  ? !ruby/symbol name_uk
+  : Хорол
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Khorostkiv
+  ? !ruby/symbol name_ru
+  : Хоростков
+  ? !ruby/symbol name_uk
+  : Хоростків
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Khotyn
+  ? !ruby/symbol name_ru
+  : Хотин
+  ? !ruby/symbol name_uk
+  : Хотин
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Hristinovka
+  ? !ruby/symbol name_ru
+  : Христиновка
+  ? !ruby/symbol name_uk
+  : Христинівка
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Justo
+  ? !ruby/symbol name_ru
+  : Хуст
+  ? !ruby/symbol name_uk
+  : Хуст
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Khyriv
+  ? !ruby/symbol name_ru
+  : Хырив
+  ? !ruby/symbol name_uk
+  : Хирів
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Tsyurupinsk
+  ? !ruby/symbol name_ru
+  : Цюрупинськ
+  ? !ruby/symbol name_uk
+  : Цюрупинськ
+  ? !ruby/symbol obl_en
+  : "Kherson Region"
+  ? !ruby/symbol obl_ru
+  : "Херсонская Область"
+  ? !ruby/symbol obl_uk
+  : "Херсонська Область"
+- 
+  ? !ruby/symbol name_en
+  : Chervonograd
+  ? !ruby/symbol name_ru
+  : Червоноград
+  ? !ruby/symbol name_uk
+  : Червоноград
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Chervonozavods'ka
+  ? !ruby/symbol name_ru
+  : Червонозаводское
+  ? !ruby/symbol name_uk
+  : Червонозаводське
+  ? !ruby/symbol obl_en
+  : "Poltava Region"
+  ? !ruby/symbol obl_ru
+  : "Полтавская Область"
+  ? !ruby/symbol obl_uk
+  : "Полтавська Область"
+- 
+  ? !ruby/symbol name_en
+  : Chervonopartyzansk
+  ? !ruby/symbol name_ru
+  : Червонопартизанск
+  ? !ruby/symbol name_uk
+  : Червонопартизанськ
+  ? !ruby/symbol obl_en
+  : "Luhansk Region"
+  ? !ruby/symbol obl_ru
+  : "Луганская Область"
+  ? !ruby/symbol obl_uk
+  : "Луганська Область"
+- 
+  ? !ruby/symbol name_en
+  : Cherkassy
+  ? !ruby/symbol name_ru
+  : Черкассы
+  ? !ruby/symbol name_uk
+  : Черкаси
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Chernivtsi
+  ? !ruby/symbol name_ru
+  : Чернигов
+  ? !ruby/symbol name_uk
+  : Чернігів
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Chernobyl
+  ? !ruby/symbol name_ru
+  : Чернобыль
+  ? !ruby/symbol name_uk
+  : Чорнобиль
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Chernihiv
+  ? !ruby/symbol name_ru
+  : Черновцы
+  ? !ruby/symbol name_uk
+  : Чернівці
+  ? !ruby/symbol obl_en
+  : "Zaporiz'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Черновицкая Область"
+  ? !ruby/symbol obl_uk
+  : "Чернівецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Chigirin
+  ? !ruby/symbol name_ru
+  : Чигирин
+  ? !ruby/symbol name_uk
+  : Чигирин
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Chop
+  ? !ruby/symbol name_ru
+  : Чоп
+  ? !ruby/symbol name_uk
+  : Чоп
+  ? !ruby/symbol obl_en
+  : "Zakarpatska Region"
+  ? !ruby/symbol obl_ru
+  : "Закарпатская Область"
+  ? !ruby/symbol obl_uk
+  : "Закарпатська Область"
+- 
+  ? !ruby/symbol name_en
+  : Chortkiv
+  ? !ruby/symbol name_ru
+  : Чортков
+  ? !ruby/symbol name_uk
+  : Чортків
+  ? !ruby/symbol obl_en
+  : "Ternopil's'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Тернопольская Область"
+  ? !ruby/symbol obl_uk
+  : "Тернопільська Область"
+- 
+  ? !ruby/symbol name_en
+  : Chuguyiv
+  ? !ruby/symbol name_ru
+  : Чугуев
+  ? !ruby/symbol name_uk
+  : Чугуїв
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Shargorod
+  ? !ruby/symbol name_ru
+  : Шаргород
+  ? !ruby/symbol name_uk
+  : Шаргород
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Shahtarsk
+  ? !ruby/symbol name_ru
+  : Шахтарськ
+  ? !ruby/symbol name_uk
+  : Шахтарськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Shepetovka
+  ? !ruby/symbol name_ru
+  : Шепетовка
+  ? !ruby/symbol name_uk
+  : Шепетівка
+  ? !ruby/symbol obl_en
+  : "Khmelnytsky Region"
+  ? !ruby/symbol obl_ru
+  : "Хмельницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Хмельницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Shostka
+  ? !ruby/symbol name_ru
+  : Шостка
+  ? !ruby/symbol name_uk
+  : Шостка
+  ? !ruby/symbol obl_en
+  : "Sumska Region"
+  ? !ruby/symbol obl_ru
+  : "Сумская Область"
+  ? !ruby/symbol obl_uk
+  : "Сумська Область"
+- 
+  ? !ruby/symbol name_en
+  : Shpola
+  ? !ruby/symbol name_ru
+  : Шпола
+  ? !ruby/symbol name_uk
+  : Шпола
+  ? !ruby/symbol obl_en
+  : "Cherkasy Region"
+  ? !ruby/symbol obl_ru
+  : "Черкасская Область"
+  ? !ruby/symbol obl_uk
+  : "Черкаська Область"
+- 
+  ? !ruby/symbol name_en
+  : Shcholkine
+  ? !ruby/symbol name_ru
+  : Щелкино
+  ? !ruby/symbol name_uk
+  : Щолкіне
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Schorsa
+  ? !ruby/symbol name_ru
+  : Щорс
+  ? !ruby/symbol name_uk
+  : Щорс
+  ? !ruby/symbol obl_en
+  : "Chernigivska Region"
+  ? !ruby/symbol obl_ru
+  : "Черниговская Область"
+  ? !ruby/symbol obl_uk
+  : "Чернігівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Energodar
+  ? !ruby/symbol name_ru
+  : Энергодар
+  ? !ruby/symbol name_uk
+  : Енергодар
+  ? !ruby/symbol obl_en
+  : "Zaporizhzhya Region"
+  ? !ruby/symbol obl_ru
+  : "Запорожская Область"
+  ? !ruby/symbol obl_uk
+  : "Запорізька Область"
+- 
+  ? !ruby/symbol name_en
+  : South
+  ? !ruby/symbol name_ru
+  : Южное
+  ? !ruby/symbol name_uk
+  : Південне
+  ? !ruby/symbol obl_en
+  : "Kharkiv Region"
+  ? !ruby/symbol obl_ru
+  : "Харьковский Область"
+  ? !ruby/symbol obl_uk
+  : "Харківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Yuzhne
+  ? !ruby/symbol name_ru
+  : Южное
+  ? !ruby/symbol name_uk
+  : Южне
+  ? !ruby/symbol obl_en
+  : "Odesa Region"
+  ? !ruby/symbol obl_ru
+  : "Одесская Область"
+  ? !ruby/symbol obl_uk
+  : "Одеська Область"
+- 
+  ? !ruby/symbol name_en
+  : Yuzhnoukrainsk
+  ? !ruby/symbol name_ru
+  : Южноукраинск
+  ? !ruby/symbol name_uk
+  : Южноукраїнськ
+  ? !ruby/symbol obl_en
+  : "Mykolaiv Region"
+  ? !ruby/symbol obl_ru
+  : "Николаевская Область"
+  ? !ruby/symbol obl_uk
+  : "Миколаївська Область"
+- 
+  ? !ruby/symbol name_en
+  : Yunokomunarivsk
+  ? !ruby/symbol name_ru
+  : Юнокоммунаровск
+  ? !ruby/symbol name_uk
+  : Юнокомунарівськ
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"
+- 
+  ? !ruby/symbol name_en
+  : Yavoriv
+  ? !ruby/symbol name_ru
+  : Яворів
+  ? !ruby/symbol name_uk
+  : Яворів
+  ? !ruby/symbol obl_en
+  : "Lviv Region"
+  ? !ruby/symbol obl_ru
+  : "Львовская Область"
+  ? !ruby/symbol obl_uk
+  : "Львівська Область"
+- 
+  ? !ruby/symbol name_en
+  : Yagotin
+  ? !ruby/symbol name_ru
+  : Яготин
+  ? !ruby/symbol name_uk
+  : Яготин
+  ? !ruby/symbol obl_en
+  : Kiev
+  ? !ruby/symbol obl_ru
+  : "Киевская Область"
+  ? !ruby/symbol obl_uk
+  : "Київська Область"
+- 
+  ? !ruby/symbol name_en
+  : Yalta
+  ? !ruby/symbol name_ru
+  : Ялта
+  ? !ruby/symbol name_uk
+  : Ялта
+  ? !ruby/symbol obl_en
+  : "Autonomous Republic Of Crimea"
+  ? !ruby/symbol obl_ru
+  : "Автономная Республика Крым"
+  ? !ruby/symbol obl_uk
+  : "Автономна Республіка Крим"
+- 
+  ? !ruby/symbol name_en
+  : Yampil
+  ? !ruby/symbol name_ru
+  : Ямпіль
+  ? !ruby/symbol name_uk
+  : Ямпіль
+  ? !ruby/symbol obl_en
+  : "Vinnitska Region"
+  ? !ruby/symbol obl_ru
+  : "Винницкая Область"
+  ? !ruby/symbol obl_uk
+  : "Вінницька Область"
+- 
+  ? !ruby/symbol name_en
+  : Yaremche
+  ? !ruby/symbol name_ru
+  : Яремча
+  ? !ruby/symbol name_uk
+  : Яремче
+  ? !ruby/symbol obl_en
+  : "Ivano-Frankivs'ka Region"
+  ? !ruby/symbol obl_ru
+  : "Ивано-Франковськая Область"
+  ? !ruby/symbol obl_uk
+  : "Івано-Франківська Область"
+- 
+  ? !ruby/symbol name_en
+  : Yasinovataya
+  ? !ruby/symbol name_ru
+  : Ясиноватая
+  ? !ruby/symbol name_uk
+  : Ясинувата
+  ? !ruby/symbol obl_en
+  : "Donetsk Region"
+  ? !ruby/symbol obl_ru
+  : "Донецкая Область"
+  ? !ruby/symbol obl_uk
+  : "Донецька Область"

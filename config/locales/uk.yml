@@ -1,4 +1,7 @@
 uk:
+  date:
+    standalone_month_names: [~, Січень, Лютий, Березень, Квітень, Травень, Червень, Липень, Серпень, Вересень, Жовтень, Листопад, Грудень]
+    order: [ :day, :month, :year ]
   activerecord:
     models:
       user: Користувач
@@ -11,10 +14,27 @@ uk:
         password_confirmation: 'Підтвердження паролю'
         first_name: "Ім'я"
         last_name: Прізвище
+        second_name: По-батькові
         age: Вік
         gender: Стать
+        gendre: Стать
         avatar: Фото 
         role: Роль
+        dob: Дата народження
+        company_name: Назва
+        city: Місто
+        address: Адреса
+        web_site: Веб-сайт
+        phone_home: Робочій телефон
+        phone_mobile_1: Телефон 1
+        phone_mobile_2: Телефон 2
+        phone_mobile_3: Телефон 3
+        fax: Факс
+        position: Посада
+        photo: Фотографія
+        logo: Логотип
+        short_description: Короткий опис (не більше 250 символів)
+        description: Про компанію, детальна інформація
       contact:
         name: "Ім'я"
         body: Повідомлення
@@ -27,6 +47,9 @@ uk:
       region:
         name_uk: "Область"
         name_ru: "Область"
+      session:
+        email: Емейл
+        password: Пароль
   layouts:
     application:
       test: тест
@@ -133,3 +156,27 @@ uk:
   admin_link: Адмінка
   my_profile_link: Мій профіль
   exit_link: (вихід)
+  
+  
+  sign_in: Вхід на сайт
+  sign_in_button: Вхід
+  sign_up: Реєстрація
+  forgot_password: Забули пароль?
+  sign_up_button: Зареєструватись
+  
+  reset_you_password: Відновлення паролю
+  reset_you_password_button: Вислати
+  reset_you_password_text: Ми вишлемо вам емейл з посиланням на сторінку відновлення паролю.
+  
+  change_your_password: Зміна паролю
+  change_your_password_text: Введіть ваш новий пароль.
+  change_your_password_button: Зберегти новий пароль
+  
+  edit_profile_link: Редагувати профіль
+  edit_details_profile_link: Налаштування
+  
+  edit_profile_title: "Налаштування: {{name}}"
+  edit_user_profile_title: "Редагування профілю: {{name}}"
+  
+  male: чоловіча
+  female: жіноча

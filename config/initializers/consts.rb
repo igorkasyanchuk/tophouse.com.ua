@@ -1,4 +1,3 @@
-GENDERS_ARRAY = [["Male", "Male"], ["Female", "Female"]]
 YES_NO_ARRAY = [[I18n.t('yes_label'), true], [I18n.t('no_label'), false]]
 
 SEO = {

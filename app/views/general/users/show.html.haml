@@ -1,0 +1,24 @@
+- title @user.user_name
+%h2.heading
+  = @user.user_name
+  = link_to t('edit_action'), edit_resource_path(current_user), :class => 'small_link'
+%dl
+  %dt Персональна інформація
+  %dd= @user.first_name
+  %dd= @user.last_name
+  %dd= @user.second_name
+  %dd= I18n.t(@user.gendre) if @user.gendre
+  %dd= @user.dob
+  %dd= @user.position
+  %dd= (image_tag @user.photo.url(:normal)) if @user.photo.exists?
+  %dt Компанія
+  %dd= @user.company_name
+  %dd= @user.city
+  %dd= @user.address
+  %dd= @user.web_site
+  %dd= @user.email
+  %dd= @user.phone_home
+  %dd= @user.phone_mobile_1
+  %dd= @user.phone_mobile_2
+  %dd= @user.fax
+  %dd= (image_tag @user.logo.url(:thumb)) if @user.logo.exists?

@@ -2,10 +2,18 @@ class User < ActiveRecord::Base
   include Pacecar
   include Clearance::User
   
+  belongs_to :city
+  belongs_to :region
+  GENDERS = ['male', 'female']
+  
   enumeration_for :role, ROLES_ARRAY, :single => true
   enumeration_for :plan, ["A", "B", "C"], :single => true
+  enumeration_for :gendre, GENDERS, :single => true
+  
   has_attached_file :logo, :styles => { :thumb => ["120x40>", :png]}
   has_attached_file :photo, :styles => { :thumb => ["50x50>", :png], :small => ["80x80>", :png], :normal => ["350x350>", :png]}
+  
+  validates_length_of :short_description, :maximum  => 250, :allow_nil => true, :allow_blank => true
   
   def to_param
     "#{id}-#{(company_name || "").gsub(/[^a-z0-9а-яА-ЯіІїЇєЄъы]+/i, '-')}"

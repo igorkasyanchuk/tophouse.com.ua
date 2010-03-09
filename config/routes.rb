@@ -13,9 +13,7 @@ ActionController::Routing::Routes.draw do |map|
   
   map.namespace :general do |general_map|
     general_map.dashboard 'dashboard', :controller => 'dashboard', :action => 'index'
-    general_map.resources :users, :only => [:update, :edit] do |user_map|
-      user_map.resources :photos, :only => [:destroy]
-    end
+    general_map.resources :users, :only => [:update, :edit, :show], :member => { :edit_details => :any, :update_details => :any }
   end
 
   map.namespace :admin do |admin_map|

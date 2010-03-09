@@ -25,6 +25,7 @@ Rails::Initializer.run do |config|
   config.gem 'hoptoad_notifier'
   config.gem 'formtastic'
   config.gem 'clearance'
+  config.gem 'searchlogic'
   config.gem 'russian', :source => 'http://gemcutter.org'
   
   # Only load the plugins named here, in the order given (default is alphabetical).

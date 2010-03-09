@@ -1,0 +1,7 @@
+%h1.heading= 'Додати нове місто'
+  
+- semantic_form_for([:admin, @city]) do |form|
+  = render 'form', :form => form
+  - form.buttons do
+    = form.commit_button 'Створити'
+    = link_to 'Назад', collection_path    

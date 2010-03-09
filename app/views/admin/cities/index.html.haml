@@ -1,0 +1,28 @@
+%h1.heading Міста
+
+.actions-bar
+  %div{:class => "left search"}
+    - form_for @search do |f|
+      = f.text_field :name_uk, :class => 'input-s'
+      = f.submit("Фільтр")
+  
+%p.actions
+  = link_to 'Додати місто', new_resource_path
+
+.clear
+= will_paginate @collection
+.clear
+
+  
+%table
+  %thead
+    %tr
+      %th Назва
+      %th Область
+      %th.actions Дії
+  %tbody.items.cities
+    - @cities.each do |city|
+      = render 'item', :city => city
+
+= will_paginate @collection
+ 

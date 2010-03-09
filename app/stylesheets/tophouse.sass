@@ -206,7 +206,7 @@ div.line_before
   :font-family= !base_font
   :line-height 21px
     
-#root input, #root textarea
+#root input, #root textarea, #root select
   :padding 1px 0 0 6px
   :padding-top 4px
   :font-size 14px
@@ -235,6 +235,16 @@ div.line_before
   :background transparent url(/images/input-bg.gif) 0px 0px repeat-x
   :font-size 14px
   :line-height 21px
+  
+#root .input-ws
+  :padding 1px 6px
+  :padding-top 4px
+  :width 150px
+  :height 21px
+  :border= "1px solid #{!input_border_color}"
+  :background transparent url(/images/input-bg.gif) 0px 0px repeat-x
+  :font-size 14px
+  :line-height 21px  
   
 h1
   :color= !h1_color
@@ -661,3 +671,9 @@ ul.admin_menu
           
 .small_link
   :font-size 12px
+  
+p.actions
+  :float left  
+  
+div.actions-bar
+  :float right  

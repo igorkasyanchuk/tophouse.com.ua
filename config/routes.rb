@@ -25,6 +25,7 @@ ActionController::Routing::Routes.draw do |map|
     admin_map.resources :companies, :except => [:new, :create]
     admin_map.resources :users, :except => [:new, :create]
   	admin_map.resources :user_logs
+  	admin_map.resources :cities
   end
 
   map.resources :contacts, :only => [:new, :create, :destroy, :index], :controller => 'feedback'

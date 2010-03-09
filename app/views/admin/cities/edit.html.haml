@@ -1,0 +1,7 @@
+%h1.heading= "Редагувати місто %s" % @city.name_uk
+  
+- semantic_form_for([:admin, @city]) do |form|
+  = render 'form', :form => form
+  - form.buttons do
+    = form.commit_button 'Оновити'
+    = link_to 'Відміна', collection_path    

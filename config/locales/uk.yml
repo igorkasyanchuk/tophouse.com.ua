@@ -18,6 +18,14 @@ uk:
         name: "Ім'я"
         body: Повідомлення
         email: Емейл
+      city:
+        name_uk: "Назва (укр)"
+        name_ru: "Назва (рос)"
+        region_id: Область
+        region: Область
+      region:
+        name_uk: "Область"
+        name_ru: "Область"
   layouts:
     application:
       test: тест

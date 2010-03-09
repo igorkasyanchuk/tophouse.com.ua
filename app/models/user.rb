@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
   enumeration_for :role, ROLES_ARRAY, :single => true
   enumeration_for :plan, ["A", "B", "C"], :single => true
   has_attached_file :logo, :styles => { :thumb => ["120x40>", :png]}
+  has_attached_file :photo, :styles => { :thumb => ["50x50>", :png], :small => ["80x80>", :png], :normal => ["350x350>", :png]}
   
   def to_param
     "#{id}-#{(company_name || "").gsub(/[^a-z0-9а-яА-ЯіІїЇєЄъы]+/i, '-')}"

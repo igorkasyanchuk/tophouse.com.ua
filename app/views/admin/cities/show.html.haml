@@ -1,0 +1,14 @@
+%h1.heading= "Місто %s" % @city.name_uk
+  
+- content_tag_for(:dl, @city) do
+  %dt Назва (укр)
+  %dd= h @city.name_uk
+  %dt Назва (рос)
+  %dd= h @city.name_ru
+  %dt Область
+  %dd= h @city.region.name_uk
+  
+%p.actions
+  = link_to 'Редагувати', edit_resource_path(@city)
+  |
+  = link_to 'Назад', collection_path

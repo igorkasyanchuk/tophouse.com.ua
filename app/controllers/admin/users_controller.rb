@@ -1,13 +1,12 @@
 class Admin::UsersController < Admin::AdminController
   actions :index, :show, :edit, :update, :destroy, :confirm
   respond_to :html, :js, :xml, :json
-  add_pagination!(30)
   
   def index
     if params['q']
-      @users = User.search_for(params['q'], :on => [:first_name, :last_name, :company_name, :email]).paginate :page => params[:page],  :order => 'users.created_at DESC'
+      @users = User.search_for(params['q'], :on => [:first_name, :last_name, :company_name, :email]).paginate :page => params[:page],  :order => 'users.created_at DESC', :per_page => 20
     else
-      @users = User.paginate :page => params[:page],  :order => 'users.created_at DESC'
+      @users = User.paginate :page => params[:page],  :order => 'users.created_at DESC', :per_page => 20
     end
   end
   

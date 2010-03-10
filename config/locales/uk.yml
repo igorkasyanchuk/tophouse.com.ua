@@ -46,10 +46,32 @@ uk:
         region: Область
       region:
         name_uk: "Область"
-        name_ru: "Область"
+      photo:
+        photo: "Фото"
       session:
         email: Емейл
         password: Пароль
+      site:
+        dollar: Доллар
+        euro: Євро
+      garage:
+        title: "Заголовок"
+        i_am_type: "Я власник/посередник"
+        region_id: Область
+        city_id: Місто
+        city: Місто
+        address: Адреса
+        square: Площа
+        adv_text: Оголошення
+        price: Ціна
+        currency_id: Валюта
+        price_cached: Ціна
+        contact_phone: Контактний телефон 
+        contact_email: Емейл
+        user_id: Користувач
+        adv_type: Тип оголошення
+        created_at: Додано
+        updated_at: Оновлено
   layouts:
     application:
       test: тест
@@ -184,3 +206,15 @@ uk:
   my_objects: Ваші оголошення
   my_objects_garages: Гаражі
   my_notepad: Ваш блокнот
+  filter_text: "Фільтр:"
+  filter_button: фільтр
+  
+  new_garage_link: Додати Гараж
+  owner: власник
+  middle_man: посередник
+  ukr_currency: грн.
+  us_currency: долл.
+  euro_currency: євро
+  
+  garage_show_title: "Гараж {{g}}"
+  garage_edit_title: "Редагувати гараж: {{g}}"

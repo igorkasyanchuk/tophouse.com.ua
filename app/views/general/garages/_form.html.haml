@@ -1,14 +1,14 @@
 - form.inputs do
-  = form.input :title, :label => 'Title'
-  = form.input :i_am_type, :label => 'I am type'
-  = form.input :o_id, :label => 'O'
-  = form.input :m_id, :label => 'M'
-  = form.input :address, :label => 'Address'
-  = form.input :square, :label => 'Square'
-  = form.input :adv_text, :label => 'Adv text'
-  = form.input :price, :label => 'Price'
-  = form.input :currency_id, :label => 'Currency'
-  = form.input :price_cached, :label => 'Price cached'
-  = form.input :contact_phone, :label => 'Contact phone'
-  = form.input :contact_email, :label => 'Contact email'
-  = form.input :user_id, :label => 'User'
+  = form.input :title, :input_html => { :class => 'input-s' }
+  = form.input :city, :label_method => "name_#{I18n.locale}"
+  = form.input :i_am_type, :as => :select, :collection => I_AM_TYPES.collect{|g| [t(g), g]}
+  = form.input :address, :input_html => { :class => 'input-s' }
+  = form.input :square, :input_html => { :class => 'input-s' }
+  = form.input :adv_text, :input_html => { :class => 'textarea-w', :rows => 4 }, :as => :text
+  = form.input :price, :input_html => { :class => 'input-s' }
+  = form.input :currency_id, :as => :select, :collection => CURRENCIES.collect{|g| [t(g), g]}
+  = form.input :contact_phone, :input_html => { :class => 'input-s' }
+  = form.input :contact_email, :input_html => { :class => 'input-s' }
+  = form.input :user_id, :input_html => { :class => 'input-s' }, :as => :hidden, :value => current_user.id
+  - form.semantic_fields_for :photos do |photo_form|
+    = photo_form.input :photo, :as => :file, :name => 'photo #%i'

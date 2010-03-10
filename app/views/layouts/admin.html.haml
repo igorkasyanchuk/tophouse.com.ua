@@ -13,6 +13,7 @@
           %ul
             %li= link_to "Управління користувачами", admin_users_path
             %li= link_to "Управління містами", admin_cities_path
+            %li= link_to 'Керування сайтом', admin_site_path
       %li
         = link_to t('my_profile_link'), general_user_path(current_user)
         %ul

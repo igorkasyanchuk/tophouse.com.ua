@@ -1,35 +1,36 @@
-%h1.heading
-  = "Garage %s" % @garage.id
+- title t('garage_show_title', :g => @garage.uuid)
+
+.actions-bar
+  = link_to t('edit'), edit_resource_path(@garage)
+  |
+  = link_to t('back'), collection_path    
+
+%p.actions
+  %h1= t('garage_show_title', :g => @garage.uuid)
   
 - content_tag_for(:dl, @garage) do
-  %dt.label= 'Title'
-  %dd.title= h @garage.try(:title)
-  %dt.label= 'I am type'
-  %dd.i_am_type= h @garage.try(:i_am_type)
-  %dt.label= 'O'
-  %dd.o_id= h @garage.try(:o_id)
-  %dt.label= 'M'
-  %dd.m_id= h @garage.try(:m_id)
-  %dt.label= 'Address'
-  %dd.address= h @garage.try(:address)
-  %dt.label= 'Square'
-  %dd.square= h @garage.try(:square)
-  %dt.label= 'Adv text'
-  %dd.adv_text= h @garage.try(:adv_text)
-  %dt.label= 'Price'
-  %dd.price= h @garage.try(:price)
-  %dt.label= 'Currency'
-  %dd.currency_id= h @garage.try(:currency_id)
-  %dt.label= 'Price cached'
-  %dd.price_cached= h @garage.try(:price_cached)
-  %dt.label= 'Contact phone'
-  %dd.contact_phone= h @garage.try(:contact_phone)
-  %dt.label= 'Contact email'
-  %dd.contact_email= h @garage.try(:contact_email)
-  %dt.label= 'User'
-  %dd.user_id= h @garage.try(:user_id)
+  %dt= t('activerecord.attributes.garage.title')
+  %dd= h @garage.title
+  %dt= t('activerecord.attributes.garage.i_am_type')
+  %dd= t @garage.i_am_type
+  %dt= t('activerecord.attributes.garage.city')
+  %dd= h @garage.city.name
+  %dt= t('activerecord.attributes.garage.address')
+  %dd= h @garage.address
+  %dt= t('activerecord.attributes.garage.square')
+  %dd= h @garage.format_square_format(:square)
+  %dt= t('activerecord.attributes.garage.adv_text')
+  %dd= h @garage.adv_text
+  %dt= t('activerecord.attributes.garage.price')
+  %dd= @garage.full_price(:price_cached)
+  %dt= t('activerecord.attributes.garage.contact_phone')
+  %dd= h @garage.contact_phone
+  %dt= t('activerecord.attributes.garage.contact_email')
+  %dd= h @garage.contact_email
+  %dt= t('activerecord.attributes.garage.user_id')
+  %dd= h @garage.user.user_name
   
 %p.actions
-  = link_to 'Edit', edit_resource_path(@garage)
+  = link_to t('edit'), edit_resource_path(@garage)
   |
-  = link_to 'Index', collection_path
+  = link_to t('back'), collection_path

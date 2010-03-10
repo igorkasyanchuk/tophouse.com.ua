@@ -39,3 +39,10 @@ ADV_TYPE_RENT = 'Зняти'
 ADV_TYPE_GIVE = 'Здати'
 
 ADV_TYPES = [ ADV_TYPE_SELL, ADV_TYPE_BUY, ADV_TYPE_RENT, ADV_TYPE_GIVE ]
+I_AM_TYPES = ['owner', 'middle_man']
+
+UKR_CURRENCY = 'ukr_currency'
+US_CURRENCY = 'us_currency'
+EURO_CURRENCY = 'euro_currency'
+
+CURRENCIES = [UKR_CURRENCY, US_CURRENCY, EURO_CURRENCY]

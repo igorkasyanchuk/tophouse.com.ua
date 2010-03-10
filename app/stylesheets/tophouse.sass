@@ -40,6 +40,7 @@
 !footer_bg_color= !color2
 !menu_bg_color= !color5
 !footer_link_color= !color4
+!text_color= !color4
 
 =round(!p)
   :-moz-border-radius= !p
@@ -212,6 +213,9 @@ div.line_before
   :font-size 14px
   :font-family= !base_font
   :line-height 21px
+  
+#root select  
+  :padding 2px 0px
   
 .input_border_color
   :border-color= "#{!input_border_color}"
@@ -738,3 +742,9 @@ div.actions-bar
 .user_user
   :background-color green
   :color white
+  
+.main_price  
+  :color= !text_color
+  
+.additional_price
+  :color= !text_color + #555

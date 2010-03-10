@@ -1,10 +1,8 @@
-%h1.heading
-  = "Editing garage %s" % @garage.id
+- title t('garage_edit_title', :g => @garage.uuid)
+%h1= t('garage_edit_title', :g => @garage.uuid)
   
-- semantic_form_for(@garage) do |form|
+- semantic_form_for([:general, @user, @garage], :html => { :multipart => true }) do |form|
   = render 'form', :form => form
   - form.buttons do
-    = form.commit_button 'Update'
-    
-%p.actions
-  = link_to 'Cancel', collection_path
+    = form.commit_button t('update')
+    = link_to t('cancel'), collection_path

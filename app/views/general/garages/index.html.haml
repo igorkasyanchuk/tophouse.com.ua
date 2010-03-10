@@ -12,18 +12,23 @@
   
 %p.actions
   = link_to t('new_garage_link'), new_resource_path
-  
-%table
-  %thead
-    %tr
-      %th.title= t('activerecord.attributes.garage.title')
-      %th.address= t('activerecord.attributes.garage.address')
-      %th.square= t('activerecord.attributes.garage.square')
-      %th.price= t('activerecord.attributes.garage.price')
-      %th.actions= t('actions')
-  %tbody.items.garages
-    - @garages.each do |garage|
-      = render 'item', :garage => garage
 
-= will_paginate @collection
- 
+- unless @garages.empty?  
+  %table
+    %thead
+      %tr
+        %th #
+        %th.title= order @search, :by => :title, :as => t('activerecord.attributes.garage.title')
+        %th.address= t('activerecord.attributes.garage.address')
+        %th.square= order @search, :by => :square, :as => t('activerecord.attributes.garage.square')
+        %th.price= order @search, :by => :price_cached, :as => t('activerecord.attributes.garage.price')
+        %th.price= order @search, :by => :created_at, :as => t('activerecord.attributes.garage.created_at')
+        %th.actions= t('actions')
+    %tbody.items.garages
+      - @garages.each do |garage|
+        = render 'item', :garage => garage
+  
+  = will_paginate @collection
+- else
+  %div.clear
+  %strong= t('list_is_blank')   

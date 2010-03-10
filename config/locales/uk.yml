@@ -70,7 +70,7 @@ uk:
         contact_email: Емейл
         user_id: Користувач
         adv_type: Тип оголошення
-        created_at: Додано
+        created_at: Додано о
         updated_at: Оновлено
   layouts:
     application:
@@ -218,3 +218,5 @@ uk:
   
   garage_show_title: "Гараж {{g}}"
   garage_edit_title: "Редагувати гараж: {{g}}"
+  
+  list_is_blank: Список пустий.

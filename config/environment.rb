@@ -67,11 +67,6 @@ Haml::Template::options[:ugly] = true if Rails.env == 'production'
 $KCODE = 'u'
 require 'jcode'
 
-WillPaginate::ViewHelpers.pagination_options[:previous_label] = I18n.t('prev_page')
-WillPaginate::ViewHelpers.pagination_options[:next_label] = I18n.t('next_page')
-WillPaginate::ViewHelpers.pagination_options[:first_label] = I18n.t('first_page')
-WillPaginate::ViewHelpers.pagination_options[:last_label] = I18n.t('last_page')
-
 def log_to(stream)
   ActiveRecord::Base.logger = Logger.new(stream)
   ActiveRecord::Base.clear_active_connections!

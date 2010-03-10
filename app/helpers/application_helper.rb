@@ -1,4 +1,14 @@
 module ApplicationHelper
+  include WillPaginate::ViewHelpers 
+
+  def will_paginate_with_i18n(collection, options = {}) 
+    will_paginate_without_i18n(collection, options.merge(
+      :previous_label => I18n.t(:prev_page), 
+      :next_label => I18n.t(:next_page),
+      :first_label => I18n.t(:first_page), 
+      :last_label => I18n.t(:last_page))) 
+  end 
+  alias_method_chain :will_paginate, :i18n  
 
   def flash_messages
     messages = []

@@ -1,8 +1,11 @@
 - content_tag_for(:tr, garage, :class => cycle(:odd, :even)) do
-  %td= h garage.title
+  %td= garage.uuid
+  %td
+    %strong= h garage.title
   %td= h garage.address
   %td= h garage.format_square_format(:square)
   %td= garage.full_price(:price_cached)
+  %td= l garage.created_at, :format => :long
   %td.actions
     = link_to t('show_action'), resource_path(garage)
     |

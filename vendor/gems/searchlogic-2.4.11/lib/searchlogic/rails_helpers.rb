@@ -33,10 +33,10 @@ module Searchlogic
       if selected
         css_classes = html_options[:class] ? html_options[:class].split(" ") : []
         if ascending
-          options[:as] = "&#9650;&nbsp;#{options[:as]}"
+          options[:as] = "#{options[:as]}&nbsp;&uarr;"
           css_classes << "ascending"
         else
-          options[:as] = "&#9660;&nbsp;#{options[:as]}"
+          options[:as] = "#{options[:as]}&nbsp;&darr;"
           css_classes << "descending"
         end
         html_options[:class] = css_classes.join(" ")

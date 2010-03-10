@@ -1,0 +1,13 @@
+.admin_right, .admin_left
+  table thead
+    :background-color= !color4
+    :color= !color1
+    a
+      :color= !color1
+      :text-decoration none
+  table tbody tr.odd
+    :background-color= !color1
+  table tbody tr.even
+    :background-color= !color2 + #555
+  table td, table th
+    :border-color= !color1 - #111

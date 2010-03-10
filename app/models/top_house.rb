@@ -1,7 +1,7 @@
 module TopHouse
 
   def to_dollar(field)
-    (self.send(field) / Site.dollar)
+    (self.send(field) / Site.dollar.to_i)
   end
   
   def to_dollar_format(field)
@@ -9,7 +9,7 @@ module TopHouse
   end
   
   def to_euro(field)
-    (self.send(field) / Site.euro)
+    (self.send(field) / Site.euro.to_i)
   end
   
   def to_euro_format(field)
@@ -32,7 +32,7 @@ module TopHouse
     "#{format_square(field)} м²"
   end  
   
-  def before_update
+  def before_save
     _p = self.price
     if self.currency_id == US_CURRENCY
       _p *= Site.dollar
@@ -40,6 +40,8 @@ module TopHouse
       _p *= Site.euro
     end
     self.price_cached = _p
+    c = City.find_by_id(city_id)
+    self.region_id = c.region_id if c
   end
   
   def full_price(field)

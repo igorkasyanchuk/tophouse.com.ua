@@ -1,0 +1,9 @@
+- title 'Адмінка - Налаштування сайту'
+
+%h2.heading= "Редагувати налаштування"
+  
+- semantic_form_for([:admin, @site], :url=> admin_site_path) do |form|
+  = render 'form', :form => form
+  - form.buttons do
+    = form.commit_button 'Оновити'
+    = link_to 'Відміна', admin_dashboard_path

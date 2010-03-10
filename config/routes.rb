@@ -13,7 +13,11 @@ ActionController::Routing::Routes.draw do |map|
   
   map.namespace :general do |general_map|
     general_map.dashboard 'dashboard', :controller => 'dashboard', :action => 'index'
-    general_map.resources :users, :only => [:update, :edit, :show], :member => { :edit_details => :any, :update_details => :any }
+    general_map.lots 'lots', :controller => 'dashboard', :action => 'lots'
+    general_map.notepad 'notepad', :controller => 'dashboard', :action => 'notepad'
+    general_map.resources :users, :only => [:update, :edit, :show], :member => { :edit_details => :any, :update_details => :any } do |umap|
+      umap.resources :garages
+    end
   end
 
   map.namespace :admin do |admin_map|

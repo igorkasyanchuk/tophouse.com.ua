@@ -4,6 +4,8 @@ class User < ActiveRecord::Base
   
   belongs_to :city
   belongs_to :region
+  has_many :garages, :dependent => :destroy
+  
   GENDERS = ['male', 'female']
   
   enumeration_for :role, ROLES_ARRAY, :single => true
@@ -49,5 +51,21 @@ class User < ActiveRecord::Base
   def agent?
     self.is_a?(Agent)
   end
+  
+  def class_info
+    return 'rieltor_user' if rieltor?
+    return 'company_user' if company?
+    return 'agent_user' if agent?
+    return 'admin_user' if admin?
+    return 'user_user'
+  end
+  
+  def user_info
+    return 'rieltor' if rieltor?
+    return 'company' if company?
+    return 'agent' if agent?
+    return 'admin' if admin?
+    return 'user'
+  end  
     
 end

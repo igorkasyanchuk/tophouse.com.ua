@@ -18,4 +18,10 @@
         %ul
           %li= link_to t('edit_profile_link'), edit_general_user_path(current_user)
           %li= link_to t('edit_details_profile_link'), edit_details_general_user_path(current_user)
+      %li
+        = link_to t('my_objects'), general_lots_path
+        %ul
+          %li= link_to t('my_objects_garages'), general_user_garages_path(current_user)
+      %li
+        = link_to t('my_notepad'), general_notepad_path
   .clear

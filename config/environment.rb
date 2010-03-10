@@ -12,7 +12,7 @@ Rails::Initializer.run do |config|
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
 
-  config.gem "inherited_resources", :source => 'http://gemcutter.org'
+  config.gem "inherited_resources", :source => 'http://gemcutter.org', :version => "=1.0.3"
   config.gem "has_scope", :source => 'http://gemcutter.org'
   config.gem "responders", :source => 'http://gemcutter.org'
   config.gem "pacecar", :source => 'http://gemcutter.org'

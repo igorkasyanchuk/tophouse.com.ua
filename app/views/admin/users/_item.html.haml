@@ -2,6 +2,7 @@
   %td= user.id
   %td
     = link_to h(user.company_name), user
+    %span{:class => user.class_info}= user.user_info
   %td
     = h user.user_name
     = mail_to h(user.email)

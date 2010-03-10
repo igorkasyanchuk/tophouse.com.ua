@@ -23,7 +23,7 @@
     = form.input :fax, :input_html => { :class => 'input-s' }
     = form.input :logo
     = form.input :short_description, :input_html => { :class => 'textarea-w', :rows => 4 }, :as => :text
-    = form.input :description, :input_html => { :class => 'textarea-w', :rows => 8  }
+    = form.input :description, :input_html => { :class => 'textarea-xxl', :rows => 10  }
   - form.buttons do
     = form.submit t('update_action')
     = link_to t('cancel_action'), general_dashboard_path

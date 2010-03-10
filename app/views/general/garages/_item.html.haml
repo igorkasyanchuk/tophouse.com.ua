@@ -1,0 +1,20 @@
+- content_tag_for(:tr, garage, :class => cycle(:odd, :even)) do
+  %td.title= h garage.try(:title)
+  %td.i_am_type= h garage.try(:i_am_type)
+  %td.o_id= h garage.try(:o_id)
+  %td.m_id= h garage.try(:m_id)
+  %td.address= h garage.try(:address)
+  %td.square= h garage.try(:square)
+  %td.adv_text= h garage.try(:adv_text)
+  %td.price= h garage.try(:price)
+  %td.currency_id= h garage.try(:currency_id)
+  %td.price_cached= h garage.try(:price_cached)
+  %td.contact_phone= h garage.try(:contact_phone)
+  %td.contact_email= h garage.try(:contact_email)
+  %td.user_id= h garage.try(:user_id)
+  %td.actions
+    = link_to 'Show', resource_path(garage)
+    |
+    = link_to 'Edit', edit_resource_path(garage)
+    |
+    = link_to 'Destroy', resource, :confirm => 'Are you sure?', :method => :delete

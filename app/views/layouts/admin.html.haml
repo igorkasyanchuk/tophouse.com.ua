@@ -1,4 +1,13 @@
+- content_for :admin_menu do
+  %li.admin_menu_link.selected
+    %strong= link_to t('dashboard'), general_dashboard_path
+    
+- content_for :on_ready do
+  hide_add_realty_block();
+  select_menu('.admin_menu_link');
+
 - inside_layout 'application' do
+  .clear
   .contentwrapper
     .admin_right
       = yield

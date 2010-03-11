@@ -1,7 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
   map.filter 'locale'
   
-  map.resources :regions, :only => [:index, :show] do |rmap|
+  map.resources :regions, :only => [:index, :show], :shallow => true do |rmap|
     rmap.resources :cities, :only => [:index, :show]
   end
   

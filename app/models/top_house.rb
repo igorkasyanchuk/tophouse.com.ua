@@ -1,68 +1,35 @@
 module TopHouse
   
-  attr_accessor :published_on
+  def self.included(base)
+    base.extend(ClassMethods)
+    base.send(:include, InstanceMethods)
+  end
+  
+  module ClassMethods
+    
+    def init_top_house
+      enumeration_for :adv_type, ADV_TYPES, :single => true
+      enumeration_for :i_am_type, I_AM_TYPES, :single => true
+      enumeration_for :currency_id, CURRENCIES, :single => true
+      belongs_to :city
+      belongs_to :region
+      belongs_to :user
 
-  def to_dollar(field)
-    (self.send(field) / Site.dollar.to_i)
-  end
-  
-  def to_dollar_format(field)
-    "#{to_dollar(field)} дол."
-  end
-  
-  def to_euro(field)
-    (self.send(field) / Site.euro.to_i)
-  end
-  
-  def to_euro_format(field)
-    "#{to_euro(field)} євро."
-  end
-  
-  def to_grivna(field)
-    self.send(field)
-  end
-  
-  def to_grivna_format(field)
-    "#{to_grivna(field)} грн."
-  end
-  
-  def format_square(field)
-    ("%.2f" % self.send(field)).gsub('.00', '')
-  end
-  
-  def format_square_format(field)
-    "#{format_square(field)} м²"
-  end  
-  
-  def before_save
-    _p = self.price
-    if self.currency_id == US_CURRENCY
-      _p *= Site.dollar
-    elsif self.currency_id == EURO_CURRENCY
-      _p *= Site.euro
+      has_many :photos, :as => :photable
+      has_and_belongs_to_many :users
+      
+      validates_presence_of :title
+      validates_presence_of :adv_text
+      validates_presence_of :price
+      validates_numericality_of :price
+      validates_numericality_of :square
+      
+      accepts_nested_attributes_for :photos, :allow_destroy => true, :reject_if => proc { |attributes| attributes.any? {|k,v| v.blank? } }     
     end
-    self.price_cached = _p
-    c = City.find_by_id(city_id)
-    self.region_id = c.region_id if c
-    self.published_to = Time.now + self.published_on.to_i.days
+    
   end
   
-  def viewed!
-    self.increment!(:viewes)
-  end
-  
-  def hot?
-    self.hot
-  end
-  
-  def full_price(field)
-    if self.currency_id == US_CURRENCY
-      "<span class='main_price'>#{to_dollar_format(field)}</span><span class='additional_price'>(#{to_grivna_format(field)}, #{to_euro_format(field)})</span>"
-    elsif self.currency_id == EURO_CURRENCY
-      "<span class='main_price'>#{to_euro_format(field)}</span><span class='additional_price'>(#{to_grivna_format(field)}, #{to_dollar_format(field)})</span>"
-    else
-      "<span class='main_price'>#{to_grivna_format(field)}</span><span class='additional_price'>(#{to_dollar_format(field)}, #{to_euro_format(field)})</span>"
-    end
+  module InstanceMethods
   end
   
 end

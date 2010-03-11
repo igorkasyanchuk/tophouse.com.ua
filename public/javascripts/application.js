@@ -26,3 +26,7 @@ function init_menu() {
   $('.agencies_link').click(function() { select_menu(this) } );
   $('.companies_link').click(function() { select_menu(this) } );
 }
+
+function hide_add_realty_block() {
+  $('.add_realty').addClass('none');  
+}

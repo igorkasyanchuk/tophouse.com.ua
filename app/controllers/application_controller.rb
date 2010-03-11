@@ -13,6 +13,8 @@ class ApplicationController < ActionController::Base
   helper_method :available_locales
   before_filter :set_locale
   
+  before_filter :set_my_region!
+  
   rescue_from ActionController::RoutingError, :with => :render_404
   rescue_from ActiveRecord::RecordNotFound, :with => :render_404
   
@@ -60,29 +62,12 @@ class ApplicationController < ActionController::Base
       end
       true
     end     
-  
-    def history_from_cookies
-      r = cookies[:history] || ''
-      r
-    end
     
-    def set_history(h)
-      while h.length > 1800
-        logger.info h.length
-        n = h.split(PopularsController::SYMBOL_END_HISTORY)
-        n.delete_at(n.size - 1)
-        h = n.join(PopularsController::SYMBOL_END_HISTORY)
+    def set_my_region!
+      @selected_city = nil
+      if cookies[:selected_city]
+        @selected_city = City.find_by_id cookies[:selected_city]
       end
-      cookies[:history] = {
-        :value => h,
-        :expires => 1.year.from_now
-      }
     end
     
-    def add_to_history(q)
-      history = history_from_cookies
-      history = "#{q}#{PopularsController::SYMBOL_SPLIT_HISTORY}#{request.url}#{PopularsController::SYMBOL_SPLIT_HISTORY}#{Time.now}#{PopularsController::SYMBOL_END_HISTORY}" + history
-      set_history(history)
-    end
-  
 end

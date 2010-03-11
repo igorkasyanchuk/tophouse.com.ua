@@ -104,6 +104,7 @@ div.content
   :padding-left= !margin_left
   :padding-right= !margin_left
   :padding-bottom 24px
+  :padding-top 12px
   
 div.left_content
   :float left
@@ -135,19 +136,29 @@ div.line_after
     :margin 0 auto
     :padding 4px 0px
     :padding-bottom 10px
-    :width 980px
+    :width 990px
     .header_block
-      :padding-left 10%
+      :padding-left 5%
+      :min-height 140px
       :float left
-      a
-        :font-size 11px
+      .row
         :line-height 16px
-        :padding 2px 0
-        :display block
-        :color= !color1
-        :text-decoration underline
-        &:hover
+        a
+          :font-size 11px
+          :line-height 16px
+          :padding 2px 0
+          :display inline
+          :color= !color1
+          :text-decoration underline
+          &:hover
+            :text-decoration none
+        a.option
           :text-decoration none
+          :border-bottom= "1px dotted #{!color1}"
+          :margin 1px 2px
+        span
+          :font-size 11px
+          :line-height 13px
   
 div.line_before
   :margin 0 auto
@@ -158,7 +169,7 @@ div.line_before
   
 .header_container
   :width 100%
-  :height 120px
+  :height 90px
   div.line
     :background-color= !menu_bg_color
     :width 100%
@@ -727,6 +738,8 @@ ul.admin_menu
   
 p.actions
   :float left  
+  a
+    :font-weight bold
   
 div.actions-bar
   :float right 
@@ -786,8 +799,10 @@ div.actions-bar
   :vertical-align top
   :padding 1px 2px
   +round(3px)
+
   
   
 @import table.sass  
 @import formtastic.sass
+
 

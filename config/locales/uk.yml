@@ -70,8 +70,16 @@ uk:
         contact_email: Емейл
         user_id: Користувач
         adv_type: Тип оголошення
-        created_at: Додано о
+        created_at: Додано
         updated_at: Оновлено
+        published_on: Публікувати на
+        published_to: До
+        published: Опублікувати?
+        is_published: Опублікований?
+        views: Кількість переглядів
+        premium_index: Преміум
+        star: Особливе
+        hot: Гаряча пропозиція
   layouts:
     application:
       test: тест
@@ -220,3 +228,9 @@ uk:
   garage_edit_title: "Редагувати гараж: {{g}}"
   
   list_is_blank: Список пустий.
+  7_days: 7 днів
+  14_days: 14 днів
+  21_days: 21 день
+  
+  yes_label: так
+  no_label: ні

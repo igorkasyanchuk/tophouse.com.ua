@@ -1,4 +1,6 @@
 module TopHouse
+  
+  attr_accessor :published_on
 
   def to_dollar(field)
     (self.send(field) / Site.dollar.to_i)
@@ -25,7 +27,7 @@ module TopHouse
   end
   
   def format_square(field)
-    "%.2f" % self.send(field)
+    ("%.2f" % self.send(field)).gsub('.00', '')
   end
   
   def format_square_format(field)
@@ -42,6 +44,15 @@ module TopHouse
     self.price_cached = _p
     c = City.find_by_id(city_id)
     self.region_id = c.region_id if c
+    self.published_to = Time.now + self.published_on.to_i.days
+  end
+  
+  def viewed!
+    self.increment!(:viewes)
+  end
+  
+  def hot?
+    self.hot
   end
   
   def full_price(field)

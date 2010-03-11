@@ -36,3 +36,96 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
 end
+
+
+Factory.sequence :email do |n|
+  "person#{n}@example.com"
+end
+
+Factory.sequence :city_name do |n|
+  "City Name #{n}"
+end
+
+Factory.sequence :company_name do |n|
+  "Company #{n}"
+end
+
+Factory.sequence :first_name do |n|
+  "First #{n}"
+end
+
+Factory.sequence :last_name do |n|
+  "Last #{n}"
+end
+
+Factory.sequence :name do |n|
+  "Name #{n}"
+end
+
+User.attachment_definitions[:logo][:path] = ":rails_root/temp/public:url"
+
+u = User.create({:email => 'admin@admin.com', :password => '123456', :password_confirmation => '123456'})
+u.first_name = "Igor"
+u.last_name = "Kasyanchuk"
+u.role = ADMIN_USER_ROLE
+u.save
+u.confirm_email!
+
+cities = City.all.collect(&:id)
+
+5.times do
+  a = Agent.create({:email => Faker::Internet.email, :password => '123456', :password_confirmation => '123456'})
+  a.company_name = Faker::Company.name
+  a.plan = PLANS.rand
+  a.first_name = Faker::Name.first_name
+  a.last_name = Faker::Name.last_name
+  a.web_site = Faker::Internet.domain_name
+  a.short_description = Faker::Lorem.paragraph
+  a.description = Faker::Lorem.paragraphs
+  a.city_id = cities.rand
+  a.phone_home = Faker::PhoneNumber.phone_number
+  a.phone_mobile_1 = Faker::PhoneNumber.phone_number
+  a.phone_mobile_2 = Faker::PhoneNumber.phone_number
+  a.phone_mobile_3 = Faker::PhoneNumber.phone_number
+  a.fax = Faker::PhoneNumber.phone_number
+  a.save
+  a.confirm_email!
+end
+
+5.times do
+  a = Company.create({:email => Faker::Internet.email, :password => '123456', :password_confirmation => '123456'})
+  a.company_name = Faker::Company.name
+  a.plan = PLANS.rand
+  a.first_name = Faker::Name.first_name
+  a.last_name = Faker::Name.last_name
+  a.web_site = Faker::Internet.domain_name
+  a.short_description = Faker::Lorem.paragraph
+  a.description = Faker::Lorem.paragraphs
+  a.city_id = cities.rand
+  a.phone_home = Faker::PhoneNumber.phone_number
+  a.phone_mobile_1 = Faker::PhoneNumber.phone_number
+  a.phone_mobile_2 = Faker::PhoneNumber.phone_number
+  a.phone_mobile_3 = Faker::PhoneNumber.phone_number
+  a.fax = Faker::PhoneNumber.phone_number
+  a.save
+  a.confirm_email!
+end
+
+5.times do
+  a = Rieltor.create({:email => Faker::Internet.email, :password => '123456', :password_confirmation => '123456'})
+  a.company_name = Faker::Company.name
+  a.plan = PLANS.rand
+  a.first_name = Faker::Name.first_name
+  a.last_name = Faker::Name.last_name
+  a.web_site = Faker::Internet.domain_name
+  a.short_description = Faker::Lorem.paragraph
+  a.description = Faker::Lorem.paragraphs
+  a.city_id = cities.rand
+  a.phone_home = Faker::PhoneNumber.phone_number
+  a.phone_mobile_1 = Faker::PhoneNumber.phone_number
+  a.phone_mobile_2 = Faker::PhoneNumber.phone_number
+  a.phone_mobile_3 = Faker::PhoneNumber.phone_number
+  a.fax = Faker::PhoneNumber.phone_number
+  a.save
+  a.confirm_email!
+end

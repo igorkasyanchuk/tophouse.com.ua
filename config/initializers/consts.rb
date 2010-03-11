@@ -1,4 +1,4 @@
-YES_NO_ARRAY = [[I18n.t('yes_label'), true], [I18n.t('no_label'), false]]
+YES_NO_ARRAY = [['yes_label', true], ['no_label', false]]
 
 SEO = {
   :title => " - TopHouse.com.ua",
@@ -46,3 +46,5 @@ US_CURRENCY = 'us_currency'
 EURO_CURRENCY = 'euro_currency'
 
 CURRENCIES = [UKR_CURRENCY, US_CURRENCY, EURO_CURRENCY]
+PUSHED_DAYS_DURATION = [7, 14, 21]
+PUSHED_DAYS = ['7_days', '14_days', '21_days']

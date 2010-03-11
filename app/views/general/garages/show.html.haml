@@ -29,6 +29,10 @@
   %dd= h @garage.contact_email
   %dt= t('activerecord.attributes.garage.user_id')
   %dd= h @garage.user.user_name
+  %dt= t('activerecord.attributes.garage.published_to')
+  %dd= l @garage.published_to, :format => :default
+  %dt= t('activerecord.attributes.garage.is_published')
+  %dd= @garage.published
   
 %p.actions
   = link_to t('edit'), edit_resource_path(@garage)

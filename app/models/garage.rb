@@ -9,9 +9,13 @@ class Garage < ActiveRecord::Base
   belongs_to :region
   belongs_to :user
   has_many :photos, :as => :photable
+  has_and_belongs_to_many :users
   
   validates_presence_of :title
   validates_presence_of :adv_text
+  validates_presence_of :price
+  validates_numericality_of :price
+  validates_numericality_of :square
   
   accepts_nested_attributes_for :photos, :allow_destroy => true, :reject_if => proc { |attributes| attributes.any? {|k,v| v.blank? } } 
   

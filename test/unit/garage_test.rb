@@ -6,8 +6,6 @@ class GarageTest < ActiveRecord::TestCase
   
   should_have_db_column :title
   should_have_db_column :i_am_type
-  should_have_db_column :o_id
-  should_have_db_column :m_id
   should_have_db_column :address
   should_have_db_column :square
   should_have_db_column :adv_text
@@ -18,12 +16,12 @@ class GarageTest < ActiveRecord::TestCase
   should_have_db_column :contact_email
   should_have_db_column :user_id
   
-  context "A test context" do
+  context "A garage test context" do
     setup do
       
     end
     
-    should 'test something' do
+    should 'test user noteable' do
       assert true
     end
   end

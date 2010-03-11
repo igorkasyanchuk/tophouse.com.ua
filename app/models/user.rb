@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
   belongs_to :city
   belongs_to :region
   has_many :garages, :dependent => :destroy
+  has_and_belongs_to_many :notes_garages, :join_table => 'garages_users'
   
   GENDERS = ['male', 'female']
   
@@ -50,6 +51,12 @@ class User < ActiveRecord::Base
 
   def agent?
     self.is_a?(Agent)
+  end
+  
+  def to_notepad(noteable)
+    if noteable.is_a?(Garage)
+      self.notes_garages << noteable
+    end
   end
   
   def class_info

@@ -41,6 +41,7 @@
       = "var CURRENT_LOCALE = '#{I18n.locale.to_s}';"
       = "var TRANSLATIONS = #{t('js').to_json};"
       jQuery(document).ready(function() {
+      initialize();
       = yield :on_ready
       });
       = yield :inline_script 
@@ -53,16 +54,16 @@
             %h2.logo_slogan
               %strong= link_to 'нерухомість України', root_path
           %ul.menu
-            %li.selected
+            %li.selected.home_link
               %strong= link_to 'Головна', '#'
-            %li
-              %strong= link_to 'Додати нерухомість', '#'
-            %li
+            %li.add_realty_link
+              %strong= link_to 'Додати оголошення', '#'
+            %li.rieltors_link
               %strong= link_to 'Ріелтори', '#'
-            %li
+            %li.agencies_link
               %strong= link_to 'Агенства нерухомості', '#'
-            %li
-              %strong= link_to 'Агентам', '#'
+            %li.companies_link
+              %strong= link_to 'Будівельні компанії', '#'
           %ul.submenu
             - if logged_in?
               %li= link_to 'Мій кабінет', general_dashboard_path
@@ -71,6 +72,45 @@
               %li= link_to 'Вхід', sign_in_path
               %li= link_to 'Реєстрація', sign_up_path
         %div.line
+        .add_realty.none
+          .add_realty_block 
+            .header_block
+              %strong Продати
+              = link_to 'Квартиру', root_path
+              = link_to 'Квартиру (новобудова)', root_path
+              = link_to 'Особняк', root_path
+              = link_to 'Комерційну нерухомість', root_path
+              = link_to 'Гараж', root_path
+              = link_to 'Земельну ділянку', root_path
+              = link_to 'Складське потміщення', root_path
+            .header_block
+              %strong Купити
+              = link_to 'Квартиру', root_path
+              = link_to 'Квартиру (новобудова)', root_path
+              = link_to 'Особняк', root_path
+              = link_to 'Комерційну нерухомість', root_path
+              = link_to 'Гараж', root_path
+              = link_to 'Земельну ділянку', root_path
+              = link_to 'Складське потміщення', root_path
+            .header_block
+              %strong Здати
+              = link_to 'Квартиру', root_path
+              = link_to 'Квартиру (новобудова)', root_path
+              = link_to 'Особняк', root_path
+              = link_to 'Комерційну нерухомість', root_path
+              = link_to 'Гараж', root_path
+              = link_to 'Земельну ділянку', root_path
+              = link_to 'Складське потміщення', root_path
+            .header_block
+              %strong Зняти
+              = link_to 'Квартиру', root_path
+              = link_to 'Квартиру (новобудова)', root_path
+              = link_to 'Особняк', root_path
+              = link_to 'Комерційну нерухомість', root_path
+              = link_to 'Гараж', root_path
+              = link_to 'Земельну ділянку', root_path
+              = link_to 'Складське потміщення', root_path
+            .clear
         .line_after
       %div.content
         .center_block

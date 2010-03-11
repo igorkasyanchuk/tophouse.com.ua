@@ -2,10 +2,13 @@
   %td= garage.uuid
   %td
     %strong= h garage.title
+    - if garage.hot?
+      .hot hot
   %td= h garage.address
   %td= h garage.format_square_format(:square)
   %td= garage.full_price(:price_cached)
-  %td= l garage.created_at, :format => :long
+  %td= l garage.created_at.to_date, :format => :default
+  %td= l garage.published_to, :format => :default
   %td.actions
     = link_to t('show_action'), resource_path(garage)
     |

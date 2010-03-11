@@ -29,3 +29,9 @@ config.action_mailer.delivery_method = :test
 
 HOST = "devlist.if.ua:3000"
 CONTACT_EMAIL = 'contact@devlist.test'
+
+config.gem 'redgreen'
+config.gem 'rspec', :lib => false
+config.gem 'rspec-rails', :lib => false
+config.gem "thoughtbot-shoulda", :lib => "shoulda", :source => "http://gems.github.com"
+config.gem "factory_girl", :source => "http://gemcutter.org"

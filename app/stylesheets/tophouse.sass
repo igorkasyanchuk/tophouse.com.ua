@@ -1,5 +1,3 @@
-@import formtastic.sass
-
 !color1= #471045
 !color2= #BD2056
 !color3= #FF7000
@@ -58,6 +56,8 @@ html body
   :font-family= !base_font
   :font-size 14px
   :color= !color4
+  ul, ol
+    :color= !color4
   
 .logo
   :min-width= !left_column  
@@ -127,6 +127,27 @@ div.line_after
   :width 100%
   :height 1px
   :border-bottom= "1px solid #{!menu_bg_color + #111}"
+
+.add_realty
+  :background-color= !menu_bg_color
+  .add_realty_block
+    :color white
+    :margin 0 auto
+    :padding 4px 0px
+    :padding-bottom 10px
+    :width 980px
+    .header_block
+      :padding-left 10%
+      :float left
+      a
+        :font-size 11px
+        :line-height 16px
+        :padding 2px 0
+        :display block
+        :color= !color1
+        :text-decoration underline
+        &:hover
+          :text-decoration none
   
 div.line_before
   :margin 0 auto
@@ -708,7 +729,9 @@ p.actions
   :float left  
   
 div.actions-bar
-  :float right  
+  :float right 
+  .left
+    :text-align right 
   
 #root .inline-hints
   :padding-left 16px
@@ -752,5 +775,19 @@ div.actions-bar
 .actions-bar .pagination
   :text-align right
 
+.hot
+  :display inline-block
+  :background red
+  :color yellow
+  :font-size 10px
+  :line-height 12px
+  :margin-top -2px
+  :margin-left -1px
+  :vertical-align top
+  :padding 1px 2px
+  +round(3px)
+  
   
 @import table.sass  
+@import formtastic.sass
+

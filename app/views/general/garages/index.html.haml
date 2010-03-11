@@ -4,7 +4,7 @@
 .actions-bar
   %div{:class => "left search"}
     - form_for @search do |f|
-      = f.text_field :address_like, :class => 'input-s'
+      = f.text_field :id_equals_or_address_like_or_title_like, :class => 'input-s'
       = f.submit t("filter_button")
   .right
     = will_paginate @collection
@@ -17,12 +17,13 @@
   %table
     %thead
       %tr
-        %th #
-        %th.title= order @search, :by => :title, :as => t('activerecord.attributes.garage.title')
-        %th.address= t('activerecord.attributes.garage.address')
-        %th.square= order @search, :by => :square, :as => t('activerecord.attributes.garage.square')
-        %th.price= order @search, :by => :price_cached, :as => t('activerecord.attributes.garage.price')
-        %th.price= order @search, :by => :created_at, :as => t('activerecord.attributes.garage.created_at')
+        %th= order @search, :by => :id, :as => '#'
+        %th= order @search, :by => :title, :as => t('activerecord.attributes.garage.title')
+        %th= t('activerecord.attributes.garage.address')
+        %th= order @search, :by => :square, :as => t('activerecord.attributes.garage.square')
+        %th= order @search, :by => :price_cached, :as => t('activerecord.attributes.garage.price')
+        %th= order @search, :by => :created_at, :as => t('activerecord.attributes.garage.created_at')
+        %th= order @search, :by => :published_to, :as => t('activerecord.attributes.garage.published_to')
         %th.actions= t('actions')
     %tbody.items.garages
       - @garages.each do |garage|

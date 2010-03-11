@@ -48,10 +48,18 @@ def add_garage(user)
   g.currency_id = CURRENCIES.rand
   g.contact_phone = Faker::PhoneNumber.phone_number
   g.contact_email = Faker::Internet.email
+  g.published_on = PUSHED_DAYS_DURATION.rand
+  g.hot = [false, false, true, false].rand
+  g.premium_index = [0,1,2,3].rand
+  g.star = [false, true].rand
   g.save
 end
 
 User.all.each do |user|
+  user.garages.destroy_all
   45.times { add_garage(user) }
 end
+
+
+
 

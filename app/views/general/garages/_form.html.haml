@@ -1,14 +1,21 @@
 - form.inputs do
   = form.input :title, :input_html => { :class => 'input-s' }
-  = form.input :city, :label_method => "name_#{I18n.locale}"
-  = form.input :i_am_type, :as => :select, :collection => I_AM_TYPES.collect{|g| [t(g), g]}
+  = form.input :city, :label_method => "name_#{I18n.locale}", :include_blank => false
+  = form.input :i_am_type, :as => :select, :collection => I_AM_TYPES.collect{|g| [t(g), g]}, :include_blank => false
   = form.input :address, :input_html => { :class => 'input-s' }
   = form.input :square, :input_html => { :class => 'input-s' }
   = form.input :adv_text, :input_html => { :class => 'textarea-w', :rows => 4 }, :as => :text
   = form.input :price, :input_html => { :class => 'input-s' }
-  = form.input :currency_id, :as => :select, :collection => CURRENCIES.collect{|g| [t(g), g]}
+  = form.input :currency_id, :as => :select, :collection => CURRENCIES.collect{|g| [t(g), g]}, :include_blank => false
   = form.input :contact_phone, :input_html => { :class => 'input-s' }
   = form.input :contact_email, :input_html => { :class => 'input-s' }
+  
+  = form.input :published, :as => :radio, :collection => YES_NO_ARRAY.collect{|g| [ t(g[0]), g[1] ] }
+  = form.input :published_on, :as => :select, :collection => PUSHED_DAYS.collect{|g| [t(g), PUSHED_DAYS_DURATION[PUSHED_DAYS.index(g)]]}, :include_blank => false
+  
   = form.input :user_id, :input_html => { :class => 'input-s' }, :as => :hidden, :value => current_user.id
+  
+  = form.input :hot, :as => :radio, :collection => YES_NO_ARRAY.collect{|g| [ t(g[0]), g[1] ] }
+  
   - form.semantic_fields_for :photos do |photo_form|
     = photo_form.input :photo, :as => :file, :name => 'photo #%i'

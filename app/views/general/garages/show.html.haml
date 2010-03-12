@@ -5,35 +5,35 @@
   |
   = link_to t('back'), collection_path    
 
-%p.actions
-  %h1= t('garage_show_title', :g => @garage.uuid)
-  
-- content_tag_for(:dl, @garage) do
-  %dt= t('activerecord.attributes.garage.title')
-  %dd= h @garage.title
-  %dt= t('activerecord.attributes.garage.i_am_type')
-  %dd= t @garage.i_am_type
-  %dt= t('activerecord.attributes.garage.city')
-  %dd= h @garage.city.name
-  %dt= t('activerecord.attributes.garage.address')
-  %dd= h @garage.address
-  %dt= t('activerecord.attributes.garage.square')
-  %dd= h @garage.format_square_format(:square)
-  %dt= t('activerecord.attributes.garage.adv_text')
-  %dd= h @garage.adv_text
-  %dt= t('activerecord.attributes.garage.price')
-  %dd= @garage.full_price(:price_cached)
-  %dt= t('activerecord.attributes.garage.contact_phone')
-  %dd= h @garage.contact_phone
-  %dt= t('activerecord.attributes.garage.contact_email')
-  %dd= h @garage.contact_email
-  %dt= t('activerecord.attributes.garage.user_id')
-  %dd= h @garage.user.user_name
-  %dt= t('activerecord.attributes.garage.published_to')
-  %dd= l @garage.published_to, :format => :default
-  %dt= t('activerecord.attributes.garage.is_published')
-  %dd= @garage.published
-  
+%h1= @garage.page_title
+.price_text= t('price_text', :p => @garage.full_price(:price_cached))
+
+.realty_show
+  .realty_show_left
+    .realty_show_title
+      %strong= @garage.title
+    .realty_show_text= simple_format(h(@garage.adv_text))
+    .realty_show_info
+      - content_tag_for(:dl, @garage) do
+        %dt= t('activerecord.attributes.garage.i_am_type')
+        %dd= t @garage.i_am_type
+        %dt= t('activerecord.attributes.garage.square')
+        %dd= h @garage.format_square_format(:square)
+        %dt= t('activerecord.attributes.garage.contact_phone')
+        %dd= h @garage.contact_phone
+        %dt= t('activerecord.attributes.garage.contact_email')
+        %dd= h @garage.contact_email
+        %dt= t('activerecord.attributes.garage.user_id')
+        %dd= h @garage.user.user_name
+        %dt= t('activerecord.attributes.garage.published_to')
+        %dd= l @garage.published_to, :format => :default
+        %dt= t('activerecord.attributes.garage.is_published')
+        %dd= @garage.as_translation(:published)
+    .clear
+  .realty_show_right
+    =# image_tag @garage.photos.first.url(:normal)
+  .clear
+
 %p.actions
   = link_to t('edit'), edit_resource_path(@garage)
   |

@@ -4,11 +4,11 @@
   %strong= link_to 'уся Україна', select_city_path
   %label або виберіть ваше місто зі списку:
   %ul
-    - City.top_cities.each do |city|
+    - City.ordered_by_city_name.top_cities.each do |city|
       %li= link_to city.name, city
   .clear
   - form_tag select_city_path do
     %label
       або виберіть його тут
-      = select 'city', 'selected_city', City.all.collect{|c| [c.name, c.id]}
+      = select 'city', 'selected_city', City.all.collect{|c| [c.name, c.id]}, :include_blank => true
     = submit_tag 'Вибрати'

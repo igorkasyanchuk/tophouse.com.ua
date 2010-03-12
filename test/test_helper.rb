@@ -1,6 +1,8 @@
 ENV["RAILS_ENV"] = "test"
 require File.expand_path(File.dirname(__FILE__) + "/../config/environment")
 require 'test_help'
+require 'faker'
+require 'webrat'
 
 class ActiveSupport::TestCase
   # Transactional fixtures accelerate your tests by wrapping each test method
@@ -37,6 +39,9 @@ class ActiveSupport::TestCase
   # Add more helper methods to be used by all tests here...
 end
 
+Webrat.configure do |config|
+  config.mode = :rails
+end 
 
 Factory.sequence :email do |n|
   "person#{n}@example.com"
@@ -71,61 +76,5 @@ u.role = ADMIN_USER_ROLE
 u.save
 u.confirm_email!
 
-cities = City.all.collect(&:id)
+Factory(:site)
 
-5.times do
-  a = Agent.create({:email => Faker::Internet.email, :password => '123456', :password_confirmation => '123456'})
-  a.company_name = Faker::Company.name
-  a.plan = PLANS.rand
-  a.first_name = Faker::Name.first_name
-  a.last_name = Faker::Name.last_name
-  a.web_site = Faker::Internet.domain_name
-  a.short_description = Faker::Lorem.paragraph
-  a.description = Faker::Lorem.paragraphs
-  a.city_id = cities.rand
-  a.phone_home = Faker::PhoneNumber.phone_number
-  a.phone_mobile_1 = Faker::PhoneNumber.phone_number
-  a.phone_mobile_2 = Faker::PhoneNumber.phone_number
-  a.phone_mobile_3 = Faker::PhoneNumber.phone_number
-  a.fax = Faker::PhoneNumber.phone_number
-  a.save
-  a.confirm_email!
-end
-
-5.times do
-  a = Company.create({:email => Faker::Internet.email, :password => '123456', :password_confirmation => '123456'})
-  a.company_name = Faker::Company.name
-  a.plan = PLANS.rand
-  a.first_name = Faker::Name.first_name
-  a.last_name = Faker::Name.last_name
-  a.web_site = Faker::Internet.domain_name
-  a.short_description = Faker::Lorem.paragraph
-  a.description = Faker::Lorem.paragraphs
-  a.city_id = cities.rand
-  a.phone_home = Faker::PhoneNumber.phone_number
-  a.phone_mobile_1 = Faker::PhoneNumber.phone_number
-  a.phone_mobile_2 = Faker::PhoneNumber.phone_number
-  a.phone_mobile_3 = Faker::PhoneNumber.phone_number
-  a.fax = Faker::PhoneNumber.phone_number
-  a.save
-  a.confirm_email!
-end
-
-5.times do
-  a = Rieltor.create({:email => Faker::Internet.email, :password => '123456', :password_confirmation => '123456'})
-  a.company_name = Faker::Company.name
-  a.plan = PLANS.rand
-  a.first_name = Faker::Name.first_name
-  a.last_name = Faker::Name.last_name
-  a.web_site = Faker::Internet.domain_name
-  a.short_description = Faker::Lorem.paragraph
-  a.description = Faker::Lorem.paragraphs
-  a.city_id = cities.rand
-  a.phone_home = Faker::PhoneNumber.phone_number
-  a.phone_mobile_1 = Faker::PhoneNumber.phone_number
-  a.phone_mobile_2 = Faker::PhoneNumber.phone_number
-  a.phone_mobile_3 = Faker::PhoneNumber.phone_number
-  a.fax = Faker::PhoneNumber.phone_number
-  a.save
-  a.confirm_email!
-end

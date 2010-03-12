@@ -4,7 +4,7 @@
   = form.input :i_am_type, :as => :select, :collection => I_AM_TYPES.collect{|g| [t(g), g]}, :include_blank => false
   = form.input :address, :input_html => { :class => 'input-s' }
   = form.input :square, :input_html => { :class => 'input-s' }
-  = form.input :adv_text, :input_html => { :class => 'textarea-w', :rows => 4 }, :as => :text
+  = form.input :adv_text, :input_html => { :class => 'textarea-w', :rows => 7 }, :as => :text
   = form.input :price, :input_html => { :class => 'input-s' }
   = form.input :currency_id, :as => :select, :collection => CURRENCIES.collect{|g| [t(g), g]}, :include_blank => false
   = form.input :contact_phone, :input_html => { :class => 'input-s' }

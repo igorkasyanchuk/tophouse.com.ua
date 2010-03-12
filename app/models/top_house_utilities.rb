@@ -43,10 +43,6 @@ module TopHouseUtilities
       "#{format_square(field)} м²"
     end
     
-    def as_translation(field)
-      t(self.field.to_s)
-    end
-    
     def before_save
       _p = self.price
       if self.currency_id == US_CURRENCY
@@ -65,11 +61,15 @@ module TopHouseUtilities
     end
     
     def viewed!
-      self.increment!(:viewes)
+      self.increment!(:views)
     end
     
     def hot?
       self.hot
+    end
+    
+    def page_title
+      "#{self.address}, #{self.city.name}"
     end
     
     def full_price(field)

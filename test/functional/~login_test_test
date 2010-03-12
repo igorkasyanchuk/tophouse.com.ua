@@ -1,0 +1,91 @@
+require 'test_helper'
+
+class LoginTestTest < ActionController::IntegrationTest
+  fixtures :all
+
+  test "sign up new user" do
+    visit "/"
+    click_link "Sign up"
+    assert_contain "Sign up as a new user"
+    fill_in "Email", :with => "mail@site.com"
+    fill_in "Password", :with => "password_test"
+    fill_in "Password Confirmation", :with => "password_test"
+    check "user_read_agreement"
+    click_button "Create"
+    assert_response :success
+    assert_contain "Thanks for signing up!  We're sending you an email with your activation code."
+  end
+  
+  test "sign up new user(no Read Agreement)" do
+    visit "/"
+    click_link "Sign up"
+    assert_contain "Sign up as a new user"
+    fill_in "Email", :with => "mail@site.com"
+    fill_in "Password", :with => "password_test"
+    fill_in "Password Confirmation", :with => "password_test"
+    click_button "Create"
+    assert_response :success
+    assert_contain "User must accept agreement"
+  end  
+  
+  test "sign up registered user" do
+    @user = Factory(:user)
+    visit "/"
+    click_link "Sign up"
+    assert_contain "Sign up as a new user"
+    fill_in "Email", :with => @user.email
+    fill_in "Password", :with => "password_test"
+    fill_in "Password Confirmation", :with => "password_test"
+    check "user_read_agreement"
+    click_button "Create"
+    assert_response :success
+    assert_contain "We couldn't set up that account, sorry"
+  end
+  
+  test "login registered user" do
+    @user = Factory(:user)
+    @user.register!
+    @user.activate!
+    login_as_user(@user)
+    assert_contain "Logged in successfully"
+  end
+  
+  test "login/logout registered user" do
+    @user = Factory(:user)
+    @user.register!
+    @user.activate!
+    login_as_user(@user)
+    assert_contain "Logged in successfully"
+    click_link "Log out"
+    assert_contain "You have been logged out."
+    assert_not_contain "Dashboard"
+  end
+  
+  test "login/logout registered user (with remember_me selected)" do
+    @user = Factory(:user)
+    @user.register!
+    @user.activate!
+    login_as_user(@user, true)
+    assert_contain "Logged in successfully"
+    click_link "Log out"
+    assert_contain "You have been logged out."
+    assert_not_contain "Dashboard"
+  end      
+  
+  test "login with not registered user" do
+    @user = Factory.build(:user)
+    visit "/"
+    login_as_user(@user)
+    assert_contain "Couldn't log you in as"
+  end
+  
+  test "user logout" do
+    @user = Factory(:user)
+    @user.register!
+    @user.activate!
+    login_as_user(@user)
+    click_link "Log out"
+    assert_contain "You have been logged out."
+  end  
+  
+end

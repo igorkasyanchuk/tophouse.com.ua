@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
   belongs_to :city
   belongs_to :region
   has_many :garages, :dependent => :destroy
-  has_and_belongs_to_many :notes_garages, :join_table => 'garages_users'
+  has_and_belongs_to_many :notes_garages, :join_table => 'garages_users', :class_name => "Garage"
   
   enumeration_for :role, ROLES_ARRAY, :single => true
   enumeration_for :plan, PLANS, :single => true

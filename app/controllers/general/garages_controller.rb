@@ -16,15 +16,7 @@ class General::GaragesController < General::AdminController
   end
   
   protected
-  
-   def resource
-      if current_user.admin?
-        @garage ||= Garage.find params[:id]
-      else
-        super
-      end
-   end
-  
+       
     def collection
       if current_user.admin?
         @search = Garage.search(params[:search])

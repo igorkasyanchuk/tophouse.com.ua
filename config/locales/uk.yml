@@ -237,3 +237,5 @@ uk:
   no_label: ні
   'true': так
   'false': ні
+  
+  price_text: "Ціна: {{p}}"

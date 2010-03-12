@@ -48,3 +48,7 @@ EURO_CURRENCY = 'euro_currency'
 CURRENCIES = [UKR_CURRENCY, US_CURRENCY, EURO_CURRENCY]
 PUSHED_DAYS_DURATION = [7, 14, 21]
 PUSHED_DAYS = ['7_days', '14_days', '21_days']
+
+GENDERS = ['male', 'female']
+PLANS = ["A", "B", "C"]
+  

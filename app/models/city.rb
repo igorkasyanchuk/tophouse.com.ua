@@ -1,4 +1,11 @@
 class City < ActiveRecord::Base
+  include TopHouseGeneral
+  
+  default_scope :include => :region
+  named_scope :top_cities, :conditions => { :top_city => true }
+  
+  add_default_orders
+  
   belongs_to :region
   
   has_many :companies
@@ -9,9 +16,5 @@ class City < ActiveRecord::Base
   validates_presence_of :name_uk
   validates_presence_of :name_ru
   validates_presence_of :region_id
-  
-  def name
-    self.send("name_#{I18n.locale}")
-  end
     
 end

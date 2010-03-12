@@ -800,8 +800,22 @@ div.actions-bar
   :padding 1px 2px
   +round(3px)
 
+.charge_region a
+  :color= !color4
+  :text-decoration none
+  :border-bottom= "1px dashed #{!color4}"
+  :font-weight bold
+  :font-style italic
+  :font-family Helvetica, sans-serif
   
-  
+.popular_cities_block
+  :width 600px
+  ul
+    li
+      :float left
+      :width 30%
+      :padding-right 5%
+
 @import table.sass  
 @import formtastic.sass
 

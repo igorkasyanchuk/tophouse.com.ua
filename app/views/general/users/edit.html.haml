@@ -7,7 +7,7 @@
     = form.input :first_name, :input_html => { :class => 'input-s' }
     = form.input :last_name, :input_html => { :class => 'input-s' }
     = form.input :second_name, :input_html => { :class => 'input-s' }
-    = form.input :gendre, :as => :radio, :collection => User::GENDERS.collect{|g| [I18n.t(g), g]}
+    = form.input :gendre, :as => :radio, :collection => GENDERS.collect{|g| [I18n.t(g), g]}
     = form.input :dob, :selected => nil, :as => :date
     = form.input :position, :input_html => { :class => 'input-s' }
     = form.input :photo

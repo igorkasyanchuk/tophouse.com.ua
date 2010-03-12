@@ -144,4 +144,16 @@ module ApplicationHelper
     (link_to title, url_for(request.parameters.merge({:locale => locale})), :title => title ) 
   end
   
+  def change_city_link
+    name = @selected_city.try(:name) || 'Уся Україна'
+    link_to name, cities_path, :title => 'змінити ваше місто'
+  end
+  
+  def sub_logo_text
+    name = @selected_city.try(:name)
+    name = "нерухомість - #{name}" if name
+    name = name || ('нерухомість України')
+    link_to name, root_path, :title => name
+  end
+  
 end

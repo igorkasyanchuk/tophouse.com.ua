@@ -1,5 +1,5 @@
 - content_tag_for(:tr, garage, :class => cycle(:odd, :even)) do
-  %td= garage.uuid
+  %td= link_to garage.uuid, resource_path(garage)
   %td
     %strong= h garage.title
     - if garage.hot?

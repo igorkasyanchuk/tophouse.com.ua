@@ -44,6 +44,7 @@ uk:
         name_ru: "Назва (рос)"
         region_id: Область
         region: Область
+        top_city: В основному списку?
       region:
         name_uk: "Область"
       photo:
@@ -234,3 +235,5 @@ uk:
   
   yes_label: так
   no_label: ні
+  'true': так
+  'false': ні

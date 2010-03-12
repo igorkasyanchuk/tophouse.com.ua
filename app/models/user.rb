@@ -7,10 +7,8 @@ class User < ActiveRecord::Base
   has_many :garages, :dependent => :destroy
   has_and_belongs_to_many :notes_garages, :join_table => 'garages_users'
   
-  GENDERS = ['male', 'female']
-  
   enumeration_for :role, ROLES_ARRAY, :single => true
-  enumeration_for :plan, ["A", "B", "C"], :single => true
+  enumeration_for :plan, PLANS, :single => true
   enumeration_for :gendre, GENDERS, :single => true
   
   has_attached_file :logo, :styles => { :thumb => ["120x40>", :png]}

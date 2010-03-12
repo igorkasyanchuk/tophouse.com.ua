@@ -41,7 +41,11 @@ module TopHouseUtilities
     
     def format_square_format(field)
       "#{format_square(field)} м²"
-    end  
+    end
+    
+    def as_translation(field)
+      t(self.field.to_s)
+    end
     
     def before_save
       _p = self.price

@@ -4,9 +4,9 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :regions, :only => [:index, :show], :shallow => true do |rmap|
     rmap.resources :cities, :only => [:index, :show]
   end
-  
+  map.resources :cities, :only => [:index, :show]
+
   map.resources :garages, :except => [:update, :destroy]
-  
   map.resources :agents, :except => [:update, :destroy]
   map.resources :companies, :except => [:update, :destroy]
   map.resources :rieltors, :except => [:update, :destroy]
@@ -36,7 +36,8 @@ ActionController::Routing::Routes.draw do |map|
   map.root :controller => 'home', :action => 'index'
   map.site_map '/site_map', :controller => 'sitemap', :action => 'seo_site_map'
   map.connect "sitemap.xml", :controller => "sitemap", :action => "sitemap", :format => 'xml'
-  map.simple_captcha '/simple_captcha/:action', :controller => 'simple_captcha'   
+  map.simple_captcha '/simple_captcha/:action', :controller => 'simple_captcha'
+  map.select_city 'select_city', :controller => 'home', :action => 'select_city'
   
   Clearance::Routes.draw(map)
   map.sign_in  'sign-in', :controller => 'clearance/sessions', :action => 'new'

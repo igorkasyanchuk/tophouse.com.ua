@@ -4,6 +4,7 @@
     = '/'
     %span= h city.name_ru
   %td= h city.region.name_uk
+  %td= city.as_translation(:top_city)
   %td.actions
     = link_to t('show_action'), resource_path(city)
     |

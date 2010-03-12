@@ -52,7 +52,7 @@
           .logo
             %h2.logo_title= link_to t('logo_main_title'), root_path
             %h2.logo_slogan
-              %strong= link_to @selected_city.try(:name) || ('нерухомість України'), root_path
+              %strong= sub_logo_text
           %ul.menu
             %li{:class => "#{'selected' unless home_page?}"}
               %strong= link_to 'Головна', '/'
@@ -66,6 +66,8 @@
               %strong= link_to 'Будівельні компанії', '#'
             = yield :admin_menu
           %ul.submenu
+            %li.charge_region
+              = change_city_link
             - if logged_in?
               %li= link_to 'Мій кабінет', general_dashboard_path
               %li= link_to 'Вихід', sign_out_path
@@ -83,19 +85,19 @@
               = link_to '2', root_path, :class => 'option'
               = link_to '3', root_path, :class => 'option'
               = link_to '4+', root_path, :class => 'option'
-              %span ком.
+              %span кім.
             .row
               = link_to 'Квартиру (новобудова)', root_path, :class => 'what'
               = link_to '1', root_path, :class => 'option'
               = link_to '2', root_path, :class => 'option'
               = link_to '3', root_path, :class => 'option'
               = link_to '4+', root_path, :class => 'option'
-              %span ком.
+              %span кім.
             .row= link_to 'Особняк', root_path, :class => 'what'
             .row= link_to 'Комерційну нерухомість', root_path, :class => 'what'
             .row= link_to 'Гараж', root_path, :class => 'what'
             .row= link_to 'Земельну ділянку', root_path, :class => 'what'
-            .row= link_to 'Складське потміщення', root_path, :class => 'what'
+            .row= link_to 'Складське приміщення', root_path, :class => 'what'
           .header_block
             %strong Купити
             .row
@@ -104,19 +106,19 @@
               = link_to '2', root_path, :class => 'option'
               = link_to '3', root_path, :class => 'option'
               = link_to '4+', root_path, :class => 'option'
-              %span ком.
+              %span кім.
             .row
               = link_to 'Квартиру (новобудова)', root_path, :class => 'what'
               = link_to '1', root_path, :class => 'option'
               = link_to '2', root_path, :class => 'option'
               = link_to '3', root_path, :class => 'option'
               = link_to '4+', root_path, :class => 'option'
-              %span ком.
+              %span кім.
             .row= link_to 'Особняк', root_path, :class => 'what'
             .row= link_to 'Комерційну нерухомість', root_path, :class => 'what'
             .row= link_to 'Гараж', root_path, :class => 'what'
             .row= link_to 'Земельну ділянку', root_path, :class => 'what'
-            .row= link_to 'Складське потміщення', root_path, :class => 'what'
+            .row= link_to 'Складське приміщення', root_path, :class => 'what'
           .header_block
             %strong Здати
             .row
@@ -125,10 +127,10 @@
               = link_to '2', root_path, :class => 'option'
               = link_to '3', root_path, :class => 'option'
               = link_to '4+', root_path, :class => 'option'
-              %span ком.
+              %span кім.
             .row= link_to 'Комерційну нерухомість', root_path, :class => 'what'
             .row= link_to 'Гараж', root_path, :class => 'what'
-            .row= link_to 'Складське потміщення', root_path, :class => 'what'
+            .row= link_to 'Складське приміщення', root_path, :class => 'what'
           .header_block
             %strong Зняти
             .row
@@ -137,10 +139,10 @@
               = link_to '2', root_path, :class => 'option'
               = link_to '3', root_path, :class => 'option'
               = link_to '4+', root_path, :class => 'option'
-              %span ком.
+              %span кім.
             .row= link_to 'Комерційну нерухомість', root_path, :class => 'what'
             .row= link_to 'Гараж', root_path, :class => 'what'
-            .row= link_to 'Складське потміщення', root_path, :class => 'what'
+            .row= link_to 'Складське приміщення', root_path, :class => 'what'
           .clear
       %div.content
         .center_block

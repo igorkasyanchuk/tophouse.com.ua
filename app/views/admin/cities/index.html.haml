@@ -17,8 +17,9 @@
 %table
   %thead
     %tr
-      %th Назва
-      %th Область
+      %th= order @search, :by => :name_uk, :as => 'Назва'
+      %th= order @search, :by => :region_id, :as => 'Область'
+      %th= order @search, :by => :top_city, :as => 'В основному списку'
       %th.actions Дії
   %tbody.items.cities
     - @cities.each do |city|

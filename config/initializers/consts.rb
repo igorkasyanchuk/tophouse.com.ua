@@ -33,10 +33,10 @@ REGISTERED_USER_ROLE = 'user'
 
 ROLES_ARRAY = [ ADMIN_USER_ROLE, MODERATOR_USER_ROLE, REGISTERED_USER_ROLE ]
 
-ADV_TYPE_SELL = 'Продати'
-ADV_TYPE_BUY = 'Придбати'
-ADV_TYPE_RENT = 'Зняти'
-ADV_TYPE_GIVE = 'Здати'
+ADV_TYPE_SELL = 'sell_object'
+ADV_TYPE_BUY = 'buy_object'
+ADV_TYPE_RENT = 'rent_object'
+ADV_TYPE_GIVE = 'give_object'
 
 ADV_TYPES = [ ADV_TYPE_SELL, ADV_TYPE_BUY, ADV_TYPE_RENT, ADV_TYPE_GIVE ]
 I_AM_TYPES = ['owner', 'middle_man']

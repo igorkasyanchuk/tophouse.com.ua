@@ -145,15 +145,60 @@ module ApplicationHelper
   end
   
   def change_city_link
-    name = @selected_city.try(:name) || 'Уся Україна'
-    link_to name, cities_path, :title => 'змінити ваше місто'
+    name = @selected_city.try(:name) || I18n.t('view_all_ukraine')
+    link_to name, cities_path, :title => I18n.t('view_change_your_city')
   end
   
   def sub_logo_text
     name = @selected_city.try(:name)
-    name = "нерухомість - #{name}" if name
-    name = name || ('нерухомість України')
+    name = I18n.t('view_sub_logo_text_object', :name => name) if name
+    name = name || I18n.t('view_sub_logo_text')
     link_to name, root_path, :title => name
+  end
+  
+  def garages_path(type='none')
+    if @selected_city
+      case type
+        when ADV_TYPE_SELL then sell_city_garages_path(@selected_city)
+        when ADV_TYPE_BUY then buy_city_garages_path(@selected_city)
+        when ADV_TYPE_RENT then rent_city_garages_path(@selected_city)
+        when ADV_TYPE_GIVE then give_city_garages_path(@selected_city)
+        else city_garages_path(@selected_city)
+      end
+    else
+      case type
+        when ADV_TYPE_SELL then sell_garages_path
+        when ADV_TYPE_BUY then buy_garages_path
+        when ADV_TYPE_RENT then rent_garages_path
+        when ADV_TYPE_GIVE then give_garages_path
+        else super
+      end
+    end
+  end
+  
+  def photo_mark(kind=:small)
+    if (kind == :large)
+      image_tag 'photo_big.jpg'
+    else
+      image_tag 'photo_small.png'
+    end
+  end
+  
+  def get_title_by_action
+    case action_name
+      when 'sell' then I18n.t('sell_adv_type_title')
+      when 'buy' then I18n.t('buy_adv_type_title')
+      when 'rent' then I18n.t('rent_adv_type_title')
+      when 'give' then I18n.t('give_adv_type_title')
+    end
+  end
+  
+  def realty_list_page_title(title_translation)
+    if @selected_city
+      I18n.t(title_translation, :city => @selected_city.name, :type => get_title_by_action)
+    else
+      I18n.t(title_translation + '_without_city', :type => get_title_by_action)
+    end
   end
   
 end

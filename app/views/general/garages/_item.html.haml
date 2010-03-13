@@ -4,6 +4,7 @@
     %strong= h garage.title
     - if garage.hot?
       .hot hot
+    = photo_mark if garage.with_photo?
   %td= h garage.address
   %td= h garage.format_square_format(:square)
   %td= garage.full_price(:price_cached)

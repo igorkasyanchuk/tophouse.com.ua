@@ -81,6 +81,8 @@ uk:
         premium_index: Преміум
         star: Особливе
         hot: Гаряча пропозиція
+      general:  
+        price_per_m2: "Ціна за м²"  
   layouts:
     application:
       test: тест
@@ -239,3 +241,31 @@ uk:
   'false': ні
   
   price_text: "Ціна: {{p}}"
+  
+  view_my_cabinet: Мій кабінет
+  view_logout: Вихід
+  view_login: Вхід
+  view_register: Реєстрація
+  
+  view_title_sell: Продають
+  view_title_buy: Куплять
+  view_title_give: Здають
+  view_title_rent: Знімлють
+  
+  view_all_ukraine: Уся Україна
+  view_change_your_city: змінити ваше місто
+  view_sub_logo_text_object: "нерухомість - {{name}}"
+  view_sub_logo_text: "нерухомість України"
+  
+  sell_adv_type: Купити
+  buy_adv_type: Продати
+  give_adv_type: Здати
+  rent_adv_type: Зняти
+  
+  sell_adv_type_title: "на продаж"
+  buy_adv_type_title: "на купівлю"
+  give_adv_type_title: " здаються"
+  rent_adv_type_title: " знімлють"
+  
+  view_garages_title: "{{city}} - гаражі {{type}}"
+  view_garages_title_without_city: "{{type}}гараж"

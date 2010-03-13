@@ -43,6 +43,14 @@ module TopHouseUtilities
       "#{format_square(field)} м²"
     end
     
+    def price_per_square_meter
+      as_dollar(self.to_dollar(:price_cached) / self.square)
+    end
+    
+    def as_dollar(price)
+      "#{'%.2f' % price} дол."
+    end
+    
     def before_save
       _p = self.price
       if self.currency_id == US_CURRENCY
@@ -54,6 +62,10 @@ module TopHouseUtilities
       c = City.find_by_id(city_id)
       self.region_id = c.region_id if c
       self.published_to = Time.now + self.published_on.to_i.days
+    end
+    
+    def with_photo?
+      self.photos_count > 0
     end
     
     def uuid

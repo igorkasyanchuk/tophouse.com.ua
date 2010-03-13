@@ -17,30 +17,43 @@ class ApplicationController < ActionController::Base
   
   rescue_from ActionController::RoutingError, :with => :render_404
   rescue_from ActiveRecord::RecordNotFound, :with => :render_404
-  
-  def available_locales
-    AVAILABLE_LOCALES
-  end
-  
-  def set_locale
-    locale = params[:locale] || cookies[:locale]
-    I18n.locale = locale.to_s
-    cookies[:locale] = locale unless (cookies[:locale] && cookies[:locale] == locale)
-  end
-  
-  def default_url_options(options={})
-    { :locale => I18n.locale } 
-  end
-  
-  def self.add_pagination!(pages = 10)
-    class_eval %(
-      protected
-        def collection
-          get_collection_ivar || set_collection_ivar(end_of_association_chain.paginate(:page => params[:page], :per_page => #{pages}))
-        end)
-  end
-  
+
   private
+  
+    def self.layout_by_actions(h)
+      layout :determine_layout
+      code = lambda {
+        res = "application"
+        h.each do |k,v|
+         (res = k; break) if v.include?self.action_name
+        end
+        res
+      }
+      define_method(:determine_layout, code)
+    end   
+    
+    def available_locales
+      AVAILABLE_LOCALES
+    end
+    
+    def set_locale
+      locale = params[:locale] || cookies[:locale]
+      I18n.locale = locale.to_s
+      cookies[:locale] = locale unless (cookies[:locale] && cookies[:locale] == locale)
+    end
+    
+    def default_url_options(options={})
+      { :locale => I18n.locale } 
+    end
+    
+    def self.add_pagination!(pages = 10)
+      class_eval %(
+        protected
+          def collection
+            get_collection_ivar || set_collection_ivar(end_of_association_chain.paginate(:page => params[:page], :per_page => #{pages}))
+          end)
+    end
+  
     def require_admin
       return false unless signed_in?
       current_user.admin?

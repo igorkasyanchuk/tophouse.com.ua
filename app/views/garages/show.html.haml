@@ -6,10 +6,6 @@
   %dd.title= h @garage.try(:title)
   %dt.label= 'I am type'
   %dd.i_am_type= h @garage.try(:i_am_type)
-  %dt.label= 'O'
-  %dd.o_id= h @garage.try(:o_id)
-  %dt.label= 'M'
-  %dd.m_id= h @garage.try(:m_id)
   %dt.label= 'Address'
   %dd.address= h @garage.try(:address)
   %dt.label= 'Square'
@@ -30,6 +26,4 @@
   %dd.user_id= h @garage.try(:user_id)
   
 %p.actions
-  = link_to 'Edit', edit_resource_path(@garage)
-  |
-  = link_to 'Index', collection_path
+  = link_to 'Index', garages_path(@garage.adv_type)

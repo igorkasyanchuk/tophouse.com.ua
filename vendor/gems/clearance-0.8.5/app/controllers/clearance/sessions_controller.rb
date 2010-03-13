@@ -53,7 +53,7 @@ class Clearance::SessionsController < ApplicationController
   end
 
   def url_after_create
-    '/'
+    general_dashboard_path
   end
 
   def flash_success_after_destroy
@@ -61,6 +61,6 @@ class Clearance::SessionsController < ApplicationController
   end
 
   def url_after_destroy
-    sign_in_url
+    root_path
   end
 end

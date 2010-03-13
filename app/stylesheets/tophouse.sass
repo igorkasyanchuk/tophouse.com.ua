@@ -187,6 +187,11 @@ div.line_before
     :position absolute
     :left 320px
     :bottom 0
+    :color white
+    li.add_realty_link
+      a
+        :color red
+        :border-bottom 1px dashed red
     li 
       :margin 0
       :margin-right 1px 
@@ -238,6 +243,7 @@ div.line_before
   :font-size 14px
   :font-family= !base_font
   :line-height 21px
+  :vertical-align middle
     
 #root input, #root textarea, #root select
   :padding 1px 0 0 6px
@@ -809,11 +815,11 @@ div.actions-bar
   :font-family Helvetica, sans-serif
   
 .popular_cities_block
-  :width 600px
+  :width 800px
   ul
     li
       :float left
-      :width 30%
+      :width 40%
       :padding-right 5%
 
 .realty_show
@@ -826,9 +832,23 @@ div.actions-bar
     dl
       dt
         :float left
-        :width 300px
+        :width 200px
       dd
-        :margin-left 310px
+        :margin-left 210px
+        :width 250px
+  .realty_show_left
+  .realty_show_right
+    img
+      :padding-right 5px
+      :margin-bottom 5px
+
+.search_left
+  :float left
+  :margin-left -100%
+  :width= !left_column
+
+.search_right
+  :margin-left= !left_column + 20px + 10px
 
 @import table.sass  
 @import formtastic.sass

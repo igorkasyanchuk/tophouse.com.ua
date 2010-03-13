@@ -18,4 +18,11 @@
   = form.input :hot, :as => :radio, :collection => YES_NO_ARRAY.collect{|g| [ t(g[0]), g[1] ] }
   
   - form.semantic_fields_for :photos do |photo_form|
-    = photo_form.input :photo, :as => :file, :name => 'photo #%i'
+    - if photo_form.object.new_record?
+      = photo_form.input :photo, :as => :file, :name => 'photo #%i'
+    - else
+      %li
+        %label
+          Видалити?
+          = photo_form.check_box '_delete'
+        = image_tag photo_form.object.photo.url(:thumb)

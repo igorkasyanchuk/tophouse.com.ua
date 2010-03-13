@@ -29,9 +29,14 @@
         %dd= l @garage.published_to, :format => :default
         %dt= t('activerecord.attributes.garage.is_published')
         %dd= @garage.as_translation(:published)
+        %dt= t('activerecord.attributes.garage.views')
+        %dd= @garage.views
+        %dt= t('activerecord.attributes.general.price_per_m2')
+        %dd= @garage.price_per_square_meter
     .clear
   .realty_show_right
-    =# image_tag @garage.photos.first.url(:normal)
+    - @garage.photos.each do |photo|
+      = image_tag photo.photo.url(:normal)
   .clear
 
 %p.actions

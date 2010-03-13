@@ -4,9 +4,12 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :regions, :only => [:index, :show], :shallow => true do |rmap|
     rmap.resources :cities, :only => [:index, :show]
   end
-  map.resources :cities, :only => [:index, :show]
-
-  map.resources :garages, :except => [:update, :destroy]
+  
+  map.resources :cities, :only => [:index, :show] do |cmap|
+    cmap.resources :garages, :collection => { :sell => :get, :buy => :get, :rent => :get, :give => :get }, :except => [:update, :destroy, :edit]
+  end
+  map.resources :garages, :collection => { :sell => :get, :buy => :get, :rent => :get, :give => :get }, :except => [:update, :destroy, :edit]
+  
   map.resources :agents, :except => [:update, :destroy]
   map.resources :companies, :except => [:update, :destroy]
   map.resources :rieltors, :except => [:update, :destroy]

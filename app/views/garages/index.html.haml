@@ -1,5 +1,4 @@
-%h1.heading
-  = "Garages"
+%h1.heading= realty_list_page_title('view_garages_title')
 
 .actions-bar
   %div{:class => "left search"}
@@ -11,18 +10,14 @@
     = will_paginate @collection, :prev_label => "&laquo; Back", :next_label => "Next &raquo;"
   .clear                                                                                     
   
- 
-  
 %p.actions
   = link_to 'New Garage', new_resource_path
   
 %table
-  %thead.header
+  %thead
     %tr
       %th.title= 'Title'
       %th.i_am_type= 'I am type'
-      %th.o_id= 'O'
-      %th.m_id= 'M'
       %th.address= 'Address'
       %th.square= 'Square'
       %th.adv_text= 'Adv text'

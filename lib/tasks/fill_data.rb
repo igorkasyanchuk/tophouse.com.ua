@@ -52,6 +52,7 @@ def add_garage(user)
   g.hot = [false, false, true, false].rand
   g.premium_index = [0,1,2,3].rand
   g.star = [false, true].rand
+  g.adv_type = ADV_TYPES.rand
   g.save
 end
 

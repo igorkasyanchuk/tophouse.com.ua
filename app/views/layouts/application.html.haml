@@ -17,9 +17,9 @@
     <meta name="revisit-after" content="5 days" />
     <meta content="Igor Kasyanchuk" name="author" />
     <meta content="Group" name="classification"/>
-    <link type="image/x-icon" rel="shortcut icon" href="http://kartaonline.com/favicon.ico" />
-    <link rel="icon" href="http://kartaonline.com/favicon.ico" />
-    <link rel="address bar icon" href="http://kartaonline.com/favicon.ico" />
+    <link type="image/x-icon" rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="address bar icon" href="/favicon.ico" />
     = stylesheet_link_tag 'reset', 'grid', 'content', 'style', 'custom', 'formtastic', 'compiled/tophouse', :cache => 'public_bundle' 
     =# javascript_include_tag 'jquery-1.4.2.min', 'jquery.form', 'jquery.colorbox-min', 'application', 'jquery.qtip-1.0.0-rc3.min', 'jquery.cookie', :cache => 'public_bundle'
     = javascript_include_tag 'jquery-1.4.2.min', 'application', :cache => 'public_bundle'
@@ -73,16 +73,16 @@
             %li.charge_region
               = change_city_link
             - if logged_in?
-              %li= link_to 'Мій кабінет', general_dashboard_path
-              %li= link_to 'Вихід', sign_out_path
+              %li= link_to t('view_my_cabinet'), general_dashboard_path
+              %li= link_to t('view_logout'), sign_out_path
             - else
-              %li= link_to 'Вхід', sign_in_path
-              %li= link_to 'Реєстрація', sign_up_path
+              %li= link_to t('view_login'), sign_in_path
+              %li= link_to t('view_register'), sign_up_path
         %div.line
       .add_realty{:class => "#{'none' unless home_page?}"}
         .add_realty_block
           .header_block
-            %strong Продати
+            %strong= t('view_title_sell')
             .row
               = link_to 'Квартиру', root_path, :class => 'what'
               = link_to '1', root_path, :class => 'option'
@@ -99,11 +99,11 @@
               %span кім.
             .row= link_to 'Особняк', root_path, :class => 'what'
             .row= link_to 'Комерційну нерухомість', root_path, :class => 'what'
-            .row= link_to 'Гараж', root_path, :class => 'what'
+            .row= link_to 'Гараж', garages_path(ADV_TYPE_SELL), :class => 'what'
             .row= link_to 'Земельну ділянку', root_path, :class => 'what'
             .row= link_to 'Складське приміщення', root_path, :class => 'what'
           .header_block
-            %strong Купити
+            %strong= t('view_title_buy')
             .row
               = link_to 'Квартиру', root_path, :class => 'what'
               = link_to '1', root_path, :class => 'option'
@@ -120,11 +120,11 @@
               %span кім.
             .row= link_to 'Особняк', root_path, :class => 'what'
             .row= link_to 'Комерційну нерухомість', root_path, :class => 'what'
-            .row= link_to 'Гараж', root_path, :class => 'what'
+            .row= link_to 'Гараж', garages_path(ADV_TYPE_BUY), :class => 'what'
             .row= link_to 'Земельну ділянку', root_path, :class => 'what'
             .row= link_to 'Складське приміщення', root_path, :class => 'what'
           .header_block
-            %strong Здати
+            %strong= t('view_title_give')
             .row
               = link_to 'Квартиру', root_path, :class => 'what'
               = link_to '1', root_path, :class => 'option'
@@ -133,10 +133,10 @@
               = link_to '4+', root_path, :class => 'option'
               %span кім.
             .row= link_to 'Комерційну нерухомість', root_path, :class => 'what'
-            .row= link_to 'Гараж', root_path, :class => 'what'
+            .row= link_to 'Гараж', garages_path(ADV_TYPE_GIVE), :class => 'what'
             .row= link_to 'Складське приміщення', root_path, :class => 'what'
           .header_block
-            %strong Зняти
+            %strong= t('view_title_rent')
             .row
               = link_to 'Квартиру', root_path, :class => 'what'
               = link_to '1', root_path, :class => 'option'
@@ -145,7 +145,7 @@
               = link_to '4+', root_path, :class => 'option'
               %span кім.
             .row= link_to 'Комерційну нерухомість', root_path, :class => 'what'
-            .row= link_to 'Гараж', root_path, :class => 'what'
+            .row= link_to 'Гараж', garages_path(ADV_TYPE_RENT), :class => 'what'
             .row= link_to 'Складське приміщення', root_path, :class => 'what'
           .clear
       %div.content
@@ -157,17 +157,16 @@
       .line_before
       #footer_content
         .footer_block
-          = link_to 'Головна', root_path
-          = link_to 'Додати нерухомість', root_path
-          = link_to 'Агенства нерухомості', root_path
-          = link_to 'Агентам', root_path
+          = link_to 'Про нас', root_path
+          = link_to 'Реклама', root_path
+          = link_to 'Новини', root_path
         .footer_block
           = link_to 'Головна', root_path
           = link_to 'Додати нерухомість', root_path
           = link_to 'Агенства нерухомості', root_path
           = link_to 'Агентам', root_path
         .footer_block
-          = link_to 'TopHouse.com.ua на українській', '/uk'
-          = link_to 'TopHouse.com.ua на російській', '/ru'
+          = flag_link('uk', 'TopHouse.com.ua на українській')
+          = flag_link('ru', 'TopHouse.com.ua на російській')
       - if RAILS_ENV == 'production'
         = render :partial => '/shared/ga'

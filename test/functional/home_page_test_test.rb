@@ -7,6 +7,7 @@ class HomePageTestTest < ActionController::IntegrationTest
     visit "/"
     assert_response :success
     assert_contain 'TopHouse.com.ua'
+    assert_contain I18n.t('view_login')
   end
   
 end

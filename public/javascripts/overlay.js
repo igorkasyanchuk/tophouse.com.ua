@@ -54,9 +54,15 @@ jQuery.Overlay = {
     this._append_close_link();
     _overlay_content.fadeIn();
     _overlay.fadeIn();
+   $(document).bind('keydown', function( e ) {
+     if( e.which == 27) {
+       jQuery.Overlay.hide();
+     }
+   });     
   },
   hide: function() {
-    _overlay_content.fadeOut();
+    _overlay_content.fadeOut('slow');
     _overlay.fadeOut('slow');
+    $(document).unbind('keydown');
   }
 }

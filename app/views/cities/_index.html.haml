@@ -10,5 +10,5 @@
   - form_tag select_city_path do
     %label
       або виберіть його тут
-      = select 'city', 'selected_city', City.all.collect{|c| [c.name, c.id]}, :include_blank => true
+      = select 'selected_city', 'to_s', City.all.collect{|c| [c.name, c.id]}, :include_blank => true
     = submit_tag 'Вибрати'

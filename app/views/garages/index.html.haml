@@ -1,4 +1,4 @@
-%h1.heading= realty_list_page_title('view_garages_title')
+%h1.heading= realty_list_page_title('garage')
 
 .actions-bar
   %div{:class => "left search"}
@@ -7,7 +7,7 @@
       = f.text_field :title
       = f.submit("Search")
   .right
-    = will_paginate @collection, :prev_label => "&laquo; Back", :next_label => "Next &raquo;"
+    = will_paginate @collection
   .clear                                                                                     
   
 %p.actions
@@ -32,5 +32,5 @@
     - @garages.each do |garage|
       = render 'item', :garage => garage
 
-= will_paginate @collection, :prev_label => "&laquo; Back", :next_label => "Next &raquo;"
+= will_paginate @collection
  

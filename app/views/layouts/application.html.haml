@@ -22,7 +22,7 @@
     <link rel="address bar icon" href="/favicon.ico" />
     = stylesheet_link_tag 'reset', 'grid', 'content', 'style', 'custom', 'formtastic', 'compiled/tophouse', :cache => 'public_bundle' 
     =# javascript_include_tag 'jquery-1.4.2.min', 'jquery.form', 'jquery.colorbox-min', 'application', 'jquery.qtip-1.0.0-rc3.min', 'jquery.cookie', :cache => 'public_bundle'
-    = javascript_include_tag 'jquery-1.4.2.min', 'application', :cache => 'public_bundle'
+    = javascript_include_tag 'jquery-1.4.2.min', 'overlay', 'application', :cache => 'public_bundle'
     /[if IE]
       = stylesheet_link_tag 'compiled/formtastic_ie'
     /[if IE 7]
@@ -78,6 +78,8 @@
             - else
               %li= link_to t('view_login'), sign_in_path
               %li= link_to t('view_register'), sign_up_path
+          .add_realty_box
+            = link_to 'Додати нерухомість', add_realty_path
         %div.line
       .add_realty{:class => "#{'none' unless home_page?}"}
         .add_realty_block
@@ -168,5 +170,7 @@
         .footer_block
           = flag_link('uk', 'TopHouse.com.ua на українській')
           = flag_link('ru', 'TopHouse.com.ua на російській')
+      .none.cities_popup
+        = render :partial => '/cities/index'
       - if RAILS_ENV == 'production'
         = render :partial => '/shared/ga'

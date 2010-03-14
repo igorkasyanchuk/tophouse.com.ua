@@ -146,7 +146,7 @@ module ApplicationHelper
   
   def change_city_link
     name = @selected_city.try(:name) || I18n.t('view_all_ukraine')
-    link_to name, cities_path, :title => I18n.t('view_change_your_city')
+    link_to name, cities_path, :title => I18n.t('view_change_your_city'), :id => 'change_city_link'
   end
   
   def sub_logo_text
@@ -186,18 +186,19 @@ module ApplicationHelper
   
   def get_title_by_action
     case action_name
-      when 'sell' then I18n.t('sell_adv_type_title')
-      when 'buy' then I18n.t('buy_adv_type_title')
-      when 'rent' then I18n.t('rent_adv_type_title')
-      when 'give' then I18n.t('give_adv_type_title')
+      when 'sell' then I18n.t('view_object_type_sell')
+      when 'buy' then I18n.t('view_object_type_buy')
+      when 'rent' then I18n.t('view_object_type_give')
+      when 'give' then I18n.t('view_object_type_rent')
     end
   end
   
-  def realty_list_page_title(title_translation)
+  def realty_list_page_title(realty)
+    realty = I18n.t('view_object_' + realty)
     if @selected_city
-      I18n.t(title_translation, :city => @selected_city.name, :type => get_title_by_action)
+      I18n.t('view_object_title', :type => get_title_by_action, :realty => realty, :city => @selected_city.name)
     else
-      I18n.t(title_translation + '_without_city', :type => get_title_by_action)
+      I18n.t('view_object_title_without_city', :type => get_title_by_action, :realty => realty)
     end
   end
   

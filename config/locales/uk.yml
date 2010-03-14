@@ -262,10 +262,13 @@ uk:
   give_adv_type: Здати
   rent_adv_type: Зняти
   
-  sell_adv_type_title: "на продаж"
-  buy_adv_type_title: "на купівлю"
-  give_adv_type_title: " здаються"
-  rent_adv_type_title: " знімлють"
-  
   view_garages_title: "{{city}} - гаражі {{type}}"
   view_garages_title_without_city: "{{type}}гараж"
+  
+  view_object_type_sell: Продадуть
+  view_object_type_buy: Куплять
+  view_object_type_give: Знімлють
+  view_object_type_rent: Здають
+  view_object_garage: гараж
+  view_object_title: "{{type}} {{realty}}, {{city}}"
+  view_object_title_without_city: "{{type}} {{realty}}"

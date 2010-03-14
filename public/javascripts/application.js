@@ -3,7 +3,9 @@ function log(message) {
 };
 
 function initialize() {
+  jQuery.Overlay.initialize();
   init_menu();
+  init_cities_link();
   log('initialize done');
 }
 
@@ -29,4 +31,10 @@ function init_menu() {
 
 function hide_add_realty_block() {
   $('.add_realty').addClass('none');  
-}
+};
+
+function init_cities_link() {
+  $('#change_city_link').removeAttr('href').css('cursor', 'pointer').click(function() {
+    jQuery.Overlay.show({width: 500, top: 50, source: '.cities_popup'});
+  });
+};

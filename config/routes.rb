@@ -40,6 +40,7 @@ ActionController::Routing::Routes.draw do |map|
   map.site_map '/site_map', :controller => 'sitemap', :action => 'seo_site_map'
   map.connect "sitemap.xml", :controller => "sitemap", :action => "sitemap", :format => 'xml'
   map.simple_captcha '/simple_captcha/:action', :controller => 'simple_captcha'
+  map.add_realty 'add_realty', :controller => 'home', :action => 'add_realty'
   map.select_city 'select_city', :controller => 'home', :action => 'select_city'
   
   Clearance::Routes.draw(map)

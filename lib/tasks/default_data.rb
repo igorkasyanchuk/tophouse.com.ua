@@ -30,8 +30,6 @@ input.each do |rec|
   r.cities.create({ :name_uk => rec[:name_uk], :name_ru => rec[:name_ru]})
 end
 
-PLANS = ["A", "B", "C"]
-
 u = User.create({:email => 'admin@admin.com', :password => '123456', :password_confirmation => '123456'})
 u.first_name = "Igor"
 u.last_name = "Kasyanchuk"

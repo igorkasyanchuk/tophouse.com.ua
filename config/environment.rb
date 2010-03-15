@@ -17,7 +17,7 @@ Rails::Initializer.run do |config|
   config.gem "responders", :source => 'http://gemcutter.org'
   config.gem "pacecar", :source => 'http://gemcutter.org'
   config.gem 'unicode'
-  #config.gem "i18n", :source => 'http://gemcutter.org'
+  config.gem "i18n", :source => 'http://gemcutter.org', :version => "=0.2.0"
   config.gem "romanvbabenko-ukrainian", :lib => "ukrainian", :source => "http://gems.github.com", :version => ">= 0.2.1"
   config.gem 'will_paginate', :version => '~> 2.3.11', :source => 'http://gemcutter.org'
   config.gem 'bullet', :source => 'http://gemcutter.org'

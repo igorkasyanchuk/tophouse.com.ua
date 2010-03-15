@@ -35,7 +35,7 @@ module Russian
   end
   
   # Russian locale
-  LOCALE = :'ru'
+  LOCALE = :'uk'
 
   # Russian locale
   def locale
